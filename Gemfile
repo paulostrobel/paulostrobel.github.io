@@ -17,12 +17,11 @@ group :jekyll_plugins do
     gem 'jekyll-scholar'
     gem 'jekyll-sitemap'
     gem 'jekyll-tabs'
-    gem 'jekyll-terser', :git => "https://github.com/RobertoJBeltran/jekyll-terser.git"
     gem 'jekyll-toc'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
-
-    gem 'classifier-reborn'  # used for content categorization during the build
+    # gem 'jekyll-terser'  # optional terser plugin (not enabled in _config.yml)
+    # gem 'classifier-reborn'  # optional categorization (not enabled in _config.yml)
 end
 
 # Gems for development or external data fetching (outside :jekyll_plugins)
