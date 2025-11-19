@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Paulo Strobel Silva
+title: Paulo Strobel 
 first_name: Paulo
 middle_name: Strobel
 last_name: Silva
@@ -13,10 +13,7 @@ description: >
   simulations, and rotor aerodynamics. 10+ years experience delivering 
   energy-efficient solutions through advanced CFD modeling.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-
-keywords: CFD, computational fluid dynamics, data center cooling, HVAC optimization, thermal analysis, aerospace engineering, rotor aerodynamics, OpenFOAM, ANSYS CFX
-
+keywords: CFD, computational fluid dynamics, data center cooling, HVAC optimization, thermal analysis, aerospace engineering, rotor aerodynamics, OpenFOAM, ANSYS,
 lang: en
 icon: 🌀
 
@@ -63,7 +60,7 @@ max_width: 800px
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: 
+github_username: paulostrobel
 gitlab_username: 
 x_username: 
 mastodon_username: 
@@ -72,16 +69,16 @@ telegram_username:
 scholar_userid: gsb7TrUAAAAJ
 semanticscholar_id: 
 whatsapp_number: 
-orcid_id: 
+orcid_id: 0000-0002-4406-6699
 medium_username: 
 quora_username: 
 publons_id: 
 lattes_id: 
 osf_id: 
-research_gate_profile: 
+research_gate_profile: https://www.researchgate.net/profile/Paulo-Strobel
 scopus_id: 
 blogger_url: 
-work_url: https://www.cranfield.ac.uk
+work_url: 
 keybase_username: 
 wikidata_id: 
 wikipedia_id: 
