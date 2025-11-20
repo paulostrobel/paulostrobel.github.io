@@ -1,6 +1,49 @@
 ---
 layout: default
 ---
+<style>
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .section-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--global-divider-color);
+  }
+
+  .section-nav a {
+    color: var(--global-text-color);
+    text-decoration: none;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    transition: background-color 0.2s;
+  }
+
+  .section-nav a:hover {
+    background-color: var(--global-hover-color);
+  }
+
+  .section-nav .social-icons {
+    margin-left: auto;
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .content-section {
+    margin-bottom: 3rem;
+    padding-top: 1rem;
+  }
+
+  .content-section h2 {
+    margin-bottom: 1.5rem;
+  }
+</style>
+
 <div class="post">
   <header class="post-header">
     <h1 class="post-title">
@@ -15,63 +58,210 @@ layout: default
   </header>
 
   <article>
-    {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-          {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
+    <!-- Navigation Links -->
+    <div class="section-nav">
+      <a href="#about">About</a>
+      {% if page.latest_posts and page.latest_posts.enabled %}
+        <a href="#blog">Blog</a>
+      {% endif %}
+      <a href="#publications">Publications</a>
+      <a href="#projects">Projects</a>
+      <a href="#repositories">Repositories</a>
+      <a href="#videos">Videos</a>
+
+      <!-- Social Icons -->
+      {% if page.social %}
+        <div class="social-icons">
+          <div class="contact-icons">{% include social.liquid %}</div>
+        </div>
+      {% endif %}
+    </div>
+
+    <!-- About Section -->
+    <div id="about" class="content-section">
+      {% if page.profile %}
+        <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+          {% if page.profile.image %}
+            {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+            {% if page.profile.image_circular %}
+              {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+            {% else %}
+              {% assign profile_image_class = 'img-fluid z-depth-1
+        rounded' %}
+            {% endif %}
+            {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
+        30vw, 95vw"{% endcapture %}
+            {%
+              include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+              cache_bust=true
+            %}
           {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
-          %}
-        {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
-        {% endif %}
-      </div>
-    {% endif %}
+          {% if page.profile.more_info %}
+            <div class="more-info">{{ page.profile.more_info }}</div>
+          {% endif %}
+        </div>
+      {% endif %}
 
-    <div class="clearfix">{{ content }}</div>
+      <div class="clearfix">{{ content }}</div>
 
-    <!-- News -->
-    {% if page.announcements and page.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
-      </h2>
-      {% include news.liquid limit=true %}
-    {% endif %}
+      <!-- News -->
+      {% if page.announcements and page.announcements.enabled %}
+        <h2>
+          <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+        </h2>
+        {% include news.liquid limit=true %}
+      {% endif %}
+    </div>
 
     <!-- Latest posts -->
     {% if page.latest_posts and page.latest_posts.enabled %}
-      <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
-      </h2>
-      {% include latest_posts.liquid %}
-    {% endif %}
-
-    <!-- Selected papers -->
-    {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
-      </h2>
-      {% include selected_papers.liquid %}
-    {% endif %}
-
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
-
-        <div class="contact-note">{{ site.contact_note }}</div>
+      <div id="blog" class="content-section">
+        <h2>
+          <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
+        </h2>
+        {% include latest_posts.liquid %}
+        <div style="margin-top: 1rem;">
+          <a href="{{ '/blog/' | relative_url }}" class="btn btn-sm btn-primary">View All Posts →</a>
+        </div>
       </div>
     {% endif %}
+
+    <!-- Publications Section -->
+    <div id="publications" class="content-section">
+      <h2>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">publications</a>
+      </h2>
+      {% if page.selected_papers %}
+        {% include selected_papers.liquid %}
+      {% else %}
+        <div class="publications">
+          {% bibliography %}
+        </div>
+      {% endif %}
+    </div>
+
+    <!-- Projects Section -->
+    <div id="projects" class="content-section">
+      <h2>
+        <a href="{{ '/projects/' | relative_url }}" style="color: inherit">projects</a>
+      </h2>
+      <div class="projects">
+        {% if site.enable_project_categories %}
+          {% assign project_categories = "work,fun" | split: "," %}
+          {% for category in project_categories %}
+            {% assign categorized_projects = site.projects | where: "category", category %}
+            {% assign sorted_projects = categorized_projects | sort: "importance" %}
+            {% if sorted_projects.size > 0 %}
+              <h3 class="category">{{ category }}</h3>
+              <div class="row row-cols-1 row-cols-md-3">
+                {% for project in sorted_projects %}
+                  {% include projects.liquid %}
+                {% endfor %}
+              </div>
+            {% endif %}
+          {% endfor %}
+        {% else %}
+          {% assign sorted_projects = site.projects | sort: "importance" %}
+          <div class="row row-cols-1 row-cols-md-3">
+            {% for project in sorted_projects %}
+              {% include projects.liquid %}
+            {% endfor %}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+
+    <!-- Repositories Section -->
+    <div id="repositories" class="content-section">
+      <h2>
+        <a href="{{ '/repositories/' | relative_url }}" style="color: inherit">repositories</a>
+      </h2>
+
+      {% if site.data.repositories.github_users %}
+        <h3>GitHub users</h3>
+        <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+          {% for user in site.data.repositories.github_users %}
+            {% include repository/repo_user.liquid username=user %}
+          {% endfor %}
+        </div>
+
+        {% if site.repo_trophies.enabled %}
+          {% for user in site.data.repositories.github_users %}
+            {% if site.data.repositories.github_users.size > 1 %}
+              <h4>{{ user }}</h4>
+            {% endif %}
+            <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+              {% include repository/repo_trophies.liquid username=user %}
+            </div>
+          {% endfor %}
+        {% endif %}
+      {% endif %}
+
+      {% if site.data.repositories.github_repos %}
+        <h3>GitHub Repositories</h3>
+        <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+          {% for repo in site.data.repositories.github_repos %}
+            {% include repository/repo.liquid repository=repo %}
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+
+    <!-- Videos Section -->
+    <div id="videos" class="content-section">
+      <h2>
+        <a href="{{ '/videos/' | relative_url }}" style="color: inherit">videos</a>
+      </h2>
+      <div class="videos">
+        <div class="video-container" style="margin-bottom: 2rem;">
+          <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+            <iframe
+              src="https://www.youtube.com/embed/OG7r4naGCDA"
+              style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+
+        <div class="video-container" style="margin-bottom: 2rem;">
+          <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+            <iframe
+              src="https://www.youtube.com/embed/iveLvvddVOw"
+              style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+
+        <div class="video-container" style="margin-bottom: 2rem;">
+          <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+            <iframe
+              src="https://www.youtube.com/embed/nDr7F6_Cw-o"
+              style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+
+        <div class="video-container" style="margin-bottom: 2rem;">
+          <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+            <iframe
+              src="https://www.youtube.com/embed/q3In_bPAPbM"
+              style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
 
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% include newsletter.liquid center=true %}
