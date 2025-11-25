@@ -26,6 +26,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
+<section id="about" class="page-section">
+
 I am a CFD Engineer with a PhD in Aerospace Engineering from Cranfield University. With over 10 years of experience, I specialize in delivering energy-efficient solutions through advanced computational fluid dynamics modeling.
 
 My expertise includes:
@@ -38,3 +40,132 @@ My expertise includes:
 I work with industry-leading CFD tools including OpenFOAM and ANSYS CFX to solve challenging fluid dynamics problems and deliver innovative solutions for thermal management and aerodynamic optimization.
 
 I am open to CFD consulting projects and research collaborations in thermal optimization, HVAC systems, and multiphysics simulations.
+
+</section>
+
+---
+
+<section id="publications" class="page-section" style="margin-top: 3rem;">
+
+## <a href="/publications/" style="text-decoration: none; color: inherit;">Publications</a>
+
+{% include bib_search.liquid %}
+
+<div class="publications">
+{% bibliography %}
+</div>
+
+<p style="text-align: center; margin-top: 2rem;">
+  <a href="/publications/" class="btn btn-sm btn-primary">View All Publications →</a>
+</p>
+
+</section>
+
+---
+
+<section id="projects" class="page-section" style="margin-top: 3rem;">
+
+## <a href="/projects/" style="text-decoration: none; color: inherit;">Projects</a>
+
+<div class="projects">
+  {% assign sorted_projects = site.projects | sort: "importance" | limit: 6 %}
+  <div class="row row-cols-1 row-cols-md-3">
+    {% for project in sorted_projects %}
+      {% include projects.liquid %}
+    {% endfor %}
+  </div>
+</div>
+
+<p style="text-align: center; margin-top: 2rem;">
+  <a href="/projects/" class="btn btn-sm btn-primary">View All Projects →</a>
+</p>
+
+</section>
+
+---
+
+<section id="videos" class="page-section" style="margin-top: 3rem;">
+
+## <a href="/videos/" style="text-decoration: none; color: inherit;">Videos</a>
+
+<div class="videos">
+  <div class="video-container" style="margin-bottom: 2rem;">
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+      <iframe
+        src="https://www.youtube.com/embed/OG7r4naGCDA"
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+</div>
+
+<p style="text-align: center; margin-top: 2rem;">
+  <a href="/videos/" class="btn btn-sm btn-primary">View All Videos →</a>
+</p>
+
+</section>
+
+---
+
+<section id="cv" class="page-section" style="margin-top: 3rem;">
+
+## <a href="/cv/" style="text-decoration: none; color: inherit;">CV</a>
+
+<p>View my complete curriculum vitae including education, experience, skills, and achievements.</p>
+
+<p style="text-align: center; margin-top: 2rem;">
+  <a href="/cv/" class="btn btn-sm btn-primary">View Full CV →</a>
+</p>
+
+</section>
+
+---
+
+<section id="repositories" class="page-section" style="margin-top: 3rem;">
+
+## <a href="/repositories/" style="text-decoration: none; color: inherit;">Repositories</a>
+
+{% if site.data.repositories.github_repos %}
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+  {% for repo in site.data.repositories.github_repos limit:3 %}
+    {% include repository/repo.liquid repository=repo %}
+  {% endfor %}
+</div>
+{% endif %}
+
+<p style="text-align: center; margin-top: 2rem;">
+  <a href="/repositories/" class="btn btn-sm btn-primary">View All Repositories →</a>
+</p>
+
+</section>
+
+---
+
+<section id="hobbies" class="page-section" style="margin-top: 3rem;">
+
+## <a href="/hobbies/" style="text-decoration: none; color: inherit;">Hobbies</a>
+
+### Birdhouse Nesting Videos
+
+A collection of videos documenting the fascinating nesting behavior of birds in my backyard birdhouse.
+
+<div class="video-container" style="margin: 2rem 0;">
+  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+    <iframe
+      src="https://www.youtube.com/embed/videoseries?list=PLBL_mK5a7wzBTb_kVSYGNeioI1oT9g4l7"
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+  </div>
+</div>
+
+<p style="text-align: center; margin-top: 2rem;">
+  <a href="/hobbies/" class="btn btn-sm btn-primary">View More Hobbies →</a>
+</p>
+
+</section>
