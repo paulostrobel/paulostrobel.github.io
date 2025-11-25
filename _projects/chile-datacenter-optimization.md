@@ -30,7 +30,7 @@ The client faced critical thermal management challenges in their planned 5MW dat
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/chile-initial-temp.jpg" title="Initial Design Temperature Distribution" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/chile-initial-temp.jpg" title="Initial Design Temperature Distribution" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -57,10 +57,10 @@ The client faced critical thermal management challenges in their planned 5MW dat
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/chile-velocity-vectors.jpg" title="Velocity Distribution Analysis" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/chile-velocity-vectors.jpg" title="Velocity Distribution Analysis" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/chile-intermediate.png" title="Intermediate Design Iterations" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/chile-intermediate.png" title="Intermediate Design Iterations" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -98,7 +98,7 @@ The client faced critical thermal management challenges in their planned 5MW dat
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/chile-final-temp.jpg" title="Optimized Design Temperature Distribution" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/chile-final-temp.jpg" title="Optimized Design Temperature Distribution" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -131,10 +131,10 @@ The optimal configuration featured:
 
 <div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/chile-failure-scenario.png" title="Failure Scenario Analysis" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/chile-failure-scenario.png" title="Failure Scenario Analysis" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/chile-transient.png" title="Transient Response" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/chile-transient.png" title="Transient Response" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
