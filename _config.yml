@@ -2,12 +2,12 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Paulo Strobel 
+title: Paulo Strobel
 first_name: Paulo
 middle_name: Strobel
 last_name: Silva
 email: paulostrobel@gmail.com
-description: > 
+description: >
   CFD Engineer with PhD in Aerospace Engineering from Cranfield University. 
   Specializing in data center thermal optimization, HVAC systems, multiphysics 
   simulations, and rotor aerodynamics. 10+ years experience delivering 
@@ -18,9 +18,9 @@ lang: en
 icon: 🌀
 
 url: https://paulostrobel.github.io
-baseurl: 
+baseurl:
 last_updated: false
-impressum_path: 
+impressum_path:
 
 # -----------------------------------------------------------------------------
 # Theme
@@ -54,47 +54,47 @@ max_width: 800px
 
 # serve_og_meta: false
 # serve_schema_org: false
-# og_image: 
+# og_image:
 
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
 
 github_username: paulostrobel
-gitlab_username: 
-x_username: 
-mastodon_username: 
+gitlab_username:
+x_username:
+mastodon_username:
 linkedin_username: paulo-strobel-silva
-telegram_username: 
+telegram_username:
 scholar_userid: gsb7TrUAAAAJ
-semanticscholar_id: 
-whatsapp_number: 
+semanticscholar_id:
+whatsapp_number:
 orcid_id: 0000-0002-4406-6699
-medium_username: 
-quora_username: 
-publons_id: 
-lattes_id: 
-osf_id: 
+medium_username:
+quora_username:
+publons_id:
+lattes_id:
+osf_id:
 research_gate_profile: https://www.researchgate.net/profile/Paulo-Strobel
-scopus_id: 
-blogger_url: 
-work_url: 
-keybase_username: 
-wikidata_id: 
-wikipedia_id: 
-dblp_url: 
-stackoverflow_id: 
-kaggle_id: 
-lastfm_id: 
-spotify_id: 
-pinterest_id: 
-unsplash_id: 
-instagram_id: 
-facebook_id: 
-youtube_id: 
-discord_id: 
-zotero_username: 
-wechat_qr: 
+scopus_id:
+blogger_url:
+work_url:
+keybase_username:
+wikidata_id:
+wikipedia_id:
+dblp_url:
+stackoverflow_id:
+kaggle_id:
+lastfm_id:
+spotify_id:
+pinterest_id:
+unsplash_id:
+instagram_id:
+facebook_id:
+youtube_id:
+discord_id:
+zotero_username:
+wechat_qr:
 
 contact_note: >
   Open to CFD consulting projects and research collaborations in thermal optimization, 
@@ -104,11 +104,11 @@ contact_note: >
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
-google_analytics: 
-cronitor_analytics: 
+google_analytics:
+cronitor_analytics:
 
-google_site_verification: 
-bing_site_verification: 
+google_site_verification:
+bing_site_verification:
 
 # -----------------------------------------------------------------------------
 # Blog
@@ -129,10 +129,10 @@ related_blog_posts:
 
 # Giscus comments
 giscus:
-  repo: 
-  repo_id: 
+  repo:
+  repo_id:
   category: Comments
-  category_id: 
+  category_id:
   mapping: title
   strict: 1
   reactions_enabled: 1
@@ -142,7 +142,7 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: 
+disqus_shortname:
 
 # External sources
 external_sources:
@@ -180,14 +180,14 @@ highlighter: rouge
 kramdown:
   input: GFM
   syntax_highlighter_opts:
-    css_class: 'highlight'
+    css_class: "highlight"
     span:
       line_numbers: false
     block:
       line_numbers: false
       start_line: 1
 
-include: ['_pages']
+include: ["_pages"]
 exclude:
   - bin/
   - Gemfile
@@ -229,7 +229,7 @@ sass:
 # -----------------------------------------------------------------------------
 
 jekyll-minifier:
-  exclude: ['robots.txt']
+  exclude: ["robots.txt"]
   uglifier_args:
     harmony: true
 
@@ -244,12 +244,12 @@ jekyll-archives:
     tag: archive
     category: archive
   permalinks:
-    year: '/blog/:year/'
-    tag: '/blog/tag/:name/'
-    category: '/blog/category/:name/'
+    year: "/blog/:year/"
+    tag: "/blog/tag/:name/"
+    category: "/blog/category/:name/"
 
-display_tags: ['CFD', 'thermal-optimization', 'data-centers', 'HVAC', 'OpenFOAM', 'aerospace', 'multiphysics', 'consulting', 'research']
-display_categories: ['research', 'consulting', 'tutorial']
+display_tags: ["CFD", "thermal-optimization", "data-centers", "HVAC", "OpenFOAM", "aerospace", "multiphysics", "consulting", "research"]
+display_categories: ["research", "consulting", "tutorial"]
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
@@ -283,8 +283,7 @@ scholar:
     altmetric: true
     dimensions: true
 
-filtered_bibtex_keywords:
-  [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview, altmetric]
+filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview, altmetric]
 
 max_author_limit: 3
 more_authors_animation_delay: 10
