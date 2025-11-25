@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Large-Scale Data Center Thermal Optimization
+title: 5MW Data Center Thermal Optimization
 description: 5MW facility pre-construction CFD analysis delivering 247% improvement in thermal compliance
 img: assets/img/projects/chile-datacenter-thumb.jpg
 importance: 1
@@ -60,7 +60,7 @@ The client faced critical thermal management challenges in their planned 5MW dat
         {% include figure.html path="assets/img/projects/chile-velocity-vectors.jpg" title="Velocity Distribution Analysis" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/chile-intermediate.jpg" title="Intermediate Design Iterations" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/chile-intermediate.png" title="Intermediate Design Iterations" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -131,10 +131,10 @@ The optimal configuration featured:
 
 <div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/chile-failure-scenario.jpg" title="Failure Scenario Analysis" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/chile-failure-scenario.png" title="Failure Scenario Analysis" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/chile-transient.jpg" title="Transient Response" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/chile-transient.png" title="Transient Response" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
