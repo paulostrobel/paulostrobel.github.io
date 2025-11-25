@@ -61,10 +61,7 @@
       "startDate": "2019-11-01",
       "endDate": "2022-09-30",
       "summary": "Teaching assistance and industrial CFD consultancy",
-      "highlights": [
-        "Delivered teaching assistance for MSc in CFD program",
-        "Provided CFD expertise for industrial-scale system optimization"
-      ]
+      "highlights": ["Delivered teaching assistance for MSc in CFD program", "Provided CFD expertise for industrial-scale system optimization"]
     },
     {
       "name": "Federal Institute of Brasilia (IFB)",
@@ -73,9 +70,7 @@
       "startDate": "2016-05-01",
       "endDate": "2017-09-30",
       "summary": "Technical instruction in undergraduate and technician degree programs",
-      "highlights": [
-        "Lead lecturing modules on technical drawing and mechanical design"
-      ]
+      "highlights": ["Lead lecturing modules on technical drawing and mechanical design"]
     },
     {
       "name": "Laboratory of Energy and Environment, University of Brasilia",
@@ -128,10 +123,7 @@
       "startDate": "2012-01-01",
       "endDate": "2014-01-01",
       "score": "",
-      "courses": [
-        "Numerical Study of Horizontal Axis Hydrokinetic Turbines",
-        "CFD-BEM coupled techniques"
-      ]
+      "courses": ["Numerical Study of Horizontal Axis Hydrokinetic Turbines", "CFD-BEM coupled techniques"]
     },
     {
       "institution": "University of Brasilia",
@@ -142,10 +134,7 @@
       "startDate": "2005-01-01",
       "endDate": "2011-01-01",
       "score": "",
-      "courses": [
-        "CFD simulation of thermal comfort in indoor environments",
-        "HVAC system design and implementation"
-      ]
+      "courses": ["CFD simulation of thermal comfort in indoor environments", "HVAC system design and implementation"]
     }
   ],
   "awards": [
@@ -212,33 +201,17 @@
     {
       "name": "CFD Software",
       "level": "Expert",
-      "keywords": [
-        "ANSYS CFX",
-        "ANSYS Fluent",
-        "OpenFOAM",
-        "ICEM CFD",
-        "Pointwise",
-        "Paraview",
-        "Tecplot"
-      ]
+      "keywords": ["ANSYS CFX", "ANSYS Fluent", "OpenFOAM", "ICEM CFD", "Pointwise", "Paraview", "Tecplot"]
     },
     {
       "name": "Programming",
       "level": "Advanced",
-      "keywords": [
-        "Python",
-        "Fortran",
-        "Bash scripting"
-      ]
+      "keywords": ["Python", "Fortran", "Bash scripting"]
     },
     {
       "name": "CAD & Modeling",
       "level": "Expert",
-      "keywords": [
-        "Solidworks",
-        "Autocad",
-        "Gmsh"
-      ]
+      "keywords": ["Solidworks", "Autocad", "Gmsh"]
     },
     {
       "name": "Thermal & Fluid Systems",
@@ -255,13 +228,7 @@
     {
       "name": "Technical Expertise",
       "level": "Advanced",
-      "keywords": [
-        "High-performance computing (HPC)",
-        "Turbulence modeling",
-        "Multiphase flows",
-        "Cavitation analysis",
-        "Aeroacoustics"
-      ]
+      "keywords": ["High-performance computing (HPC)", "Turbulence modeling", "Multiphase flows", "Cavitation analysis", "Aeroacoustics"]
     }
   ],
   "languages": [
@@ -278,20 +245,11 @@
   "interests": [
     {
       "name": "Computational Fluid Dynamics",
-      "keywords": [
-        "HVAC optimization",
-        "Data center thermal management",
-        "Rotor aerodynamics",
-        "Renewable energy"
-      ]
+      "keywords": ["HVAC optimization", "Data center thermal management", "Rotor aerodynamics", "Renewable energy"]
     },
     {
       "name": "Multiphysics Modeling",
-      "keywords": [
-        "Fluid-structure interaction",
-        "Multiphase flows",
-        "High-order numerical methods"
-      ]
+      "keywords": ["Fluid-structure interaction", "Multiphase flows", "High-order numerical methods"]
     }
   ]
 }
