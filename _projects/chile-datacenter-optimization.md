@@ -55,10 +55,19 @@ The client faced critical thermal management challenges in their planned 5MW dat
 - Created automated Python workflows for rapid design iteration
 - Evaluated 10+ configurations to identify optimal solution
 
+
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/projects/chile-velocity-vectors.jpg" title="Velocity Distribution Analysis" class="img-fluid rounded z-depth-1" %}
     </div>
+</div>
+<div class="caption">
+    Top view of elocity contour of plane 1.5m above the ground
+</div>
+
+
+<div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/projects/chile-intermediate.png" title="Intermediate Design Iterations" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -66,6 +75,7 @@ The client faced critical thermal management challenges in their planned 5MW dat
 <div class="caption">
     Iterative testing of different air supply angles and flow patterns to optimize thermal distribution.
 </div>
+
 
 ### Phase 3: Resilience Testing
 - Simulated 4 equipment failure scenarios:
@@ -98,7 +108,7 @@ The client faced critical thermal management challenges in their planned 5MW dat
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/chile-final-temp.jpg" title="Optimized Design Temperature Distribution" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/chile-final-temp.pdf" title="Optimized Design Temperature Distribution" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -133,16 +143,19 @@ The optimal configuration featured:
     <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.html path="assets/img/projects/chile-failure-scenario.png" title="Failure Scenario Analysis" class="img-fluid rounded z-depth-1" %}
     </div>
+<div class="caption">
+    Equipment failure scenario testing
+</div>
     <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.html path="assets/img/projects/chile-transient.png" title="Transient Response" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Left: Equipment failure scenario testing. Right: Transient thermal response showing time-to-failure predictions.
+   Transient thermal response showing time-to-failure predictions.
 </div>
 
 ### Transient Analysis
-- Complete system shutdown: Temperature exceeded limits within 10 seconds
+- Complete system shutdown: Temperature exceeded limits within 30 seconds
 - 50% capacity operation: Slower degradation but inadequate for sustained operation
 - Critical time-to-failure data provided for UPS and backup system design
 
@@ -199,7 +212,7 @@ The optimal configuration featured:
 - Final technical report with implementation guidelines
 - Operations playbook for equipment failure response
 
----
+<!-----
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-10 mt-3 mt-md-0">
@@ -210,7 +223,7 @@ The optimal configuration featured:
     </div>
 </div>
 
----
+----->
 
 ## Related Projects
 
