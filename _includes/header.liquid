@@ -48,12 +48,16 @@
 
           <!-- About -->
           <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
-            <a class="nav-link" href="{{ '/' | relative_url }}">
-              {{- about_title }}
-              {% if page.permalink == '/' %}
+            {%- if page.permalink == '/' -%}
+              <a class="nav-link" href="#about">
+                {{- about_title }}
                 <span class="sr-only">(current)</span>
-              {% endif %}
-            </a>
+              </a>
+            {%- else -%}
+              <a class="nav-link" href="{{ '/' | relative_url }}">
+                {{- about_title }}
+              </a>
+            {%- endif -%}
           </li>
 
           <!-- Other pages -->
@@ -107,12 +111,22 @@
                   {%- else -%}
                     {%- assign url = p.url -%}
                   {%- endif %}
-                  <a class="nav-link" href="{{ url | relative_url }}">
-                    {{- p.title }}
-                    {% if page.url contains p.url %}
-                      <span class="sr-only">(current)</span>
-                    {% endif %}
-                  </a>
+                  {%- comment -%}
+                    Use anchor links when on homepage for sections that exist on the page
+                  {%- endcomment -%}
+                  {%- if page.permalink == '/' and p.title != 'blog' -%}
+                    {%- assign section_id = p.title | downcase -%}
+                    <a class="nav-link" href="#{{ section_id }}">
+                      {{- p.title }}
+                    </a>
+                  {%- else -%}
+                    <a class="nav-link" href="{{ url | relative_url }}">
+                      {{- p.title }}
+                      {% if page.url contains p.url %}
+                        <span class="sr-only">(current)</span>
+                      {% endif %}
+                    </a>
+                  {%- endif -%}
                 </li>
               {% endif %}
             {% endif %}
