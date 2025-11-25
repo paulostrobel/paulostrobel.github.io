@@ -108,7 +108,7 @@ The client faced critical thermal management challenges in their planned 5MW dat
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/chile-final-temp.pdf" title="Optimized Design Temperature Distribution" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/chile-final-temp.jpg" title="Optimized Design Temperature Distribution" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
