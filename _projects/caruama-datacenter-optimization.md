@@ -3,7 +3,7 @@ layout: page
 title: Data Center Thermal Excellence Through Plenum Design
 description: 2.4MW facility with innovative plenum-based air distribution
 img: assets/img/projects/curauma-datacenter-thumb.png
-importance: 2
+importance: 1
 category: work
 ---
 
