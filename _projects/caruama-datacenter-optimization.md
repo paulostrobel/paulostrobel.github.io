@@ -168,10 +168,10 @@ The strategic use of variable-porosity screens and plenum distribution delivered
 
 <div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/curauma-failure1-results.png" title="Scenario 1 Results" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/curauma-failure1-inlet.png" title="Scenario 1 Results" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/curauma-failure2-results.png" title="Scenario 2 Results" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/curauma-failure2-inlet.png" title="Scenario 2 Results" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
