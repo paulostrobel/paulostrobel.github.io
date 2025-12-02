@@ -63,7 +63,7 @@ The client facility required a robust HVAC design capable of handling mixed rack
   - 60% porosity at extreme left opening (opposite unpaired rack row)
   - 70% porosity at fourth opening from left
   - 80% porosity for remaining openings
-- Created 80% effective area screens at cold aisle entrances
+
 ---
 
 ### Phase 3: Failure Scenario Analysis
@@ -73,6 +73,7 @@ The client facility required a robust HVAC design capable of handling mixed rack
 - Adjusted operating conditions for remaining units (57,341 m³/h at 23.7°C)
 - Quantified temperature differentials across all CRAH units under failure conditions
 - Validated plenum effectiveness in attenuating failure impacts
+  
 ---
 
 
