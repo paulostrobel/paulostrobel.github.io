@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Cranfield University</p>
+    <p>PhD in Aerospace Engineering</p>
     <p>CFD & Thermal Optimization</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -37,7 +37,7 @@ My expertise includes:
 - **Multiphysics Simulations** - Coupled thermal-fluid-structural analysis for complex engineering problems
 - **Rotor Aerodynamics** - Advanced analysis of rotary wing systems and turbomachinery
 
-I work with industry-leading CFD tools including OpenFOAM and ANSYS CFX to solve challenging fluid dynamics problems and deliver innovative solutions for thermal management and aerodynamic optimization.
+I work with industry-leading CFD tools to solve challenging fluid dynamics problems and deliver innovative solutions for thermal management and aerodynamic optimization.
 
 I am open to CFD consulting projects and research collaborations in thermal optimization, HVAC systems, and multiphysics simulations.
 
