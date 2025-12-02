@@ -28,7 +28,7 @@ The client facility required a robust HVAC design capable of handling mixed rack
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/curauma-geometry.png" title="Geometric Model" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/curauma-geometry.png" title="Geometric Model" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -55,10 +55,10 @@ The client facility required a robust HVAC design capable of handling mixed rack
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/curauma-mesh.png" title="Numerical Mesh" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/curauma-mesh.png" title="Numerical Mesh" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/curauma-optimization.png" title="Flow Optimization Process" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/curauma-optimization.png" title="Flow Optimization Process" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -98,7 +98,7 @@ The client facility required a robust HVAC design capable of handling mixed rack
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/curauma-results-temp.png" title="Temperature Distribution" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/curauma-results-temp.png" title="Temperature Distribution" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -113,10 +113,10 @@ The client facility required a robust HVAC design capable of handling mixed rack
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/curauma-results-velocity.png" title="Velocity Distribution" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/curauma-results-velocity.png" title="Velocity Distribution" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/curauma-results-inlet.png" title="Rack Inlet Temperatures" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/curauma-results-inlet.png" title="Rack Inlet Temperatures" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -143,7 +143,7 @@ The strategic use of variable-porosity screens and plenum distribution delivered
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-10 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/curauma-failure-scenarios.png" title="Failure Scenarios Tested" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/curauma-failure-scenarios.png" title="Failure Scenarios Tested" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -172,10 +172,10 @@ The strategic use of variable-porosity screens and plenum distribution delivered
 
 <div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/curauma-failure1-results.png" title="Scenario 1 Results" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/curauma-failure1-results.png" title="Scenario 1 Results" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/curauma-failure2-results.png" title="Scenario 2 Results" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/curauma-failure2-results.png" title="Scenario 2 Results" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
