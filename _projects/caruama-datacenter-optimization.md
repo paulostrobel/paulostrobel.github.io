@@ -248,18 +248,7 @@ The strategic use of variable-porosity screens and plenum distribution delivered
 - Final technical report with ASHRAE compliance validation
 - Design recommendations for future capacity expansion
 
----
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-10 mt-3 mt-md-0">
-        <blockquote class="blockquote">
-            <p>"The plenum optimization and failure analysis gave us complete confidence in our design. Achieving 99% thermal compliance before construction is exceptional."</p>
-            <footer class="blockquote-footer">Engineering Lead, SCALA Data Centers</footer>
-        </blockquote>
-    </div>
-</div>
-
----
 
 ## Key Differentiators
 
@@ -290,11 +279,8 @@ This case study demonstrates expertise applicable to:
 - Plenum-based air distribution systems
 - Mission-critical facility redundancy planning
 - Multi-zone mixed-load cooling optimization
-- HVAC failure mode and effects analysis (FMEA)
+- HVAC failure mode and effects analysis 
 
-**Industries served:** Data Centers, Telecommunications, Financial Services, Healthcare IT Infrastructure
-
-**Planning a mission-critical facility?** [Contact me](/contact/) to discuss thermal design validation and optimization strategies for your data center project.
 
 ---
 
@@ -311,3 +297,6 @@ This case study demonstrates expertise applicable to:
 
 ---
 
+**Industries served:** Data Centers, Telecommunications, Financial Services, Healthcare IT Infrastructure
+
+**Planning a mission-critical facility?** [Contact me](/contact/) to discuss thermal design validation and optimization strategies for your data center project.
