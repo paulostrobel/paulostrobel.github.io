@@ -37,13 +37,25 @@ The client facility required a robust HVAC design capable of handling mixed rack
 
 ---
 
+
 ## Our Approach
 
 ### Phase 1: Advanced Modeling Strategy
 - Developed comprehensive CFD model using finite volume RANS solvers
 - Implemented dual-density rack modeling: 7.09kW (server) and 5kW (network) loads
 - Created detailed plenum geometry including supply and return air paths
-- Validated mesh independence and convergence criteria 
+- Validated mesh independence and convergence criteria
+  
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/curauma-mesh.png" title="Numerical Mesh" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    High-fidelity numerical mesh
+</div>
+
+---
 
 ### Phase 2: Flow Optimization
 - Designed perforated screens at cold aisle entrances to condition airflow
@@ -52,14 +64,7 @@ The client facility required a robust HVAC design capable of handling mixed rack
   - 70% porosity at fourth opening from left
   - 80% porosity for remaining openings
 - Created 80% effective area screens at cold aisle entrances
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/curauma-mesh.png" title="Numerical Mesh" class="img-fluid rounded z-depth-1" %}
-    </div>
-<div class="caption">
-   High-fidelity numerical mesh. 
-</div>
+---
 
 ### Phase 3: Failure Scenario Analysis
 - Simulated 2 critical failure scenarios:
@@ -68,8 +73,8 @@ The client facility required a robust HVAC design capable of handling mixed rack
 - Adjusted operating conditions for remaining units (57,341 m³/h at 23.7°C)
 - Quantified temperature differentials across all CRAH units under failure conditions
 - Validated plenum effectiveness in attenuating failure impacts
-
 ---
+
 
 ## Technical Specifications
 
@@ -281,19 +286,6 @@ This case study demonstrates expertise applicable to:
 - Multi-zone mixed-load cooling optimization
 - HVAC failure mode and effects analysis 
 
-
----
-
-## Comparison with Direct-Supply Approach
-
-| Aspect | Direct Supply | Plenum Distribution (This Project) |
-|--------|--------------|-----------------------------------|
-| Flow uniformity | Moderate | Excellent (99% RCI) |
-| Jet impingement risk | High | Eliminated |
-| Failure resilience | Local impact | Distributed compensation |
-| Mixed density handling | Challenging | Seamless |
-| Installation complexity | Lower | Moderate |
-| Operational flexibility | Limited | High |
 
 ---
 
