@@ -2,7 +2,7 @@
 layout: page
 title: Data Center Thermal Excellence Through Plenum Design
 description: 2.4MW facility with innovative plenum-based air distribution
-img: assets/img/projects/chile-datacenter-thumb.png
+img: assets/img/projects/curauma-datacenter-thumb.png
 importance: 2
 category: work
 ---
@@ -28,7 +28,7 @@ The client facility required a robust HVAC design capable of handling mixed rack
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/curauma-geometry.png" title="Geometric Model" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/curauma-datacenter-thumb.png" title="Geometric Model" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -57,12 +57,8 @@ The client facility required a robust HVAC design capable of handling mixed rack
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/projects/curauma-mesh.png" title="Numerical Mesh" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/curauma-optimization.png" title="Flow Optimization Process" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
 <div class="caption">
-    Left: High-fidelity numerical mesh. Right: Iterative optimization of plenum opening configurations.
+   High-fidelity numerical mesh. 
 </div>
 
 ### Phase 3: Failure Scenario Analysis
