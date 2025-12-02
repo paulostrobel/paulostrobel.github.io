@@ -9,7 +9,7 @@ category: work
 
 ## Client Profile
 
-**Industry:** Scala Data Center  
+**Industry:** Scala Data Center / Torres Eng.  
 **Location:** Chile  
 **Facility:** 5MW critical mission environment with 640 server racks  
 **Project Type:** Pre-construction thermal optimization and failure scenario analysis
