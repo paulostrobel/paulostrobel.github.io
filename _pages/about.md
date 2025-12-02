@@ -28,18 +28,20 @@ latest_posts:
 
 <section id="about" class="page-section">
 
-I am a CFD Engineer with a PhD in Aerospace Engineering from Cranfield University. With over 10 years of experience, I specialize in delivering energy-efficient solutions through advanced computational fluid dynamics modeling.
+I am a CFD Engineer with a PhD in Aerospace Engineering from Cranfield University. With over 10 years of experience, I specialize in delivering energy-efficient solutions through advanced computational fluid dynamics modeling.\
 
-My expertise includes:
 
-- **Data Center Thermal Optimization** - Designing efficient cooling strategies for high-performance computing environments
-- **HVAC Systems Analysis** - Optimizing heating, ventilation, and air conditioning systems for improved energy efficiency
-- **Multiphysics Simulations** - Coupled thermal-fluid-structural analysis for complex engineering problems
-- **Rotor Aerodynamics** - Advanced analysis of rotary wing systems and turbomachinery
+My expertise includes:\
+\
+- **Data Center Thermal Optimization** - Designing efficient cooling strategies for high-performance computing environments\
+- **HVAC Systems Analysis** - Optimizing heating, ventilation, and air conditioning systems for improved energy efficiency\
+- **Multiphysics Simulations** - Coupled thermal-fluid-structural analysis for complex engineering problems\
+- **Rotor Aerodynamics** - Advanced analysis of rotary wing systems and turbomachinery\
+\
+I work with industry-leading CFD tools to solve challenging fluid dynamics problems and deliver innovative solutions for thermal management and aerodynamic optimization.\
 
-I work with industry-leading CFD tools to solve challenging fluid dynamics problems and deliver innovative solutions for thermal management and aerodynamic optimization.
-
-I am open to CFD consulting projects and research collaborations in thermal optimization, HVAC systems, and multiphysics simulations.
+\
+I am open to CFD consulting projects and research collaborations in thermal optimization, HVAC systems, and multiphysics simulations.\
 
 </section>
 
