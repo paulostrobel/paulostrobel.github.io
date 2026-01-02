@@ -68,24 +68,6 @@ I am open to CFD consulting projects and research collaborations in thermal opti
 
 ---
 
-<section id="publications" class="page-section" style="margin-top: 3rem;">
-
-## <a href="/publications/" style="text-decoration: none; color: inherit;">Publications</a>
-
-{% include bib_search.liquid %}
-
-<div class="publications">
-{% bibliography %}
-</div>
-
-<p style="text-align: center; margin-top: 2rem;">
-  <a href="/publications/" class="btn btn-sm btn-primary">View All Publications →</a>
-</p>
-
-</section>
-
----
-
 <section id="videos" class="page-section" style="margin-top: 3rem;">
 
 ## <a href="/videos/" style="text-decoration: none; color: inherit;">Videos</a>
@@ -106,6 +88,24 @@ I am open to CFD consulting projects and research collaborations in thermal opti
 
 <p style="text-align: center; margin-top: 2rem;">
   <a href="/videos/" class="btn btn-sm btn-primary">View All Videos →</a>
+</p>
+
+</section>
+
+---
+
+<section id="publications" class="page-section" style="margin-top: 3rem;">
+
+## <a href="/publications/" style="text-decoration: none; color: inherit;">Publications</a>
+
+{% include bib_search.liquid %}
+
+<div class="publications">
+{% bibliography %}
+</div>
+
+<p style="text-align: center; margin-top: 2rem;">
+  <a href="/publications/" class="btn btn-sm btn-primary">View All Publications →</a>
 </p>
 
 </section>
