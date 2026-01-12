@@ -2,7 +2,7 @@
 layout: page
 title: Landing Gear Shock Absorber Analysis – LANDOne Project
 description: Multi-fidelity CFD framework for next-generation landing gear systems with ML-accelerated optimization
-img: assets/img/projects/landone-thumb.png
+img: assets/img/projects/landone-thumb.gif
 importance: 1
 category: work
 ---
