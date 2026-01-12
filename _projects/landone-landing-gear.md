@@ -5,6 +5,7 @@ description: Multi-fidelity CFD framework for next-generation landing gear syste
 img: assets/img/projects/landone-thumb.gif
 importance: 1
 category: work
+client: Airbus
 ---
 
 ## Project Overview
