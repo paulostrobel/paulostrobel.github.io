@@ -5,6 +5,7 @@ description: 2.4MW facility with innovative plenum-based air distribution
 img: assets/img/projects/curauma-datacenter-thumb.png
 importance: 1
 category: work
+client: Scala Data Center / Torres Eng.
 ---
 
 ## Client Profile

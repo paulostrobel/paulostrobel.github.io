@@ -5,6 +5,7 @@ description: 5MW facility pre-construction CFD analysis delivering 247% improvem
 img: assets/img/projects/chile-datacenter-thumb.jpg
 importance: 1
 category: work
+client: Scala Data Center / Torres Eng.
 ---
 
 ## Client Profile
