@@ -374,8 +374,11 @@ Successfully simulate coupled piston-orifice motion for adaptive damping systems
 <p float="center">
   <img src="/assets/img/projects/pressure.gif" width="100%" />
 </p>
+<p float="center">
+  <img src="/assets/img/projects/temperature.gif" width="100%" />
+</p>
 <div class="caption">
-    Transient simulation results: phase fraction (oil-air interface), velocity and pressure.
+    Transient simulation results: phase fraction (oil-air interface), velocity, pressure and temperature.
 </div>
 
 <p align="center">
