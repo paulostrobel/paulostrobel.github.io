@@ -40,7 +40,7 @@ client: Airbus/Cranfield University
 
 **Consortium Partners:** Airbus UK (Industrial Lead), University of Sheffield, Cranfield University, Safran Landing Systems, Triumph Group, Transense Technologies, and additional aerospace industry partners
 
----
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <img src="/assets/img/projects/landone-thumb.png" title="Design Capability for Shock Absorbers" class="img-fluid rounded z-depth-1">
@@ -50,7 +50,7 @@ client: Airbus/Cranfield University
     Design Capability for Shock Absorbers
 </div>
 
-
+---
 
 <a name="the-challenge"></a>
 ## The Challenge
@@ -364,9 +364,13 @@ Successfully simulate coupled piston-orifice motion for adaptive damping systems
 
 
 <p float="center">
-  <img src="/assets/img/projects/phase.gif" width="32%" />
-  <img src="/assets/img/projects/velocity.gif" width="32%" />
-  <img src="/assets/img/projects/pressure.gif" width="32%" />
+  <img src="/assets/img/projects/phase.gif" width="100%" />
+</p>
+<p float="center">
+  <img src="/assets/img/projects/velocity.gif" width="100%" />
+</p>
+<p float="center">
+  <img src="/assets/img/projects/pressure.gif" width="100%" />
 </p>
 <div class="caption">
     Transient simulation results: velocity, phase fraction (oil-air interface), and pressure.
@@ -376,7 +380,7 @@ Successfully simulate coupled piston-orifice motion for adaptive damping systems
   <img src="/assets/img/projects/dynamicorifice.gif" width="50%" />
 </p>
 <div class="caption">
-    Adaptive shock absorber simulation: simultaneous piston and metering pin motion.
+   Mesh motion for metering pin simulations with dynamic mesh at the orifice
 </div>
 
 
@@ -404,7 +408,7 @@ Successfully simulate coupled piston-orifice motion for adaptive damping systems
 
 ----->
 
-### Consortium Impact
+###  Impact
 
 **Knowledge Transfer:**
 - Deliver comprehensive technical documentation (200+ pages of methodology reports)
