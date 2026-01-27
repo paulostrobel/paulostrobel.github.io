@@ -28,16 +28,9 @@ latest_posts:
 
 <section id="about" class="page-section">
 
-I am a CFD Engineer with a PhD in Aerospace Engineering from Cranfield University. With over 10 years of experience, I specialize in delivering energy-efficient solutions through advanced computational fluid dynamics modeling.
+I am a Mechanical Engineer with a PhD in Aerospace Engineering from Cranfield University. With over 10 years of experience in CFD, I specialize in delivering efficient solutions through advanced computational modeling.
 
-
-**Areas of Expertise:**
-
-| | |
-|:--|:--|
-| Data Center Thermal Optimization | HVAC Systems Analysis |
-| Multiphysics Simulations | Rotor Aerodynamics |
-| Thermal Management | Aerodynamic Optimization |
+**Areas of Expertise:** Data Center Thermal Optimization | HVAC Systems Analysis | Multiphysics Simulations | Rotor Aerodynamics | Thermal Management | Aerodynamic Optimization | Software Development
 
 I work with industry-leading CFD tools to solve challenging fluid dynamics problems and deliver innovative solutions.
 
