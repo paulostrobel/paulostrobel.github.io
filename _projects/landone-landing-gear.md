@@ -43,7 +43,7 @@ client: Airbus/Cranfield University
 ---
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/assets/img/projects/landone-thumb.png" title="Design Capability for Shock Absorbers" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/landone-thumb.png" title="Design Capability for Shock Absorbers" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -65,14 +65,8 @@ Landing gear shock absorbers are critical safety components that must perform re
 
 **Stakes:** Inadequate shock absorber design impacts landing safety, aircraft certification timelines, and maintenance costs. The aerospace industry needed validated computational frameworks to accelerate development while meeting stringent certification standards.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/shockabs.gif" title="Shock Absorber compression schmeatic showing oil-nitrogen  dynamics" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Shock Absorber compression schmeatic showing oil-nitrogen  dynamics
-</div>
+<p align="center">
+<img width="640" height="833" src="/tests/Milwitzky/openfoamcase/imgs/shockabs.gif"></p>
 
 ---
 
@@ -208,20 +202,7 @@ Lead development of SALSA (Shock Absorber simuLation SoftwAre), an open-source P
    - HPC cluster integration with SLURM/PBS scripts
 
 **Impact:** Reduces simulation setup time from days to hours, enabling systematic exploration of design parameters including orifice geometry, fluid properties, and dynamic motion profiles. Generates 44,236+ validated CFD cases for machine learning training.
-<!--
-<div class="row">
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/tests/Milwitzky/openfoamcase/imgs/preprocessing-workflow.svg" title="SALSA preprocessing workflow" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/tests/Milwitzky/openfoamcase/imgs/run_mesh-workflow-diagram.svg" title="SALSA mesh generation workflow" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Left: Preprocessing workflow for parameter validation and material property setup. Right: Mesh generation workflow with dynamic boundary handling
-</div>-->
 
----
 
 <a name="phase-3"></a>
 ### Phase 3: Machine Learning Acceleration
@@ -284,11 +265,9 @@ Establish rigorous validation protocols against multiple reference datasets:
 - Turbulence model sensitivity: k-ω SST vs. k-ε comparison
 - Multiphase VOF parameter tuning
 
-<div class="row">
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/milwitzky-validation.png" title="Validation against NASA Milwitzky experimental data" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+<p align="center">
+<img width="640" height="833" src=""assets/img/projects/milwitzky-validation.png"></p>
+
 <div class="caption">
     Force-displacement validation against NASA Milwitzky drop test data.
 </div>
@@ -381,29 +360,24 @@ Successfully simulate coupled piston-orifice motion for adaptive damping systems
 - Oil splash arrival time: 0.03s (validated against high-speed photography)
 - Maximum domain velocity: 122 m/s (through orifice contraction)
 
-<div class="row">
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/velocity.gif" title="Velocity field evolution" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/phase.gif" title="Oil-air interface tracking" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/pressure.gif" title="Pressure distribution evolution" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+
+<p float="center">
+  <img src="assets/img/projects/phase.gif" width="33%" />
+  <img src="assets/img/projects/velocity.gif" width="33%" />
+  <img src="assets/img/projects/pressure.gif" width="33%" />
+</p>
+
 <div class="caption">
     Transient simulation results for dynamic piston case: velocity magnitude (left), phase fraction showing oil-air interface (center), and pressure distribution (right)
 </div>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/dynamicorifice.gif" title="Dynamic orifice (metering pin) simulation" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+<p float="center">
+  <img src="assets/img/projects/dynamicorifice.gif" width="33%" />
+</p>
 <div class="caption">
     Adaptive shock absorber simulation showing simultaneous piston compression and metering pin motion, demonstrating variable orifice area control
 </div>
+
 
 <!-----
 
@@ -458,7 +432,7 @@ Successfully simulate coupled piston-orifice motion for adaptive damping systems
    - Automated meshing with quality control
    - Multi-solver integration (OpenFOAM, UCNS3D)
    - Post-processing and visualization pipeline
-   - >15,000 lines of documented Python code
+   - +15,000 lines of documented Python code
 
 2. **Optimization Framework:** 
    - Genetic algorithm implementation with ML acceleration
