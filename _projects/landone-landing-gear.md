@@ -19,6 +19,16 @@ client: Airbus/Cranfield University
 
 ---
 
+## My Role
+
+**Position:** Research Fellow in Multiphysics Software Development at Cranfield University
+
+**Work Package:** Design Capability for Shock Absorbers (£798K)
+
+I lead the development of automated multiphysics workflows in HPC/Cloud infrastructure for landing gear shock absorber systems. Key responsibilities include developing the SALSA software platform, building ML surrogate models, establishing validation protocols against NASA benchmarks, and delivering technical training workshops to consortium partners including Airbus.
+
+---
+
 ## The Challenge
 
 Landing gear shock absorbers are critical safety components that must perform reliably across extreme operating conditions. Traditional design methodologies relied on expensive physical testing and simplified analytical models, creating several challenges:
