@@ -31,6 +31,13 @@ Landing gear shock absorbers are critical safety components that must perform re
 
 **Stakes:** Inadequate shock absorber design impacts landing safety, aircraft certification timelines, and maintenance costs. The aerospace industry needed validated computational frameworks to accelerate development while meeting stringent certification standards.
 
+<p align="center">
+<img width="640" src="/assets/img/projects/shockabs.gif">
+</p>
+<div class="caption">
+    Shock absorber compression simulation showing fluid dynamics during landing impact.
+</div>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <img src="/assets/img/projects/landone-thumb.png" title="Design Capability for Shock Absorbers" class="img-fluid rounded z-depth-1">
@@ -146,13 +153,42 @@ Successfully simulated coupled piston-orifice motion for adaptive damping system
 - Maximum domain velocity: 122 m/s through orifice contraction
 - Validated against high-speed photography (oil splash arrival: 0.03s)
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img src="/assets/img/projects/phase_zoom.gif" width="100%">
-    </div>
-</div>
+<p align="center">
+  <img src="/assets/img/projects/phase_zoom.gif" width="100%" />
+</p>
+<p align="center">
+  <img src="/assets/img/projects/phase.gif" width="100%" />
+</p>
 <div class="caption">
-    Transient simulation: multiphase flow through shock absorber orifice showing oil-air interface dynamics.
+    Transient simulation: oil-air phase fraction showing interface dynamics during shock absorber compression.
+</div>
+
+<p align="center">
+  <img src="/assets/img/projects/velocity.gif" width="100%" />
+</p>
+<div class="caption">
+    Velocity field evolution through the orifice during dynamic compression.
+</div>
+
+<p align="center">
+  <img src="/assets/img/projects/pressure.gif" width="100%" />
+</p>
+<div class="caption">
+    Pressure distribution showing damping force generation through the orifice.
+</div>
+
+<p align="center">
+  <img src="/assets/img/projects/temperature.gif" width="100%" />
+</p>
+<div class="caption">
+    Temperature field showing thermal effects from viscous dissipation in the hydraulic fluid.
+</div>
+
+<p align="center">
+  <img src="/assets/img/projects/dynamicorifice.gif" width="50%" />
+</p>
+<div class="caption">
+   Dynamic mesh motion for metering pin simulations enabling variable damping analysis.
 </div>
 
 ---
