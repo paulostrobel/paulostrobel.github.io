@@ -41,9 +41,14 @@ client: Airbus/Cranfield University
 **Consortium Partners:** Airbus UK (Industrial Lead), University of Sheffield, Cranfield University, Safran Landing Systems, Triumph Group, Transense Technologies, and additional aerospace industry partners
 
 
-<p align="center">
-<img width="640" src="/assets/img/projects//assets/img/projects/landone-thumb.png">
-</p>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img src="/assets/img/projects/landone-thumb.png" title="Design Capability for Shock Absorbers" class="img-fluid rounded z-depth-1">
+    </div>
+</div>
+<div class="caption">
+    Design Capability for Shock Absorbers
+</div>
 ---
 
 <a name="the-challenge"></a>
