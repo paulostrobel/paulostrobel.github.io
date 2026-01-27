@@ -363,7 +363,7 @@ Successfully simulate coupled piston-orifice motion for adaptive damping systems
 - Maximum domain velocity: 122 m/s (through orifice contraction)
 
 <p float="center">
-  <img src="/assets/img/projects/phasezoom.gif" width="100%" />
+  <img src="/assets/img/projects/phase_zoom.gif" width="100%" />
 </p>
 <p float="center">
   <img src="/assets/img/projects/phase.gif" width="100%" />
