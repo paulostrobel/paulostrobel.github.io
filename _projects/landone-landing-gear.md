@@ -362,7 +362,9 @@ Successfully simulate coupled piston-orifice motion for adaptive damping systems
 - Oil splash arrival time: 0.03s (validated against high-speed photography)
 - Maximum domain velocity: 122 m/s (through orifice contraction)
 
-
+<p float="center">
+  <img src="/assets/img/projects/phasezoom.gif" width="100%" />
+</p>
 <p float="center">
   <img src="/assets/img/projects/phase.gif" width="100%" />
 </p>
@@ -373,7 +375,7 @@ Successfully simulate coupled piston-orifice motion for adaptive damping systems
   <img src="/assets/img/projects/pressure.gif" width="100%" />
 </p>
 <div class="caption">
-    Transient simulation results: velocity, phase fraction (oil-air interface), and pressure.
+    Transient simulation results: phase fraction (oil-air interface), velocity and pressure.
 </div>
 
 <p align="center">
