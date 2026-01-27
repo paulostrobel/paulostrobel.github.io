@@ -48,14 +48,7 @@ Landing gear shock absorbers are critical safety components that must perform re
     Shock absorber compression simulation showing fluid dynamics during landing impact.
 </div>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img src="/assets/img/projects/landone-thumb.png" title="Design Capability for Shock Absorbers" class="img-fluid rounded z-depth-1">
-    </div>
-</div>
-<div class="caption">
-    Design Capability for Shock Absorbers - LANDOne Work Package (£798K)
-</div>
+
 
 ---
 
