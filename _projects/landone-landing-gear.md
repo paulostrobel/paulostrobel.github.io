@@ -1,57 +1,24 @@
 ---
 layout: page
 title: Landing Gear Shock Absorber Analysis – LANDOne Project
-description: Multi-fidelity CFD framework for next-generation landing gear systems with ML-accelerated optimization (Research Fellow, Cranfield University)
+description: Multi-fidelity CFD framework for next-generation landing gear systems with ML-accelerated optimization
 img: /assets/img/projects/landone-thumb.png
 importance: 1
 category: work
 client: Airbus/Cranfield University
 ---
 
-## Table of Contents
-1. [Project Overview](#project-overview)
-2. [The Challenge](#the-challenge)
-3. [My Role: Research Fellow](#my-role)
-4. [Technical Approach](#technical-approach)
-   - [Phase 1: Multi-Fidelity Framework](#phase-1)
-   - [Phase 2: SALSA Software Platform](#phase-2)
-   - [Phase 3: Machine Learning Acceleration](#phase-3)
-   - [Phase 4: Validation & Benchmarking](#phase-4)
-5. [Technical Specifications](#technical-specifications)
-6. [Results & Impact](#results-impact)
-7. [Key Deliverables](#key-deliverables)
-8. [Technologies & Methods](#technologies-methods)
-9. [Skills Demonstrated](#skills-demonstrated)
-10. [Client Benefits](#client-benefits)
-11. [Future Directions](#future-directions)
-12. [Related Expertise](#related-expertise)
+## Client Profile
+
+**Industry:** Aerospace (Landing Gear Systems)
+**Location:** UK (Multi-partner consortium)
+**Project:** LANDOne - £37.8M Innovate UK/ATI initiative ([grant 10002411](https://gtr.ukri.org/projects?ref=10002411))
+**Project Type:** Multi-fidelity CFD framework development with ML-accelerated design optimization
+
+**Consortium Partners:** Airbus UK (Industrial Lead), University of Sheffield, Cranfield University, Safran Landing Systems, Triumph Group, Transense Technologies, and additional aerospace partners
 
 ---
 
-<a name="project-overview"></a>
-## Project Overview
-
-**LANDOne (Landing Advances of the New Decade)** is a £37.8 million UK aerospace initiative funded by Innovate UK ([grant number 10002411](https://gtr.ukri.org/projects?ref=10002411)) and the Aerospace Technology Institute (ATI). Officially launched in 2022, the project is led by Airbus UK as industrial lead in partnership with the University of Sheffield, Cranfield University, and 10 additional aerospace, academic, and research partners. The project focuses on developing next-generation landing gear systems that are lighter, lower maintenance, and more environmentally sustainable.
-
-**My Role:** Research Fellow in Multiphysics Software Development at Cranfield University
-
-**Work Package:** Design Capability for Shock Absorbers (£798K)
-
-
-**Consortium Partners:** Airbus UK (Industrial Lead), University of Sheffield, Cranfield University, Safran Landing Systems, Triumph Group, Transense Technologies, and additional aerospace industry partners
-
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img src="/assets/img/projects/landone-thumb.png" title="Design Capability for Shock Absorbers" class="img-fluid rounded z-depth-1">
-    </div>
-</div>
-<div class="caption">
-    Design Capability for Shock Absorbers
-</div>
----
-
-<a name="the-challenge"></a>
 ## The Challenge
 
 Landing gear shock absorbers are critical safety components that must perform reliably across extreme operating conditions. Traditional design methodologies relied on expensive physical testing and simplified analytical models, creating several challenges:
@@ -64,73 +31,26 @@ Landing gear shock absorbers are critical safety components that must perform re
 
 **Stakes:** Inadequate shock absorber design impacts landing safety, aircraft certification timelines, and maintenance costs. The aerospace industry needed validated computational frameworks to accelerate development while meeting stringent certification standards.
 
-<p align="center">
-<img width="640" src="/assets/img/projects/shockabs.gif">
-</p>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img src="/assets/img/projects/landone-thumb.png" title="Design Capability for Shock Absorbers" class="img-fluid rounded z-depth-1">
+    </div>
+</div>
+<div class="caption">
+    Design Capability for Shock Absorbers - LANDOne Work Package (£798K)
+</div>
 
 ---
 
-<a name="my-role"></a>
-## My Role: Research Fellow in Multiphysics Software Development
+## Our Approach
 
- I work on the development of a comprehensive multi-fidelity computational framework for oleo-pneumatic landing gear shock absorber analysis as part of the **"Design Capability for Shock Absorbers" work package (£798K)**. My main focus is on developing automated multiphysics workflows in HPC/Cloud infrastructure for landing gear shock absorber systems (LGSAs).
+### Phase 1: Multi-Fidelity Framework Development
 
-### Work Package Scope
-
-**Aim:** Develop an AI-driven multi-physics (MP) and multifidelity (MF) computational framework for modeling various landing gear shock absorber (LGSA) concepts.
-
-**Key Activities:**
-- Development of automated computational multifidelity workflows in HPC/Cloud infrastructure
-- Building surrogate models from high-fidelity simulations
-- Testing, benchmarking, verification and validation of complete software ecosystem
-- Extension to other aircraft sub-systems
-
-**Key Innovation:** Advancing state-of-the-art methods for continuum modeling of multiphysics problems in landing gear shock absorber systems. Delivering an automated intelligent multi-fidelity multi-physics platform where ML techniques enable real-time decision-making regarding fidelity level, equations deployed, numerical methods, and models employed—optimizing computational cost and resources.
-**Key Innovation:** Delivering an automated intelligent multi-fidelity platform where ML techniques enable real-time decision-making regarding fidelity levels and numerical methods. 
-
-**Vision:** Provide an open-source software framework for shock absorber design usable at different design stages through multiple fidelity levels, with AI-driven computational efficiency. Ensure personnel readiness through workshops, tutorials, and documentation, and expand the tool to other aircraft components.
-
-### Key Responsibilities
-
-- **Multiphysics Software Development & Research Delivery:** Develop, maintain, and ensure timely completion of research deliverables, including automated computational workflows in HPC/Cloud infrastructure using OpenFOAM, UCNS3D, and custom Python frameworks
-- **SALSA Software Platform Development:** Lead creation of SALSA (Shock Absorber simuLation SoftwAre), managing the open-source software packages and associated modeling/simulation tools developed by the research group
-- **HPC & Cloud Computing:** Utilize Cranfield's Delta2 HPC facility, national Tier-1, and international Tier-0 HPC facilities for large-scale parallel computing and simulation campaigns
-- **Communication & Publications:** Communicate research outputs through regular meetings, high-quality technical reports, and academic publications
-- **Machine Learning Integration:** Build dataset for neural network surrogate models achieving R² > 0.95 for rapid design space exploration, enabling 20-50x computational speedup
-- **Verification & Validation:** Establish rigorous software testing, benchmarking, and validation protocols against well-established computational and experimental results
-- **Design Optimization:** Implement genetic algorithm optimization delivering  efficiency improvements in shock absorber performance
-- **Technology Transfer & Training:** Lead technical training workshops for Airbus  participants and other organizations, providing demonstrations and supporting MSc courses
-- **Teaching & Supervision:** Participate in teaching and supervision activities within the CFD msc on the Centre for Computational Engineering Sciences
-
----
-
-<a name="technical-approach"></a>
-## Technical Approach
-
-<a name="phase-1"></a>
-### Phase 1: Multi-Fidelity Computational Framework
-
-The framework develops a systematic Design of Experiments (DoE) approach integrating three fidelity levels:
-
-**Low-Fidelity Models:**
-- Rapid lumped-parameter physics models for initial design screening
-- Implemented in Python with analytical discharge coefficient correlations
-- Enable quick parametric sweeps across design space (seconds per case)
-- Jupyter notebook interface for interactive exploration
-
-**Medium-Fidelity CFD:**
-- 2D axisymmetric Reynolds-Averaged Navier-Stokes (RANS) simulations
-- k-ω SST turbulence model for accurate shear layer prediction
-- Balance accuracy and computational cost (hours per case)
-- OpenFOAM-based solver implementation
-
-**High-Fidelity CFD:**
-- 3D unsteady RANS with dynamic mesh capabilities
-- Multiphase VOF (Volume of Fluid) method for oil-air interface tracking
-- Capture detailed flow physics including transient phenomena
-- Computational time: days per case on HPC systems
-
-**Key Achievement:** Successfully validate framework across aircraft scales from military trainers to A320-class commercial aircraft against NASA experimental data (Milwitzky benchmark).
+- Developed systematic Design of Experiments (DoE) approach integrating three fidelity levels
+- **Low-Fidelity:** Rapid lumped-parameter physics models in Python (seconds per case)
+- **Medium-Fidelity:** 2D axisymmetric RANS with k-ω SST turbulence (hours per case)
+- **High-Fidelity:** 3D unsteady RANS with multiphase VOF and dynamic mesh (days per case)
+- Validated framework across aircraft scales against NASA Milwitzky experimental data
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -138,493 +58,200 @@ The framework develops a systematic Design of Experiments (DoE) approach integra
     </div>
 </div>
 <div class="caption">
-    Automated Multi-Case Shock Absorber Simulation Pipeline
- for preprocessing, mesh generation, CFD solving, and post-processing stages
+    Automated Multi-Case Shock Absorber Simulation Pipeline for preprocessing, mesh generation, CFD solving, and post-processing
 </div>
 
 ---
 
-<a name="phase-2"></a>
 ### Phase 2: SALSA Software Platform
 
-Lead development of SALSA (Shock Absorber simuLation SoftwAre), an open-source Python-based automation platform featuring:
+Led development of SALSA (Shock Absorber simuLation SoftwAre), an open-source Python-based automation platform:
 
-**Core Capabilities:**
+- **Parametric Geometry Generation:** FreeCAD/Gmsh-based with support for circular, semi-circular, square, and cutback orifice designs
+- **Automated Workflow Management:** Preprocessing, mesh generation, multi-solver CFD (OpenFOAM, UCNS3D), and post-processing
+- **Advanced Simulation Capabilities:** Static inlet flow, multiphase VOF, dynamic piston, dynamic orifice, and combined motion
+- **Batch Processing:** CSV-based job list processing with HPC cluster integration (SLURM/PBS)
 
-1. **Parametric Geometry Generation**
-   - Transitioned from CATIA to FreeCAD for open-source compatibility
-   - Gmsh-based parametric meshing with adaptive refinement
-   - Support for multiple orifice geometries:
-     - Circular: Standard sharp-edged orifice
-     - Semi-circular: Radiused inlet for reduced cavitation
-     - Square: Rectangular cross-section for specific applications
-     - Cutback: Angled outlet geometry for flow optimization
-   - Valve configurations for pressure-controlled systems
-
-2. **Automated Workflow Management**
-   - **Preprocessing :**
-     - Parameter validation and unit conversion
-     - Equation of State (EOS) coefficient generation for hydraulic fluids
-     - Piston velocity profile generation and visualization
-     - Material property setup (viscosity, specific heat capacity)
-   
-   - **Mesh Generation:**
-     - Automatic directory structure creation
-     - Dynamic mesh configuration based on simulation type
-     - Boundary condition setup and verification
-     - Mesh quality checking and reporting
-   
-   - **CFD Solving:**
-     - Multi-solver support (OpenFOAM, UCNS3D, Fluent)
-     - Automatic solver selection:
-       - `rhoSimpleFoam`: Steady-state single-phase
-       - `rhoPimpleFoam`: Transient single-phase
-       - `compressibleInterDyMFoam`: Multiphase with dynamic mesh
-     - Parallel decomposition and HPC job management
-     - Real-time monitoring and error detection
-   
-   - **Post-processing:**
-     - PyVista-based VTK data extraction
-     - Automated visualization generation (contours, animations, time series)
-     - Performance metric calculation (discharge coefficient, Reynolds number, cavitation parameter)
-     - JSON diagnostic output for database integration
-
-3. **Advanced Simulation Capabilities**
-   - **Static Inlet Flow:** Steady-state pressure drop analysis
-   - **Multiphase Flow:** Oil-air interface tracking with VOF method
-   - **Dynamic Piston:** Moving boundary simulations for compression analysis
-   - **Dynamic Orifice:** Metering pin motion for variable damping
-   - **Combined Motion:** Simultaneous piston and orifice movement
-
-4. **Batch Processing & Parametric Studies**
-   - CSV-based job list processing for large parameter sweeps
-   - Automated case generation script
-   - Results aggregation and comparative analysis
-   - HPC cluster integration with SLURM/PBS scripts
-
-**Impact:** Reduces simulation setup time from days to hours, enabling systematic exploration of design parameters including orifice geometry, fluid properties, and dynamic motion profiles. Generates 44,236+ validated CFD cases for machine learning training.
-
-
-<a name="phase-3"></a>
-### Phase 3: Machine Learning Acceleration
-
-Implement Physics-Informed Neural Networks (PINNs) and surrogate modeling to accelerate design optimization:
-
-**Training Dataset:** 44,236+ high-fidelity CFD cases covering:
-- Orifice geometries: circular, semi-circular, square, cutback designs
-- L/D ratios from 0.5 to 1.28
-- Piston velocities: 0.5 to 3.0 m/s
-- Initial pressures: 200 kPa to 800 kPa
-- Oil levels: 60% to 90% chamber height
-- Temperature ranges: 280 K to 350 K
-
-**Model Architecture:**
-- Input features: 28 geometric and operating parameters
-- Hidden layers: 5 layers with 128-256 neurons each
-- Activation function: ReLU with batch normalization
-- Output predictions: Damping force, discharge coefficient, cavitation parameter
-- Training approach: 80/10/10 train/validation/test split
-- Optimization: Adam optimizer with learning rate scheduling
-
-**Model Performance:**
-- R² > 0.95 for force prediction (mean absolute error < 3%)
-- R² > 0.92 for discharge coefficient (critical for design validation)
-- 20-50x computational speedup vs. direct CFD simulation
-- Real-time prediction: <10ms per case on standard CPU
-
-**Application:** Enables real-time design optimization and uncertainty quantification during genetic algorithm iterations, reducing design cycle time from weeks to days.
-
+**Impact:** Reduces simulation setup time from days to hours, enabling systematic exploration of 44,236+ validated CFD cases.
 
 ---
 
-<a name="phase-4"></a>
-### Phase 4: Validation & Benchmarking
+### Phase 3: Validation & ML Acceleration
 
-Establish rigorous validation protocols against multiple reference datasets:
+**Validation Protocols:**
+- Benchmark against NASA Milwitzky drop test data (agreement within 5% for peak forces)
+- Dixon and Ding discharge coefficient correlations (agreement within 3%)
+- Cross-solver verification (OpenFOAM vs. Fluent)
+- Mesh independence and timestep convergence studies
 
-**Primary Validation: NASA Milwitzky Experiments**
-- Benchmark against classic shock absorber drop test data
-- Validate force-stroke relationships and discharge coefficients
-- Achieve agreement within 5% for peak forces
-- Confirm cavitation inception predictions
+**Machine Learning Surrogate Models:**
+- Training dataset: 44,236+ high-fidelity CFD cases
+- Model performance: R² > 0.95 for force prediction, R² > 0.92 for discharge coefficient
+- Computational speedup: 20-50x vs. direct CFD simulation
+- Real-time prediction: <10ms per case enabling genetic algorithm optimization
 
-**Theoretical Validation:**
-- Dixon discharge coefficient correlations (empirical orifice flow theory)
-- Ding discharge coefficient method (Reynolds number dependent)
-- Agreement within 3% for L/D ratios 0.5-1.5
-- Validate cavitation parameter calculations
-
-**Cross-Solver Verification:**
-- OpenFOAM vs. Fluent comparison for selected cases
-- Verify consistency of pressure distributions
-- Confirm velocity field predictions
-- Validate dynamic mesh handling approaches
-
-**Systematic Studies:**
-- Mesh independence: Test 4 mesh resolutions (0.5mm to 2mm)
-- Timestep convergence: Validate temporal discretization (1e-4s to 1e-3s)
-- Turbulence model sensitivity: k-ω SST vs. k-ε comparison
-- Multiphase VOF parameter tuning
-
-<p align="center">
-<img width="640" src="/assets/img/projects/milwitzky-validation.png">
-</p>
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        <img src="/assets/img/projects/milwitzky-validation.png" class="img-fluid rounded z-depth-1">
+    </div>
+</div>
 <div class="caption">
     Force-displacement validation against NASA Milwitzky drop test data.
 </div>
 
 ---
 
-<a name="technical-specifications"></a>
 ## Technical Specifications
 
 **Computational Tools:**
-- **CFD Solvers:** 
-  - OpenFOAM/Fluent: multiphase, dynamic mesh, compressible flows
-  - UCNS3D: high-fidelity unsteady simulations, parallel MPI+OpenMP
-- **Turbulence Modeling:** k-ω SST (baseline), k-ε, LES for validation studies
-- **Mesh Generation:** Gmsh 4.x with Python API for parametric geometry
-- **Programming:** 
-  - Python 3.8+ (NumPy, Pandas, PyVista, Matplotlib, Plotly, Pillow)
-  - Bash scripting for workflow automation and HPC job submission
-  - Fortran (UCNS3D solver development and modifications)
-- **Machine Learning:** 
-  - TensorFlow 2.x / PyTorch 1.x for neural network development
-  - Scikit-learn for data preprocessing and validation
-  - Genetic algorithms (DEAP library) for multi-objective optimization
-- **Visualization:** 
-  - ParaView 5.x for 3D interactive visualization
-  - PyVista for automated plot generation
-  - Custom Python scripts for dashboard creation
-- **HPC Infrastructure:**
-  - Cranfield Delta2: 512 cores, InfiniBand interconnect
-  - UK National Tier-1 facilities: ARCHER2
-  - AWS
-- **Version Control:** Git with Github for collaborative development
-- **Documentation:** LaTeX for technical reports and
-
-**Validation Standards:**
-- NASA technical reporting standards (STD-8719.13B)
-- Systematic verification and validation (V&V) methodologies 
+- **CFD Solvers:** OpenFOAM/Fluent (multiphase, dynamic mesh), UCNS3D (high-fidelity unsteady)
+- **Turbulence Modeling:** k-ω SST (baseline), k-ε, LES for validation
+- **Mesh Generation:** Gmsh 4.x with Python API
+- **ML Framework:** TensorFlow/PyTorch, DEAP genetic algorithms
 
 **Performance Metrics:**
-- Typical simulation time: 6-48 hours on 64 cores (case dependent)
+- Typical simulation time: 6-48 hours on 64 cores
 - Mesh sizes: 200K-2M cells for production runs
 - Parallel efficiency: >85% scaling up to 128 cores
-- Storage requirements: 1-100 GB per detailed case
+
+**HPC Infrastructure:**
+- Cranfield Delta2: 512 cores, InfiniBand interconnect
+- UK National Tier-1: ARCHER2
+- Cloud platforms: AWS EC2
 
 ---
 
-<a name="results-impact"></a>
 ## Results & Impact
 
 ### Orifice Geometry Optimization
 
-**Performance Quantification:**
-- Characterize performance differences between circular, semi-circular, square, and cutback orifice designs
-- Analyze L/D (Length-to-Diameter) ratios from 0.5 to 1.28 across operating conditions:
-  - **Rectangular**: Highest damping pressures but increased cavitation risk
-  - **Semi-circular**: Optimal for cavitation mitigation with gradual pressure recovery
-  - **Circular**: Baseline configuration with well-established correlations
-  - **Cutback**: Enhanced flow efficiency but geometry-sensitive performance
-- **Achieve 30.3% efficiency improvement** through optimized geometry selection
-- Generate design guidelines for geometry selection based on operating envelope
+**Key Metrics:**
+- **Achieved 30.3% efficiency improvement** through optimized geometry selection
+- Characterized performance across circular, semi-circular, square, and cutback designs
+- Semi-circular geometry reduces cavitation occurrence by 40% vs. sharp-edged designs
+- Discharge coefficient validation: Cd = 0.74-0.77 (within 3% of Dixon theory)
 
-
-**Cavitation Analysis:**
-- Identify cavitation inception conditions for each geometry
-- Cavitation coefficient (Cc) range: 0.27 to 14.1 depending on operating conditions
-- Quantify impact on damping force consistency
-- Semi-circular geometry reduces cavitation occurrence by 40% compared to sharp-edged designs
-- Provide design guidelines to avoid cavitation-induced performance degradation
-
-**Discharge Coefficient Characterization:**
-- Validate CFD predictions: Cd = 0.74-0.77 across operating range
-- Excellent agreement with Dixon theory: Cd = 0.78 (within 3%)
-- Confirm Reynolds number dependency as predicted by Ding correlation
-- Generate L/D-specific correction factors for design calculations
-
----
+| Geometry | Damping Performance | Cavitation Risk | Recommendation |
+|----------|---------------------|-----------------|----------------|
+| Rectangular | Highest pressure | High | Specific applications |
+| Semi-circular | Optimal balance | Low | Cavitation mitigation |
+| Circular | Baseline | Medium | Standard applications |
+| Cutback | Enhanced flow | Geometry-sensitive | Flow optimization |
 
 ### Dynamic Mesh Capabilities
 
-Successfully simulate coupled piston-orifice motion for adaptive damping systems:
-- Capture transient flow physics including vortex shedding and flow separation
-- Validate dynamic mesh handling for moving piston simulations (compression velocities up to 3 m/s)
-- Enable analysis of variable-orifice "smart" shock absorber concepts with metering pin motion
-- Demonstrate simultaneous piston and orifice movement (most computationally challenging configuration)
-
-**Example Performance Metrics (Dynamic Piston Case):**
+Successfully simulated coupled piston-orifice motion for adaptive damping systems:
 - Reynolds number range: 6.4×10⁸ (highly turbulent flow)
-- Peak bottom pressure: 8.58 MPa
-- Pressure differential: 3.74 MPa (average), 5.45 MPa (peak)
-- Oil splash arrival time: 0.03s (validated against high-speed photography)
-- Maximum domain velocity: 122 m/s (through orifice contraction)
+- Peak pressure differential: 5.45 MPa
+- Maximum domain velocity: 122 m/s through orifice contraction
+- Validated against high-speed photography (oil splash arrival: 0.03s)
 
-<p float="center">
-  <img src="/assets/img/projects/phase_zoom.gif" width="100%" />
-</p>
-<p float="center">
-  <img src="/assets/img/projects/phase.gif" width="100%" />
-</p>
-<p float="center">
-  <img src="/assets/img/projects/velocity.gif" width="100%" />
-</p>
-<p float="center">
-  <img src="/assets/img/projects/pressure.gif" width="100%" />
-</p>
-<p float="center">
-  <img src="/assets/img/projects/temperature.gif" width="100%" />
-</p>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img src="/assets/img/projects/phase_zoom.gif" width="100%">
+    </div>
+</div>
 <div class="caption">
-    Transient simulation results: phase fraction (oil-air interface), velocity, pressure and temperature.
+    Transient simulation: multiphase flow through shock absorber orifice showing oil-air interface dynamics.
 </div>
 
-<p align="center">
-  <img src="/assets/img/projects/dynamicorifice.gif" width="50%" />
-</p>
-<div class="caption">
-   Mesh motion for metering pin simulations with dynamic mesh at the orifice
-</div>
-
-
-<!-----
-
-### Machine Learning Performance
-
-**Surrogate Model Success:**
-
-| Metric | Value | Impact |
-|--------|-------|--------|
-| Training Cases | 44,236 | Comprehensive design space coverage |
-| Force Prediction R² | >0.95 | High accuracy for damping force (MAE < 3%) |
-| Discharge Coefficient R² | >0.92 | Reliable flow characterization |
-| Cavitation Parameter R² | >0.90 | Accurate inception prediction |
-| Speedup Factor | 20-50x | Enabled real-time optimization (< 10ms per prediction) |
-| Training Time | 6 hours | One-time cost on GPU cluster |
-
-**Optimization Results:**
-- Genetic algorithm iterations: 100+ generations (5000+ candidates evaluated)
-- Design candidates evaluated: 10,000+ via surrogate model
-- Computational time saved: 95% reduction vs. pure CFD (weeks → days)
-- Final efficiency improvement: 30.3% relative to baseline
-- Pareto front identification for multi-objective optimization (damping force vs. cavitation risk)
-
------>
-
-###  Impact
-
-**Knowledge Transfer:**
-- Deliver comprehensive technical documentation (200+ pages of methodology reports)
-- Lead workshops for Airbus participants
-- Establish best practices for shock absorber CFD analysis
-- Create video tutorials and example cases for self-paced learning
-
-**Scalable Methodology:**
-- Demonstrate framework applicability from component-level to full aircraft landing gear systems
-- Provide foundation for future landing gear development programs
-- Extend to other hydraulic systems: actuators, dampers, pressure relief valves
-
-**Publications & Dissemination:**
-- 3 peer-reviewed journal articles (published/in review)
-- 5 international conference presentations
-- Technical reports delivered
-
 ---
 
-<a name="key-deliverables"></a>
-## Key Deliverables
-
-**Software & Tools:**
-1. **SALSA Software Suite:** Fully documented open-source CFD automation platform with:
-   - Parametric geometry generation module
-   - Automated meshing with quality control
-   - Multi-solver integration (OpenFOAM, UCNS3D)
-   - Post-processing and visualization pipeline
-   - +15,000 lines of documented Python code
-
-2. **Optimization Framework:** 
-   - Genetic algorithm implementation with ML acceleration
-   - Multi-objective optimization capability 
-   - Sensitivity analysis tools
-   - Uncertainty quantification module
-
-**Documentation & Training:**
-3. **Technical Reports:** 
-   - Methodology documentation 
-   - Validation studies against NASA and theoretical benchmarks
-   - Best practices guide for aerospace CFD
-   - Certification compliance documentation (DO-178C alignment)
-
-4. **Workshop Materials:** 
-   - 2-day workshop presentations with hands-on exercises
-   - Example cases with step-by-step guides
-   - Troubleshooting documentation
-
-6. **Validation Database:** 
-   - Extensive database benchmarked against NASA experimental data
-   - Mesh independence study results
-   - Timestep convergence analysis
-   - Turbulence model comparison
-
-**Research Outputs:**
-7. **Parametric Design Database:** 
-   - 44,236+ lowfidelity cases
-   - Covering orifice geometries and operating conditions
-   - JSON format for machine-readable access
-   - Visualization dashboard for interactive exploration
-
-8. **Design Guidelines:** 
-   - Geometry selection criteria based on operating envelope
-   - Cavitation avoidance strategies
-   - Performance optimization recommendations
-   - L/D ratio selection charts
-
----
-
-<a name="technologies-methods"></a>
-## Technologies & Methods
-
-**Computational Fluid Dynamics:**
-- OpenFOAM/Fluent: multiphase flow (VOF), turbulence modeling, dynamic mesh handling
-- UCNS3D: high-fidelity unsteady simulations, parallel MPI+OpenMP, structured/unstructured grids
-- Turbulence models: k-ω SST (primary), k-ε (validation), LES (reference cases)
-- Multiphase: VOF method with MULES for interface capturing
-- Dynamic mesh: layering, morphing, and topology change algorithms
-- Compressible flow: Equation of State modeling for hydraulic fluids under extreme conditions
-
-**Programming & Automation:**
-- Python 3.8+ (NumPy, Pandas, PyVista, Matplotlib, Plotly, Pillow, SciPy)
-- Object-oriented design patterns for modular code architecture
-- Bash scripting for workflow automation (10+ production scripts)
-- HPC job management: SLURM, PBS integration with automatic error recovery
-- Git version control with github CI/CD pipelines
-- Docker containerization for reproducible environments
-
-**Engineering Tools:**
-- Gmsh 4.x: parametric mesh generation with Python API scripting
-- ParaView 5.x: 3D interactive visualization, batch rendering
-- FreeCAD: parametric CAD generation (transitioned from CATIA for open-source compatibility)
-- LaTeX: technical documentation with TikZ for diagrams
-- Jupyter Lab: interactive notebook development for low-fidelity models
-
-**Aerospace Standards:**
-- NASA technical reporting standards (STD-8719.13B)
-- Systematic validation and verification (V&V) methodologies per ISO/IEC/IEEE 29119
-- Traceability matrix for requirements tracking
-- Configuration management following industry best practices
-
-**HPC Infrastructure:**
-- Cranfield Delta2 HPC cluster (512 cores, InfiniBand network)
-- UK National Tier-1 facilities: ARCHER2 access
-- International Tier-0: partnership-based access for large campaigns
-- Cloud platforms: AWS EC2 instances for development and testing
-
----
-
-<a name="skills-demonstrated"></a>
-## Skills Demonstrated
-
-**Technical Expertise:**
-- Advanced CFD for aerospace applications (multiphase, compressible, dynamic mesh)
-- Multi-fidelity modeling and simulation framework design
-- Machine learning integration with physics-based models (surrogate modeling, optimization)
-- Optimization algorithms for engineering design (genetic algorithms, gradient-based methods)
-- High-performance computing and workflow automation (MPI, OpenMP, job schedulers)
-- Software engineering best practices (version control, testing, documentation, CI/CD)
-
-**Aerospace Domain Knowledge:**
-- Landing gear shock absorber physics (hydraulics, gas dynamics, multiphase flow)
-- Certification standards (DO-178C, NASA requirements, airworthiness regulations)
-- Orifice flow dynamics and cavitation (discharge coefficients, inception criteria)
-- Transient multiphase flow phenomena (interface tracking, pressure wave propagation)
-- Hydraulic fluid properties and equations of state
-
-**Collaboration & Leadership:**
-- Cross-organizational coordination with Airbus UK (Industrial Lead), University of Sheffield, Cranfield University, and 10+ aerospace partners including Safran Landing Systems, Triumph Group, and Transense Technologies
-- Technical mentorship and training delivery (18 participants from 7 organizations, 4 workshops)
-- Knowledge dissemination to technical and management audiences across the consortium
-- Open-source software development and community building (GitHub collaboration)
-- Project management: deliverable tracking, milestone planning, risk mitigation
-
-**Software Engineering:**
-- Scientific Python development (15,000+ lines of production code)
-- Automation and workflow design 
-- Documentation and user training (comprehensive guides, self paced tutorials)
-- Version control and collaborative development (Git, code reviews)
-- Testing and quality assurance (unit tests, integration tests, 95% coverage)
-- DevOps practices (Docker, CI/CD pipelines)
-
----
-
-<a name="client-benefits"></a>
 ## Client Benefits
 
 **Accelerated Development:**
-- Reduce simulation setup time from days to hours through SALSA automation (90% time savings)
-- Enable rapid design space exploration with 20-50x ML speedup (weeks → days for optimization)
-- Systematic optimization delivering 30.3% efficiency improvements over baseline designs
-- Parallel parameter studies: 100+ cases executed simultaneously on HPC
+- Reduce simulation setup time from days to hours (90% time savings)
+- Enable rapid design space exploration with 20-50x ML speedup
+- Systematic optimization delivering 30.3% efficiency improvements
+- Parallel parameter studies: 100+ cases executed simultaneously
 
 **Certification Support:**
-- Validate methodologies meeting DO-178C and NASA standards (certification-ready documentation)
-- Comprehensive documentation supporting airworthiness approval (traceability matrices, V&V reports)
-- Benchmark results against NASA experimental data (< 5% error on key metrics)
-- Risk mitigation through validated virtual testing before physical prototypes
+- Validated methodologies meeting DO-178C and NASA standards
+- Comprehensive documentation supporting airworthiness approval
+- Benchmark results against NASA experimental data (<5% error)
+- Risk mitigation through validated virtual testing
 
 **Cost Reduction:**
-- Minimize expensive physical prototyping through validated virtual testing (estimated 60% cost savings)
-- Identify optimal designs before manufacturing (reduced iteration cycles)
-- Provide design guidelines preventing cavitation-induced failures (improved reliability)
+- Minimize expensive physical prototyping (estimated 60% cost savings)
+- Identify optimal designs before manufacturing
+- Design guidelines preventing cavitation-induced failures
 - Enable "right first time" design philosophy
 
 **Technical Innovation:**
-- Open-source SALSA platform supporting future programs (reusable framework)
-- ML-accelerated optimization framework applicable to other components (actuators, valves)
-- Multi-fidelity approach balancing accuracy and computational cost (flexible tool for different design stages)
-- Establish computational best practices now adopted across consortium
-
-**Exploitation Opportunities:**
-- License specific versions of the developed computational framework for commercial applications
-- Abundant exploitation opportunities for other industry applications beyond aerospace:
-  - Automotive: suspension systems, dampers
-  - Defense: recoil mechanisms, landing systems
-  - Industrial machinery: vibration isolation, shock mitigation
-- Academic publication and enrichment of teaching curricula in aerospace engineering programs
-- Technology transfer to other aircraft components and systems (hydraulic actuators, fuel systems)
+- Open-source SALSA platform supporting future programs
+- ML-accelerated optimization framework applicable to other components
+- Multi-fidelity approach balancing accuracy and computational cost
 
 ---
 
-<a name="future-directions"></a>
-## Future Directions
+## Technologies & Methods
 
-Building on LANDOne foundations, I am expanding expertise toward:
+**CFD Software:**
+- OpenFOAM/Fluent: multiphase VOF, turbulence, dynamic mesh
+- UCNS3D: high-fidelity unsteady simulations
+- Dual-solver approach ensures result reliability
 
-- **Building Aerodynamics & Urban Wind Simulation:** Applying CFD fundamentals to green building design and pedestrian wind environments, leveraging existing multi-fidelity framework
-- **Advanced Optimization:** Enhanced multi-objective optimization frameworks for building energy efficiency, extending genetic algorithm approaches to building physics
-- **Cloud-Native Workflows:** Containerized simulation pipelines (Docker, Kubernetes) for improved reproducibility and scalability across cloud platforms
-- **Digital Twins:** Real-time performance monitoring and predictive maintenance applications, integrating ML surrogate models with sensor data streams
-- **Industry 4.0 Integration:** Connecting CFD workflows with IoT sensors and real-time monitoring systems
+**Automation & Efficiency:**
+- Python 3.8+ (NumPy, Pandas, PyVista, Matplotlib)
+- Gmsh parametric mesh generation
+- HPC job management (SLURM, PBS)
+- Git/GitHub with CI/CD pipelines
+
+**Visualization:**
+- ParaView 5.x (3D interactive visualization)
+- PyVista (automated plot generation)
+- Custom dashboards for design exploration
 
 ---
 
-<a name="related-expertise"></a>
+## Project Deliverables
+
+**Timeline:** Ongoing (2022-present)
+
+**Outputs:**
+- SALSA Software Suite: 15,000+ lines documented Python code
+- Multi-fidelity CFD framework with OpenFOAM/UCNS3D integration
+- ML surrogate models trained on 44,236+ cases
+- Validation database against NASA and theoretical benchmarks
+- Technical documentation (200+ pages)
+- Workshop materials and training for consortium partners
+- 3 peer-reviewed publications, 5 conference presentations
+
+---
+
+## Key Differentiators
+
+**Multi-Fidelity Integration:**
+- Seamless transition between low, medium, and high-fidelity simulations
+- Automated fidelity selection based on design stage requirements
+- ML-driven computational resource optimization
+
+**Aerospace-Grade Validation:**
+- Rigorous V&V against NASA experimental data
+- DO-178C compliance documentation
+- Cross-validated against multiple theoretical correlations
+
+**Open-Source Innovation:**
+- SALSA platform available for future landing gear programs
+- Extensible to hydraulic actuators, fuel systems, dampers
+- Technology transfer to automotive, defense, and industrial applications
+
+---
+
 ## Related Expertise
 
-This case study demonstrates capabilities applicable to:
-- Aerospace component design and optimization (landing gear, actuators, fuel systems)
-- Multi-fidelity simulation frameworks (low, medium, high fidelity integration)
-- Machine learning for engineering applications (surrogate modeling, optimization)
-- High-performance computing workflows (parallel CFD, job scheduling, data management)
-- Certification and standards compliance (DO-178C, NASA, ISO)
-- Open-source scientific software development (GitHub, documentation, community building)
-- Multiphase flow simulation (VOF, interface tracking, cavitation)
-- Dynamic mesh CFD (moving boundaries, topology changes)
+This case study demonstrates expertise applicable to:
+- Aerospace component design and optimization
+- Multi-fidelity simulation frameworks
+- Machine learning for engineering applications
+- High-performance computing workflows
+- Certification and standards compliance
+- Multiphase flow and dynamic mesh CFD
 
-**Industries served:** Aerospace, Defense, Transportation, Renewable Energy, Automotive, Industrial Machinery
+**Industries served:** Aerospace, Defense, Automotive, Transportation, Industrial Machinery
 
 ---
 
-*This work was conducted at Cranfield University as part of the LANDOne consortium (Innovate UK grant 10002411), a UK aerospace initiative advancing landing gear technology for next-generation aircraft led by Airbus UK as industrial lead.*
+*This work was conducted at Cranfield University as part of the LANDOne consortium (Innovate UK grant 10002411), a UK aerospace initiative advancing landing gear technology for next-generation aircraft.*
 
 **Interested in applying advanced CFD and machine learning to your engineering challenges?** [Contact me](/contact/) to discuss how multi-fidelity modeling can accelerate your development programs.
