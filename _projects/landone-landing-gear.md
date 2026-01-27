@@ -43,7 +43,7 @@ client: Airbus/Cranfield University
 ---
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/landone-thumb.png" title="Design Capability for Shock Absorbers" class="img-fluid rounded z-depth-1" %}
+        <img src="assets/img/projects/landone-thumb.png" title="Design Capability for Shock Absorbers" class="img-fluid rounded z-depth-1">
     </div>
 </div>
 <div class="caption">
@@ -65,8 +65,14 @@ Landing gear shock absorbers are critical safety components that must perform re
 
 **Stakes:** Inadequate shock absorber design impacts landing safety, aircraft certification timelines, and maintenance costs. The aerospace industry needed validated computational frameworks to accelerate development while meeting stringent certification standards.
 
-<p align="center">
-<img width="640" height="833" src="/tests/Milwitzky/openfoamcase/imgs/shockabs.gif"></p>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/shockabs.gif" title="Multiphase flow simulation" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Multiphase CFD simulation showing oil-air interface dynamics during compression
+</div>
 
 ---
 
@@ -86,6 +92,7 @@ Landing gear shock absorbers are critical safety components that must perform re
 - Extension to other aircraft sub-systems
 
 **Key Innovation:** Advancing state-of-the-art methods for continuum modeling of multiphysics problems in landing gear shock absorber systems. Delivering an automated intelligent multi-fidelity multi-physics platform where ML techniques enable real-time decision-making regarding fidelity level, equations deployed, numerical methods, and models employed—optimizing computational cost and resources.
+**Key Innovation:** Delivering an automated intelligent multi-fidelity platform where ML techniques enable real-time decision-making regarding fidelity levels and numerical methods. 
 
 **Vision:** Provide an open-source software framework for shock absorber design usable at different design stages through multiple fidelity levels, with AI-driven computational efficiency. Ensure personnel readiness through workshops, tutorials, and documentation, and expand the tool to other aircraft components.
 
@@ -133,7 +140,7 @@ The framework develops a systematic Design of Experiments (DoE) approach integra
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/joblist_workflow.svg" title="SALSA joblist workflow" class="img-fluid rounded z-depth-1" %}
+        <img src="assets/img/projects/joblist_workflow.svg" title="SALSA joblist workflow" class="img-fluid rounded z-depth-1">
     </div>
 </div>
 <div class="caption">
@@ -266,8 +273,12 @@ Establish rigorous validation protocols against multiple reference datasets:
 - Multiphase VOF parameter tuning
 
 <p align="center">
-<img width="640" height="833" src=""assets/img/projects/milwitzky-validation.png"></p>
-
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/milwitzky-validation.png" title="Validation against NASA data" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+</p>
 <div class="caption">
     Force-displacement validation against NASA Milwitzky drop test data.
 </div>
@@ -330,6 +341,27 @@ Establish rigorous validation protocols against multiple reference datasets:
 - Generate design guidelines for geometry selection based on operating envelope
 
 
+
+<div class="row">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/shock_absorber_hybrid_circle.png" title="Circular orifice geometry" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/shock_absorber_hybrid_semicircle.png" title="Semi-circular orifice geometry" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/shock_absorber_hybrid_square.png" title="Square orifice geometry" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/shock_absorber_hybrid_cutback.png" title="Cutback orifice geometry" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Four orifice geometries: circular (top-left), semi-circular (top-right), square (bottom-left), cutback (bottom-right)
+</div>
+
 **Cavitation Analysis:**
 - Identify cavitation inception conditions for each geometry
 - Cavitation coefficient (Cc) range: 0.27 to 14.1 depending on operating conditions
@@ -361,21 +393,28 @@ Successfully simulate coupled piston-orifice motion for adaptive damping systems
 - Maximum domain velocity: 122 m/s (through orifice contraction)
 
 
-<p float="center">
-  <img src="assets/img/projects/phase.gif" width="33%" />
-  <img src="assets/img/projects/velocity.gif" width="33%" />
-  <img src="assets/img/projects/pressure.gif" width="33%" />
-</p>
-
+<div class="row">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/velocity.gif" title="Velocity field evolution" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/phase.gif" title="Oil-air interface tracking" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/pressure.gif" title="Pressure distribution" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 <div class="caption">
-    Transient simulation results for dynamic piston case: velocity magnitude (left), phase fraction showing oil-air interface (center), and pressure distribution (right)
+    Transient simulation results: velocity, phase fraction (oil-air interface), and pressure.
 </div>
 
-<p float="center">
-  <img src="assets/img/projects/dynamicorifice.gif" width="33%" />
-</p>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/dynamicorifice.gif" title="Dynamic orifice simulation" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 <div class="caption">
-    Adaptive shock absorber simulation showing simultaneous piston compression and metering pin motion, demonstrating variable orifice area control
+    Adaptive shock absorber with simultaneous piston compression and metering pin motion
 </div>
 
 
