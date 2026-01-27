@@ -2,7 +2,7 @@
 layout: page
 title: Landing Gear Shock Absorber Analysis – LANDOne Project
 description: Multi-fidelity CFD framework for next-generation landing gear systems with ML-accelerated optimization (Research Fellow, Cranfield University)
-img: assets/img/projects/landone-thumb.png
+img: /assets/img/projects/landone-thumb.png
 importance: 1
 category: work
 client: Airbus/Cranfield University
@@ -43,7 +43,7 @@ client: Airbus/Cranfield University
 ---
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img src="assets/img/projects/landone-thumb.png" title="Design Capability for Shock Absorbers" class="img-fluid rounded z-depth-1">
+        <img src="/assets/img/projects/landone-thumb.png" title="Design Capability for Shock Absorbers" class="img-fluid rounded z-depth-1">
     </div>
 </div>
 <div class="caption">
@@ -65,14 +65,9 @@ Landing gear shock absorbers are critical safety components that must perform re
 
 **Stakes:** Inadequate shock absorber design impacts landing safety, aircraft certification timelines, and maintenance costs. The aerospace industry needed validated computational frameworks to accelerate development while meeting stringent certification standards.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/shockabs.gif" title="Multiphase flow simulation" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Multiphase CFD simulation showing oil-air interface dynamics during compression
-</div>
+<p align="center">
+<img width="640" src="/assets/img/projects/shockabs.gif">
+</p>
 
 ---
 
@@ -140,7 +135,7 @@ The framework develops a systematic Design of Experiments (DoE) approach integra
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img src="assets/img/projects/joblist_workflow.svg" title="SALSA joblist workflow" class="img-fluid rounded z-depth-1">
+        <img src="/assets/img/projects/joblist_workflow.svg" title="SALSA joblist workflow" class="img-fluid rounded z-depth-1">
     </div>
 </div>
 <div class="caption">
@@ -273,11 +268,7 @@ Establish rigorous validation protocols against multiple reference datasets:
 - Multiphase VOF parameter tuning
 
 <p align="center">
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/milwitzky-validation.png" title="Validation against NASA data" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+<img width="640" src="/assets/img/projects/milwitzky-validation.png">
 </p>
 <div class="caption">
     Force-displacement validation against NASA Milwitzky drop test data.
@@ -341,27 +332,6 @@ Establish rigorous validation protocols against multiple reference datasets:
 - Generate design guidelines for geometry selection based on operating envelope
 
 
-
-<div class="row">
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/shock_absorber_hybrid_circle.png" title="Circular orifice geometry" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/shock_absorber_hybrid_semicircle.png" title="Semi-circular orifice geometry" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="row">
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/shock_absorber_hybrid_square.png" title="Square orifice geometry" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/shock_absorber_hybrid_cutback.png" title="Cutback orifice geometry" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Four orifice geometries: circular (top-left), semi-circular (top-right), square (bottom-left), cutback (bottom-right)
-</div>
-
 **Cavitation Analysis:**
 - Identify cavitation inception conditions for each geometry
 - Cavitation coefficient (Cc) range: 0.27 to 14.1 depending on operating conditions
@@ -393,28 +363,20 @@ Successfully simulate coupled piston-orifice motion for adaptive damping systems
 - Maximum domain velocity: 122 m/s (through orifice contraction)
 
 
-<div class="row">
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/velocity.gif" title="Velocity field evolution" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/phase.gif" title="Oil-air interface tracking" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/pressure.gif" title="Pressure distribution" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+<p float="center">
+  <img src="/assets/img/projects/phase.gif" width="32%" />
+  <img src="/assets/img/projects/velocity.gif" width="32%" />
+  <img src="/assets/img/projects/pressure.gif" width="32%" />
+</p>
 <div class="caption">
     Transient simulation results: velocity, phase fraction (oil-air interface), and pressure.
 </div>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/dynamicorifice.gif" title="Dynamic orifice simulation" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+<p align="center">
+  <img src="/assets/img/projects/dynamicorifice.gif" width="50%" />
+</p>
 <div class="caption">
-    Adaptive shock absorber with simultaneous piston compression and metering pin motion
+    Adaptive shock absorber simulation: simultaneous piston and metering pin motion.
 </div>
 
 
