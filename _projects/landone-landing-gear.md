@@ -62,13 +62,13 @@ Landing gear shock absorbers are critical safety components that must perform re
 - **High-Fidelity:** 3D unsteady RANS with multiphase VOF and dynamic mesh (days per case)
 - Validated framework across aircraft scales against NASA Milwitzky experimental data
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img src="/assets/img/projects/joblist_workflow.svg" title="SALSA joblist workflow" class="img-fluid rounded z-depth-1">
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        <img src="/assets/img/projects/landone-multi-fidelity-framework.png" class="img-fluid rounded z-depth-1">
     </div>
 </div>
 <div class="caption">
-    Automated Multi-Case Shock Absorber Simulation Pipeline for preprocessing, mesh generation, CFD solving, and post-processing
+    Multifidelity Schematic 
 </div>
 
 ---
@@ -78,12 +78,30 @@ Landing gear shock absorbers are critical safety components that must perform re
 Led development of SALSA (Shock Absorber simuLation SoftwAre), an open-source Python-based automation platform:
 
 - **Parametric Geometry Generation:** FreeCAD/Gmsh-based with support for circular, semi-circular, square, and cutback orifice designs
-- **Automated Workflow Management:** Preprocessing, mesh generation, multi-solver CFD (OpenFOAM, UCNS3D), and post-processing
+- **Automated Workflow Management:** Preprocessing, mesh generation, multi-solver CFD (OpenFOAM, FLUENT, UCNS3D), and post-processing
 - **Advanced Simulation Capabilities:** Static inlet flow, multiphase VOF, dynamic piston, dynamic orifice, and combined motion
-- **Batch Processing:** CSV-based job list processing with HPC cluster integration (SLURM/PBS)
+- **Batch Processing:** CSV-based job list processing with HPC cluster integration (SLURM/PBS) 
 
 **Impact:** Reduces simulation setup time from days to hours, enabling systematic exploration of 44,236+ validated CFD cases.
 
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img src="/assets/img/projects/landone-salsa-workflow.png" title="SALSA workflow" class="img-fluid rounded z-depth-1">
+    </div>
+</div>
+<div class="caption">
+    CFD Automated workflow 
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img src="/assets/img/projects/joblist_workflow.svg" title="SALSA joblist workflow" class="img-fluid rounded z-depth-1">
+    </div>
+</div>
+<div class="caption">
+    Automated Multi-Case Shock Absorber Simulation Pipeline for preprocessing, mesh generation, CFD solving, and post-processing
+</div>
 ---
 
 ### Phase 3: Validation & ML Acceleration
