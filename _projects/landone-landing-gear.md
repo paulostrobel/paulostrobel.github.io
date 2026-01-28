@@ -34,7 +34,7 @@ I lead the development of automated multiphysics workflows in HPC/Cloud infrastr
 Landing gear shock absorbers are critical safety components that must perform reliably across extreme operating conditions. Traditional design methodologies relied on expensive physical testing and simplified analytical models, creating several challenges:
 
 - **Limited Design Space Exploration:** Physical prototyping costs constrained parametric studies of orifice geometries, fluid properties, and dynamic profiles
-- **Certification Requirements:** Need for validated computational methods meeting DO-178C and NASA aerospace standards
+- **Certification Requirements:** Need for validated computational methods and NASA aerospace standards
 - **Computational Cost:** High-fidelity CFD simulations required days per case, preventing systematic optimization
 - **Multi-Scale Complexity:** Performance must be validated across aircraft scales from military trainers to A320-class commercial aircraft
 - **Transient Flow Physics:** Capturing cavitation, vortex shedding, flow separation, and compressibility effects in complex orifice geometries
@@ -45,7 +45,7 @@ Landing gear shock absorbers are critical safety components that must perform re
 <img width="640" src="/assets/img/projects/shockabs.gif">
 </p>
 <div class="caption">
-    Shock absorber compression simulation showing fluid dynamics during landing impact.
+    Shock absorber compression showing fluid dynamics during landing impact.
 </div>
 
 
@@ -143,10 +143,10 @@ Led development of SALSA (Shock Absorber simuLation SoftwAre), an open-source Py
 
 | Geometry | Damping Performance | Cavitation Risk | Recommendation |
 |----------|---------------------|-----------------|----------------|
-| Rectangular | Highest pressure | High | Specific applications |
-| Semi-circular | Optimal balance | Low | Cavitation mitigation |
+| Rectangular | Highest pressure | High | Specific fluids applications |
+| Semi-circular | Optimal balance | Low | Standard applications |
 | Circular | Baseline | Medium | Standard applications |
-| Cutback | Enhanced flow | Geometry-sensitive | Flow optimization |
+| Cutback | Enhanced flow | High | Specific fluids and applications |
 
 ### Dynamic Mesh Capabilities
 
@@ -200,24 +200,24 @@ Successfully simulated coupled piston-orifice motion for adaptive damping system
 
 **Accelerated Development:**
 - Reduce simulation setup time from days to hours (90% time savings)
-- Enable rapid design space exploration with 20-50x ML speedup
-- Systematic optimization delivering 30.3% efficiency improvements
+- Enable rapid design space exploration with multifidelity apporah
+- Systematic optimization delivering 30.3% efficiency improvements on damping performance withing orifice selection
 - Parallel parameter studies: 100+ cases executed simultaneously
 
 **Certification Support:**
-- Validated methodologies meeting DO-178C and NASA standards
+- Validated methodologies 
 - Comprehensive documentation supporting airworthiness approval
 - Benchmark results against NASA experimental data (<5% error)
 - Risk mitigation through validated virtual testing
 
 **Cost Reduction:**
-- Minimize expensive physical prototyping (estimated 60% cost savings)
+- Minimize expensive physical prototyping
 - Identify optimal designs before manufacturing
 - Design guidelines preventing cavitation-induced failures
 - Enable "right first time" design philosophy
 
 **Technical Innovation:**
-- Open-source SALSA platform supporting future programs
+- Open-source platform supporting future programs
 - ML-accelerated optimization framework applicable to other components
 - Multi-fidelity approach balancing accuracy and computational cost
 
@@ -227,7 +227,7 @@ Successfully simulated coupled piston-orifice motion for adaptive damping system
 
 **CFD Software:**
 - OpenFOAM/Fluent: multiphase VOF, turbulence, dynamic mesh
-- UCNS3D: high-fidelity unsteady simulations
+- UCNS3D: high-fidelity open-source unsteady simulations
 - Dual-solver approach ensures result reliability
 
 **Automation & Efficiency:**
@@ -248,11 +248,11 @@ Successfully simulated coupled piston-orifice motion for adaptive damping system
 **Timeline:** Ongoing (2022-present)
 
 **Outputs:**
-- SALSA Software Suite: 15,000+ lines documented Python code
+- Shock Absorber Software Suite: 15,000+ lines documented Python code
 - Multi-fidelity CFD framework with OpenFOAM/UCNS3D integration
-- ML surrogate models trained on 44,236+ cases
+- ML surrogate models trained on 44,236+ LowFidelity cases
 - Validation database against NASA and theoretical benchmarks
-- Technical documentation (200+ pages)
+- Technical documentation
 - Workshop materials and training for consortium partners
 - 3 peer-reviewed publications, 5 conference presentations
 
@@ -267,7 +267,6 @@ Successfully simulated coupled piston-orifice motion for adaptive damping system
 
 **Aerospace-Grade Validation:**
 - Rigorous V&V against NASA experimental data
-- DO-178C compliance documentation
 - Cross-validated against multiple theoretical correlations
 
 **Open-Source Innovation:**
@@ -299,8 +298,7 @@ This case study demonstrates expertise applicable to:
 
 ## Publications
 
-1. **Silva, Paulo ASF**, Ahmed A. Sheikh Al-Shabab, Panagiotis Tsoutsanis, and Martin Skote. "[Study of orifice design on oleo-pneumatic shock absorber](https://doi.org/10.3390/fluids9050108)." *Fluids* 9.5 (2024): 108.
-
+1. Silva, Paulo ASF, et al. "[Study of orifice design on oleo-pneumatic shock absorber](https://doi.org/10.3390/fluids9050108)." *Fluids* 9.5 (2024): 108.
 2.  Sheikh Al-Shabab, Ahmed A., Bojan Grenko, **Paulo ASF Silva**, Antonis F. Antoniadis, Panagiotis Tsoutsanis, and Martin Skote. "[Unsteady multiphase simulation of oleo-pneumatic shock absorber flow](https://doi.org/10.3390/fluids9030068)." *Fluids* 9, no. 3 (2024): 68.
   
  3. Sheikh Al-Shabab, Ahmed A., **Paulo ASF Silva**, Bojan Grenko, Panagiotis Tsoutsanis, and Martin Skote. "[A Modular Multifidelity Approach for Multiphysics Oleo-Pneumatic Shock Absorber Simulations](https://dspace.lib.cranfield.ac.uk/server/api/core/bitstreams/278d9949-5469-4068-88f8-c935c6532eb3/content)." In *Cambridge Unsteady Flow Symposium*, pp. 137-151. Cham: Springer Nature Switzerland, 2024.
