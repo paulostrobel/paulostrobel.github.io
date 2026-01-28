@@ -294,3 +294,13 @@ This case study demonstrates expertise applicable to:
 *This work was conducted at Cranfield University as part of the LANDOne consortium (Innovate UK grant 10002411), a UK aerospace initiative advancing landing gear technology for next-generation aircraft.*
 
 **Interested in applying advanced CFD and machine learning to your engineering challenges?** [Contact me](/contact/) to discuss how multi-fidelity modeling can accelerate your development programs.
+
+---
+
+## Publications
+
+1. **Silva, Paulo ASF**, Ahmed A. Sheikh Al-Shabab, Panagiotis Tsoutsanis, and Martin Skote. "[Study of orifice design on oleo-pneumatic shock absorber](https://doi.org/10.3390/fluids9050108)." *Fluids* 9.5 (2024): 108.
+
+2.  Sheikh Al-Shabab, Ahmed A., Bojan Grenko, **Paulo ASF Silva**, Antonis F. Antoniadis, Panagiotis Tsoutsanis, and Martin Skote. "[Unsteady multiphase simulation of oleo-pneumatic shock absorber flow](https://doi.org/10.3390/fluids9030068)." *Fluids* 9, no. 3 (2024): 68.
+  
+ 3. Sheikh Al-Shabab, Ahmed A., **Paulo ASF Silva**, Bojan Grenko, Panagiotis Tsoutsanis, and Martin Skote. "[A Modular Multifidelity Approach for Multiphysics Oleo-Pneumatic Shock Absorber Simulations](https://dspace.lib.cranfield.ac.uk/server/api/core/bitstreams/278d9949-5469-4068-88f8-c935c6532eb3/content)." In *Cambridge Unsteady Flow Symposium*, pp. 137-151. Cham: Springer Nature Switzerland, 2024.
