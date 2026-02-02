@@ -146,7 +146,7 @@ I am open to CFD consulting projects and research collaborations in thermal opti
 
 ### Birdhouse Nesting Videos
 
-A collection of videos documenting the fascinating nesting behavior of birds in my backyard birdhouse.
+A collection of videos documenting the nesting behavior of birds in my backyard birdhouse.
 
 <div class="video-container" style="margin: 2rem 0;">
   <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
