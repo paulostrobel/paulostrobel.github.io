@@ -1,14 +1,36 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - paulostrobel
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - paulostrobel/awesome-ai4cfd
+  - paulostrobel/City4CFD
+  - paulostrobel/claude_life_assistant
+  - paulostrobel/Computational-Fluid-Dynamics-Machine-Learning-Examples
+  - paulostrobel/drlfoam
+  - paulostrobel/FBPINNs
+  - paulostrobel/fds
+  - paulostrobel/HVAC-for-OpenFOAM
+  - paulostrobel/LectureFireSimulation
+  - paulostrobel/machine-learning-applied-to-cfd
+  - paulostrobel/Machine_Learning_Fluid_Dynamics
+  - paulostrobel/marl-drag-reduction-in-wall-bounded-flows
+  - paulostrobel/ml-cfd-lecture
+  - paulostrobel/OCPFoam
+  - paulostrobel/OeRC_OpenFOAM_HDF5
+  - paulostrobel/OpenFOAMTeaching
+  - paulostrobel/OpenFOAM_tutorials
+  - paulostrobel/OpenFOAM_tutorial_poolFire
+  - paulostrobel/openFuelCell2
+  - paulostrobel/paulostrobel.github.io
+  - paulostrobel/SmartSim
+  - paulostrobel/snappy-layer-toolkit
+  - paulostrobel/solids4foam
+  - paulostrobel/stirring
+  - paulostrobel/test
+  - paulostrobel/UCNS3D
+  - paulostrobel/UCNS3d_ROT
+  - paulostrobel/urbanMicroclimateFoam
+  - paulostrobel/urbanMicroclimateFoam-tutorials
+  - paulostrobel/voxcity
