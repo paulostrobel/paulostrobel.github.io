@@ -5,7 +5,7 @@ permalink: /projects/
 description: Selection of projects that I worked with.
 nav: true
 nav_order: 3
-display_categories: [work, Data Center]
+display_categories: [work]
 horizontal: false
 ---
 
