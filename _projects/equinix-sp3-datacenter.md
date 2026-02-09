@@ -3,8 +3,8 @@ layout: page
 title: Equinix SP3 Data Center
 description: CFD thermal analysis with perforated tile flow validation for 3.35 MW hyperscale facility
 img: assets/img/projects/equinix-streamlines.png
-importance: 1
-category: Data Center
+importance: 2
+category: work
 ---
 
 <div class="badges">
