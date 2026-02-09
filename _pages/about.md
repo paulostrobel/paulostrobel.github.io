@@ -28,20 +28,13 @@ latest_posts:
 
 <section id="about" class="page-section">
 
-I am a CFD Engineer with a PhD in Aerospace Engineering from Cranfield University. With over 10 years of experience, I specialize in delivering energy-efficient solutions through advanced computational fluid dynamics modeling.
+I am a Mechanical Engineer with a PhD in Aerospace Engineering from Cranfield University. With over 10 years of experience in CFD, I specialize in delivering efficient solutions through advanced computational modeling.<br><br>
 
+I work with industry-leading CFD tools to solve challenging fluid dynamics problems and deliver innovative solutions.<br><br>
 
-My expertise includes:
+I am open to CFD consulting projects and research collaborations in thermal optimization, HVAC systems, and multiphysics simulations.<br><br>
 
-- **Data Center Thermal Optimization** - Designing efficient cooling strategies for high-performance computing environments
-- **HVAC Systems Analysis** - Optimizing heating, ventilation, and air conditioning systems for improved energy efficiency
-- **Multiphysics Simulations** - Coupled thermal-fluid-structural analysis for complex engineering problems
-- **Rotor Aerodynamics** - Advanced analysis of rotary wing systems and turbomachinery
-
-I work with industry-leading CFD tools to solve challenging fluid dynamics problems and deliver innovative solutions for thermal management and aerodynamic optimization.
-
-
-I am open to CFD consulting projects and research collaborations in thermal optimization, HVAC systems, and multiphysics simulations.
+<strong>Areas of Expertise:</strong> Computational Fluid Dynamics | Software Development | Rotor Aerodynamics | Data Center Thermal Optimization | HVAC Systems Analysis | Multiphysics Simulations | Thermal Management | Aerodynamic Optimization 
 
 </section>
 
@@ -153,7 +146,7 @@ I am open to CFD consulting projects and research collaborations in thermal opti
 
 ### Birdhouse Nesting Videos
 
-A collection of videos documenting the fascinating nesting behavior of birds in my backyard birdhouse.
+A collection of videos documenting the nesting behavior of birds in my backyard birdhouse.
 
 <div class="video-container" style="margin: 2rem 0;">
   <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
