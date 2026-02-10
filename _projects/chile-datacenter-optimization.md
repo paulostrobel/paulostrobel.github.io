@@ -3,7 +3,7 @@ layout: page
 title: 5MW Data Center Thermal Optimization
 description: 5MW facility pre-construction CFD analysis delivering 247% improvement in thermal compliance
 img: assets/img/projects/chile-datacenter-thumb.jpg
-importance: 4
+importance: 1
 category: work
 client: Scala Data Center / Torres Eng.
 ---
