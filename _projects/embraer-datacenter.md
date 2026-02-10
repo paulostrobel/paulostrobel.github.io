@@ -4,7 +4,8 @@ title: Embraer Data Center
 description: CFD thermal optimization with supply angle parametric study and containment comparison for aerospace manufacturing facility
 img: assets/img/projects/embraer-layout.png
 importance: 2
-category: Data Center
+category: work
+client: Embraer / Fox Eng.
 ---
 
 <div class="badges">
