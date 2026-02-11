@@ -60,18 +60,17 @@ With the validated model, thermal performance was assessed against ASHRAE recomm
 </div>
 
 The analysis identified thermal risks primarily in:
-- **Shared Area (Área Compartilhada)**: Horizontally-oriented racks disrupting conventional hot/cold aisle separation
+- **Shared Area**: Horizontally-oriented racks disrupting conventional hot/cold aisle separation
 - **High-density subzones**: Where thermal load concentration exceeds local cooling capacity
 - **Regions with restricted tile flow**: Confirmed by both CFD prediction and experimental measurement
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/equinix-thermal-contours-Plane-iso.png" title="Cold aisle temperature distribution" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/equinix-cold-aisle.png" title="Cold aisle temperature distribution" class="img-fluid rounded z-depth-1" %}
-    </div>
+<div class="mt-3">
+    {% include figure.liquid loading="eager" path="assets/img/projects/equinix-thermal-contours-Plane-iso.png" title="Cold aisle temperature distribution" class="img-fluid rounded z-depth-1" %}
 </div>
+<div class="mt-3">
+    {% include figure.liquid loading="eager" path="assets/img/projects/equinix-cold-aisle.png" title="Cold aisle temperature distribution" class="img-fluid rounded z-depth-1" %}
+</div>
+
 <div class="caption">
     Top: 3D temperature contours in cold aisles showing thermal stratification. Bottom: Longitudinal cross-section through the Angola cold aisle revealing temperature gradients from supply (21°C, blue) to hot spots approaching 40°C (red) where cooling delivery is insufficient.
 </div>
