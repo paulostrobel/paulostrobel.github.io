@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ICI-1 Data Center – Banco do Brasil
+title: ICI Data Center – Banco do Brasil
 description: Two-phase CFD thermal optimization with floor fan remediation for 3 MW mission-critical banking infrastructure
 img: assets/img/projects/ici-terreo-tridimensional.png
 importance: 2
