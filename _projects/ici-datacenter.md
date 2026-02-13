@@ -5,7 +5,7 @@ description: CFD thermal optimization for 3 MW mission-critical banking infrastr
 img: assets/img/projects/ici-terreo-tridimensional.png
 importance: 2
 client: Banco do Brasil/Fox Eng.
-category: Data Center
+category: work
 ---
 
 <div class="badges">
