@@ -260,6 +260,43 @@ The floor fans fundamentally changed the thermal load distribution across CRAH u
 <div class="caption">
     CRAH unit thermal loads with floor fans active. The previously overloaded units 11-14 and 25-28 now operate within design capacity (70-99%), with more uniform load distribution across all 28 units.
 </div>
+<div align="center">
+
+| Fan Coil | Removed [kW] | Load [%] |
+| :--- | :---: | :---: |
+| Fan Coil 1 | 26.3 | 25 |
+| Fan Coil 2 | 25.6 | 24 |
+| Fan Coil 3 | 30.6 | 29 |
+| Fan Coil 4 | 37.8 | 36 |
+| Fan Coil 5 | 42.1 | 40 |
+| Fan Coil 6 | 57.2 | 54 |
+| Fan Coil 7 | 60.0 | 57 |
+| Fan Coil 8 | 74.9 | 71 |
+| Fan Coil 9 | 73.7 | 70 |
+| Fan Coil 10 | 85.7 | 82 |
+| Fan Coil 11 | 98.7 | 94 |
+| Fan Coil 12 | 84.1 | 80 |
+| Fan Coil 13 | 92.2 | 88 |
+| Fan Coil 14 | 96.4 | 92 |
+| Fan Coil 15 | 34.5 | 33 |
+| Fan Coil 16 | 33.6 | 32 |
+| Fan Coil 17 | 46.1 | 44 |
+| Fan Coil 18 | 51.6 | 49 |
+| Fan Coil 19 | 44.3 | 42 |
+| Fan Coil 20 | 59.3 | 57 |
+| Fan Coil 21 | 78.3 | 75 |
+| Fan Coil 22 | 86.5 | 82 |
+| Fan Coil 23 | 79.3 | 76 |
+| Fan Coil 24 | 90.5 | 86 |
+| Fan Coil 25 | 103.4 | 98 |
+| Fan Coil 26 | 97.3 | 93 |
+| Fan Coil 27 | 104.3 | 99 |
+| Fan Coil 28 | 103.2 | 98 |
+
+**Heat removed in each Fan Coil**
+
+</div>
+
 
 ## Facility Specifications
 <div align="center">
