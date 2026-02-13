@@ -55,7 +55,7 @@ The engineering question was clear: can the existing 52 fan coil units maintain 
     Schematic of the zones thermal on the Ground Floor: Green (27.4 kW in 98 m<sup>2</sup>), Blue  (377 kW in 442 m<sup>2</sup>), Yellow (18.4 kW in 168 m<sup>2</sup>) and red (1248 kW in 248 m<sup>2</sup>)
 </div>
 <div class="mt-3">
-        {% include figure.liquid loading="eager" path="assets/img/projects/ici-schematic-1pav.bmp" title="1st floor 3D model" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/ici-3d-schematic-1pav.bmp" title="1st floor 3D model" class="img-fluid rounded z-depth-1" %}
 </div>
 <div class="caption">
     Schematic of the zones thermal on the 1st Floor: Green (95.9 kW in 222 m<sup>2</sup>), Blue  (582.3 kW in 491 m<sup>2</sup>), Yellow (78.2 kW in 123 m<sup>2</sup>), Purple (95 kW in 200 m<sup>2</sup>), Black (325 kW in 47.6 m<sup>2</sup>) and red (266 kW in 253 m<sup>2</sup>)
@@ -104,8 +104,8 @@ The analysis revealed a critical **capacity mismatch**: the highest density zone
 </div>
 
 Units 11-14 and 25-28 near the Processing zone operate significantly above design capacity, with units 14 and 28 exceeding 100% rated capacity
-<div align="center">
 
+<div align="center">
 | Fan Coil | Heat removal [kW] | Load [%] |
 | :--- | :---: | :---: |
 | Fan Coil 1 | 25.88 | 24.64 |
@@ -136,11 +136,11 @@ Units 11-14 and 25-28 near the Processing zone operate significantly above desig
 | Fan Coil 26 | 129.60 | 123.43 |
 | Fan Coil 27 | 130.65 | 124.43 |
 | Fan Coil 28 | 152.60 | 145.33 |
-
 </div>
 
 
 ### Rack Inlet Temperatures – Ground Floor Baseline
+
 <div align="center">
 
 | Room / Area | 16°C Supply: Average | 16°C Supply: Max Intake | 14°C Supply: Average | 14°C Supply: Max Intake |
@@ -149,7 +149,6 @@ Units 11-14 and 25-28 near the Processing zone operate significantly above desig
 | **Zone B** (18.4 kW) | 20.4 | 30.0 | 17.8 | 27.8 |
 | **Zone C** (377 kW) | 19.8 | 25.3 | 18.0 | 24.6 |
 | **Zone D** (1248 kW) | 28.3 | 48.0 | 25.4 | 42.0 |
-
 </div>
 
 The high-density processing zone (Zone D) exceeded ASHRAE A4 limits (45°C) at the 16°C setpoint, confirming the need for enhanced cooling in this critical area.
