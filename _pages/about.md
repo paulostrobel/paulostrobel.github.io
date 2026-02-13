@@ -125,11 +125,11 @@ I am open to CFD consulting projects and research collaborations in thermal opti
 
 {% if site.data.repositories.github_repos %}
 
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_repos limit:3 %}
-    {% include repository/repo.liquid repository=repo %}
+<ul class="repo-list">
+  {% for repo in site.data.repositories.github_repos limit:6 %}
+    {% include repository/repo_list.liquid repository=repo %}
   {% endfor %}
-</div>
+</ul>
 {% endif %}
 
 <p style="text-align: center; margin-top: 2rem;">

@@ -558,6 +558,30 @@ footer.sticky-bottom {
   }
 }
 
+.repo-list {
+  list-style: none;
+  padding-left: 0;
+  columns: 2;
+  column-gap: 2rem;
+
+  li {
+    padding: 0.3rem 0;
+    break-inside: avoid;
+
+    a {
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  @media (max-width: 767px) {
+    columns: 1;
+  }
+}
+
 // Blog
 
 .header-bar {
