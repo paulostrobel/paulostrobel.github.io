@@ -106,6 +106,7 @@ The analysis revealed a critical **capacity mismatch**: the highest density zone
 Units 11-14 and 25-28 near the Processing zone operate significantly above design capacity, with units 14 and 28 exceeding 100% rated capacity
 
 <div align="center">
+
 | Fan Coil | Heat removal [kW] | Load [%] |
 | :--- | :---: | :---: |
 | Fan Coil 1 | 25.88 | 24.64 |
@@ -190,7 +191,7 @@ The 1st floor exhibited more uniform temperature distribution due to better load
 | Zone K (142 kW) | 24.0 | 33.3 | 22.0 | 31.0 |
 | Zone L (102 kW) | 23.0 | 32.5 | 21.3 | 28.3 |
 
-</div>>
+</div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
