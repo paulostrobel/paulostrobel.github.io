@@ -49,13 +49,13 @@ The engineering question was clear: can the existing 52 fan coil units maintain 
 </div>
 
 <div class="mt-3">
-        {% include figure.liquid loading="eager" path="assets/img/projects/ici-schematic-terreo.png" title="Ground floor 3D model" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/ici-schematic-terreo.bmp" title="Ground floor 3D model" class="img-fluid rounded z-depth-1" %}
 </div>
 <div class="caption">
     Schematic of the zones thermal on the Ground Floor: Green (27.4 kW in 98 m<sup>2</sup>), Blue  (377 kW in 442 m<sup>2</sup>), Yellow (18.4 kW in 168 m<sup>2</sup>) and red (1248 kW in 248 m<sup>2</sup>)
 </div>
 <div class="mt-3">
-        {% include figure.liquid loading="eager" path="assets/img/projects/ici-schematic-1pav.png" title="1st floor 3D model" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/ici-schematic-1pav.bmp" title="1st floor 3D model" class="img-fluid rounded z-depth-1" %}
 </div>
 <div class="caption">
     Schematic of the zones thermal on the 1st Floor: Green (95.9 kW in 222 m<sup>2</sup>), Blue  (582.3 kW in 491 m<sup>2</sup>), Yellow (78.2 kW in 123 m<sup>2</sup>), Purple (95 kW in 200 m<sup>2</sup>), Black (325 kW in 47.6 m<sup>2</sup>) and red (266 kW in 253 m<sup>2</sup>)
