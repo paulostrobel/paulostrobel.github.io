@@ -107,7 +107,7 @@ Units 11-14 and 25-28 near the Processing zone operate significantly above desig
 <div align="center">
 
 | Fan Coil | Heat removal [kW] | Load [%] |
-| :--- | :--- | :--- |
+| :--- | :---: | :---: |
 | Fan Coil 1 | 25.88 | 24.64 |
 | Fan Coil 2 | 35.56 | 33.87 |
 | Fan Coil 3 | 38.52 | 36.69 |
@@ -136,6 +136,7 @@ Units 11-14 and 25-28 near the Processing zone operate significantly above desig
 | Fan Coil 26 | 129.60 | 123.43 |
 | Fan Coil 27 | 130.65 | 124.43 |
 | Fan Coil 28 | 152.60 | 145.33 |
+
 </div>
 
 
@@ -144,10 +145,10 @@ Units 11-14 and 25-28 near the Processing zone operate significantly above desig
 
 | Room / Area | 16°C Supply: Average | 16°C Supply: Max Intake | 14°C Supply: Average | 14°C Supply: Max Intake |
 | :--- | :---: | :---: | :---: | :---: |
-| Zone A (27.4 kW) | 18.3 | 20.4 | 15.9 | 17.7 |
-| Zone B (18.4 kW) | 20.4 | 30.0 | 17.8 | 27.8 |
-| Zone C (377 kW) | 19.8 | 25.3 | 18.0 | 24.6 |
-| Zone D (1248 kW) | 28.3 | 48.0 | 25.4 | 42.0 |
+| **Zone A** (27.4 kW) | 18.3 | 20.4 | 15.9 | 17.7 |
+| **Zone B** (18.4 kW) | 20.4 | 30.0 | 17.8 | 27.8 |
+| **Zone C** (377 kW) | 19.8 | 25.3 | 18.0 | 24.6 |
+| **Zone D** (1248 kW) | 28.3 | 48.0 | 25.4 | 42.0 |
 
 </div>
 
@@ -176,10 +177,11 @@ The 1st floor exhibited more uniform temperature distribution due to better load
 </div>
 
 ### Rack Inlet Temperatures – 1st Floor Baseline
+
 <div align="center">
 
-| Zone | Suply 16°C: Mean | Suply 16°C: 16°C Max | Suply 16°C: 14°C Mean | Suply 16°C: 14°C Max |
-|------|:---:|:---:|:---:|:---:|
+| Zone | 16°C Supply: Mean | 16°C Supply: Max | 14°C Supply: Mean | 14°C Supply: Max |
+| :--- | :---: | :---: | :---: | :---: |
 | Zone E (312 kW) | 23.5 | **48.0** | 19.0 | 41.9 |
 | Zone F (285 kW) | 28.1 | 39.5 | 25.8 | 37.5 |
 | Zone G (198 kW) | 24.2 | 41.3 | 22.3 | 34.2 |
@@ -189,7 +191,7 @@ The 1st floor exhibited more uniform temperature distribution due to better load
 | Zone K (142 kW) | 24.0 | 33.3 | 22.0 | 31.0 |
 | Zone L (102 kW) | 23.0 | 32.5 | 21.3 | 28.3 |
 
-</div>
+</div>>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -227,14 +229,16 @@ The floor fan implementation achieved dramatic improvements in temperature distr
 </div>
 
 ### Comparative Results – Before and After Floor Fans
+
 <div align="center">
 
 | Zone | Baseline Mean (°C) | With Fans Mean (°C) | Baseline Max Intake (°C) | With Fans Max Intake (°C) |
-|------|:---:|:---:|:---:|:---:|
+| :--- | :---: | :---: | :---: | :---: |
 | Zone A (45 kW) | 15.9 | 17.0 | 17.7 | 18.3 |
 | Zone C (197 kW) | 18.0 | 18.9 | 24.6 | 25.5 |
 | Zone B (180 kW) | 17.8 | 24.3 | 27.8 | 30.9 |
 | Zone D (1,248 kW) | **25.4** | **16.8** | **42.0** | **33.1** |
+
 </div>
 
 The high-density processing zone (Zone D) saw **mean intake temperature drop from 25.4°C to 16.8°C** – a 34% reduction – while maximum intake fell from 42°C to 33.1°C, bringing the zone into full ASHRAE A1 compliance (<32°C) across most racks.
@@ -299,32 +303,33 @@ The floor fans fundamentally changed the thermal load distribution across CRAH u
 
 
 ## Facility Specifications
+
 <div align="center">
 
 | Parameter | Ground Floor | 1st Floor |
-|-----------|:---:|:---:|
+| :--- | :---: | :---: |
 | Floor Area | 856 m² | 1,220 m² |
 | Total Thermal Load | 1,670.8 kW | 1,337.8 kW |
 | CRAH Units | 28 | 24 |
-| CRAH Capacity | 105.7 kW each | 105.7 kW each |
-| Containment | Cold Aisle | Cold Aisle (partial) |
+| CRAH Capacity (per unit) | 105.7 kW | 105.7 kW |
+| Containment Type | Cold Aisle | Cold Aisle (partial) |
 | Peak Density Zone | Zone D (3.14 kW/m²) | Zone E (6.62 kW/m²) |
+
 </div>
-<div align="center">
 
 ## Technical Approach
 
 <div align="center">
-  
+
 | Aspect | Method |
-|--------|--------|
-| Software | ANSYS CFX |
-| Turbulence Model | k-ε with wall functions |
-| Tile Modeling | Porous media (53% porosity) |
-| Rack Modeling | Volumetric heat source with prescribed airflow (270 m³/h per kW) |
-| Floor Fans | 5,000 m³/h per unit, directed discharge |
-| Supply Temperature | 14°C and 16°C parametric study |
-| Assessment | ASHRAE TC 9.9 (Classes A1–A4) |
+| :--- | :--- |
+| **Software** | ANSYS CFX |
+| **Turbulence Model** | $k$-$\epsilon$ with wall functions |
+| **Tile Modeling** | Porous media (53% porosity) |
+| **Rack Modeling** | Volumetric heat source with prescribed airflow (270 m³/h per kW) |
+| **Floor Fans** | 5,000 m³/h per unit, directed discharge |
+| **Supply Temperature** | 14°C and 16°C parametric study |
+| **Assessment** | ASHRAE TC 9.9 (Classes A1–A4) |
 
 </div>
 
