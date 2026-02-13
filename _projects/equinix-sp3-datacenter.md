@@ -5,6 +5,7 @@ description: CFD thermal analysis with perforated tile flow validation for 3.35 
 img: assets/img/projects/equinix-streamlines.png
 importance: 2
 category: work
+client: Equinix / Torres Eng.
 ---
 
 <div class="badges">
