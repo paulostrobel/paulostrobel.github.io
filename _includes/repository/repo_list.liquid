@@ -1,0 +1,4 @@
+{% assign repo_url = include.repository | split: '/' %}
+<li>
+  <a href="https://github.com/{{ include.repository }}">{{ repo_url[1] }}</a>
+</li>
