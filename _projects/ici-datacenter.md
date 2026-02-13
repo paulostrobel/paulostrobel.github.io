@@ -51,7 +51,7 @@ The initial CFD study compared two setpoint temperatures (14°C and 16°C) to qu
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/ici-terreo-plano-1500mm.pdf" title="Temperature distribution at 1.5m height - ground floor" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/ici-terreo-plano-1500mm.png" title="Temperature distribution at 1.5m height - ground floor" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -62,7 +62,7 @@ The analysis revealed a critical **capacity mismatch**: the Processing zone requ
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/ici-terreo-retorno.pdf" title="CRAH return temperatures - ground floor" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/ici-terreo-retorno.png" title="CRAH return temperatures - ground floor" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -82,7 +82,7 @@ The high-density processing zone (Zone D) exceeded ASHRAE A4 limits (45°C) at t
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/ici-terreo-corte-processamento.pdf" title="Processing corridor cross-section" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/ici-terreo-corte-processamento.png" title="Processing corridor cross-section" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -95,7 +95,7 @@ The 1st floor exhibited more uniform temperature distribution due to better load
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/ici-1pav-plano-z.pdf" title="Temperature distribution at 1.5m height - 1st floor" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/ici-1pav-plano-z.png" title="Temperature distribution at 1.5m height - 1st floor" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -130,7 +130,7 @@ Based on Phase 1 findings, the optimization study focused on the ground floor hi
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/ici-ventiladores-alocados.pdf" title="Floor fan placement in Processing zone" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/ici-ventiladores-alocados.png" title="Floor fan placement in Processing zone" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -143,7 +143,7 @@ The floor fan implementation achieved dramatic improvements in temperature distr
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/ici-ventiladores-150cm.pdf" title="Temperature with floor fans at 1.5m" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/ici-ventiladores-150cm.png" title="Temperature with floor fans at 1.5m" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -163,7 +163,7 @@ The high-density processing zone (Zone D) saw **mean intake temperature drop fro
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/ici-ventiladores-corte-xz.pdf" title="Cross-sectional view with floor fans" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/ici-ventiladores-corte-xz.png" title="Cross-sectional view with floor fans" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -176,7 +176,7 @@ The floor fans fundamentally changed the thermal load distribution across CRAH u
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/ici-ventiladores-retorno.pdf" title="CRAH return temperatures with floor fans" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/ici-ventiladores-retorno.png" title="CRAH return temperatures with floor fans" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
