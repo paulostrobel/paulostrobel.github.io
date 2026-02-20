@@ -38,14 +38,14 @@ Projeto Tucunaré comprised four main axes: (1) development of hydrokinetic turb
 The long-term vision was establishing a 5 MW hydrokinetic park — multiple turbine units deployed downstream of the dam — demonstrating the viability of distributed hydrokinetic generation integrated into Brazil's electricity sector.
 
 <div class="mt-3">
-    {% include figure.liquid loading="eager" path="assets/img/projects/tucunare-g3.png" title="3rd generation hydrokinetic turbine" style="max-width: 322 px; height: 229;" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/projects/tucunare-g3.png" title="3rd generation hydrokinetic turbine" style="max-width: 166 px; height: auto;" class="img-fluid rounded z-depth-1" %}
 </div>
 <div class="caption">
     3rd generation hydrokinetic turbine with diffuser enhancement — the design concept underlying Projeto Tucunaré. Source: Brasil Junior et al. (2006).
 </div>
 
 <div class="mt-3">
-    {% include figure.liquid loading="eager" path="assets/img/projects/tucunare-thumb.png" title="Tucunaré turbine assembly" style="max-width: 359 px; height: 375;" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/projects/tucunare-thumb.png" title="Tucunaré turbine assembly" style="max-width: 180 px; height: auto;" class="img-fluid rounded z-depth-1" %}
 </div>
 <div class="caption">
     Tucunaré turbine assembly: 10 m diameter rotor with generator-transmission housed in the nacelle bulb.
@@ -90,7 +90,7 @@ Developed an innovative BEM optimization methodology that prevents cavitation di
 - **Benchmark Verification:** Validated against NREL Phase VI wind turbine experimental data
 
 <div class="mt-3">
-    {% include figure.liquid loading="eager" path="assets/img/projects/tucunare_NRELPHASE-VI-pressure_coefficients" title="NREL validation"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/projects/tucunare_NRELPHASE-VI-pressure_coefficients.png" title="NREL validation"  class="img-fluid rounded z-depth-1" %}
 </div>
 <div class="mt-3">
     {% include figure.liquid loading="eager" path="assets/img/projects/tucunare-nrelphasevi-powervalidation.png" title="Power validation" class="img-fluid rounded z-depth-1" %}
