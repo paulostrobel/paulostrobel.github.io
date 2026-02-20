@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Hydrokinetic Turbine Design & Optimization – Projeto Tucunaré
-description: Multi-institutional hydrokinetic energy initiative — cavitation free BEM optimization, CFD wake analysis, and diffuser-augmented design for 250 kW–1 MW river turbines downstream of Brazil's largest Amazon dam
+description: Multi-institutional hydrokinetic energy initiative — cavitation free BEM optimization, CFD wake analysis, and diffuser-augmented design for 250 kW–1 MW current turbines downstream of Brazil's largest Amazon dam
 img: /assets/img/projects/tucunare-thumb.png
 importance: 2
 category: work
@@ -31,14 +31,13 @@ The project built upon three decades of hydrokinetic turbine development at the 
 
 - **1st Generation (1991):** First successful hydrokinetic turbine in Brazil — a single axial turbine installed in a steady-flow river, operational for over a decade
 - **2nd Generation (2000s):** Artisan-built turbines (300 W–2 kW) deployed across the Brazilian hinterland for rural electrification of isolated communities
-- **3rd Generation (2010s):** Diffuser-enhanced axial turbines designed for modern manufacturing, standardized production, and scalable deployment — the foundation of Projeto Tucunaré
+- **3rd Generation (2010s):** Axial turbines designed for modern manufacturing, standardized production, and scalable deployment — the foundation of Projeto Tucunaré
 
 Projeto Tucunaré comprised four main axes: (1) development of hydrokinetic turbine technology; (2) design and construction of a 500 kW–1 MW pilot unit with 3–4 blade horizontal-axis rotor, variable-speed generator, and rear diffuser for power amplification; (3) installation of the pilot on a floating anchored barge in the Rio Tocantins downstream of UHE-Tucuruí; and (4) a sustainable use strategy for the generated electricity, targeting local communities through fish farming cooperatives and agricultural processing.
 
 The long-term vision was establishing a 5 MW hydrokinetic park — multiple turbine units deployed downstream of the dam — demonstrating the viability of distributed hydrokinetic generation integrated into Brazil's electricity sector.
 
 
-emma.edwards@eng.ox.ac.uk
 <p align="center">
 <img width="480" src="/assets/img/projects/tucunare-g3.png">
 </p>
@@ -185,31 +184,32 @@ Performed the first detailed CFD wake study for a hydrokinetic turbine in a rive
 - **Validation:** Benchmarked Turbine against NREL Phase VI wind turbine experimental data from NASA Ames 24 × 36 m wind tunnel
 
 
+<video src="/assets/img/projects/Tucunare-video-volumefraction.avi" controls width="100%">
+</video>
+
+<video src="/assets/img/projects/Tucunare-video-velocity.avi" controls width="100%">
+</video>
+
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        <img src="/assets/img/projects/tucunare-wake-structure.png" class="img-fluid rounded z-depth-1">
+        <img src="/assets/img/projects/tucunare-wake-tke.png" class="img-fluid rounded z-depth-1">
+    </div>
+</div>
+<div class="caption">
+(a) Mean axial velocity, (b) turbulence kinetic energy (TKE) and (c) relative pressure downstream
+</div>
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        <img src="/assets/img/projects/tucunare-wake-revel-isometric.png" class="img-fluid rounded z-depth-1">
     </div>
 </div>
 <div class="caption">
     Wake velocity profiles at 11 downstream planes showing near-wake helical vortex structures and far-wake recovery.
 </div>
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img src="/assets/img/projects/tucunare-tke-distribution.png" class="img-fluid rounded z-depth-1">
-    </div>
-</div>
-<div class="caption">
-    Turbulence kinetic energy distributions revealing directional asymmetry caused by free surface proximity.
-</div>
 
-<p align="center">
-<img width="640" src="/assets/img/projects/shockabs.gif">
-</p>
-<div class="caption">
-    Shock absorber compression showing fluid dynamics during landing impact.
-</div>
 
 
 ---
@@ -228,13 +228,24 @@ Extended BEM theory with a novel formulation that directly incorporates diffuser
   - Flange height: D/2
 - **CFD Validation:** Finite volume method with SST k-ω turbulence model; BEM-CFD discrepancy of only 0.28% for diffuser-augmented configuration
 
+
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        <img src="/assets/img/projects/tucunare-Diffuser-BEM.png" class="img-fluid rounded z-depth-1">
+    </div>
+</div>
+<div class="caption">
+    Framework for BEM-CFD coupled approach.
+</div>
+
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
         <img src="/assets/img/projects/tucunare-diffuser-schematic.png" class="img-fluid rounded z-depth-1">
     </div>
 </div>
 <div class="caption">
-    Flanged conical diffuser geometry achieving 1.6× velocity speed-up at the rotor plane.
+    Geometrical illustration of  Conical  and  Lens Diffusers.
 </div>
 
 
@@ -246,7 +257,7 @@ Extended BEM theory with a novel formulation that directly incorporates diffuser
 </div>
 <div class="caption">
 Mesh details: (a) wake refinement (b) blade and diffuser topology (c) near wall treatment on the blade (d) tip gap between the blade and diffuser.
-</div>
+</div> 
 
 
 <div class="row justify-content-sm-center">
@@ -258,6 +269,16 @@ Mesh details: (a) wake refinement (b) blade and diffuser topology (c) near wall 
  Axial normalized velocity at 0.1D from the rotor plane on three configurations: diffuser augmented turbines, open turbine and only the diffusers.
  </div>
 
+ 
+ <div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        <img src="/assets/img/projects/tucunare-wake.png" class="img-fluid rounded z-depth-1">
+    </div>
+</div>
+<div class="caption">
+Comparison of wake on Shorouded and bare turbine: (a) Mean axial velocity, (b) turbulence kinetic energy (TKE) and (c) relative pressure downstream
+</div>
+ 
 ---
 
 ## Technical Specifications
