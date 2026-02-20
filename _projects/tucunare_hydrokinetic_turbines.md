@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Hydrokinetic Turbine Design & Optimization – Projeto Tucunaré
-description: Multi-institutional hydrokinetic energy initiative — cavitation free BEM optimization, CFD wake analysis, and diffuser-augmented design for 250 kW–1 MW current turbines downstream of Brazil's largest Amazon dam
+description: Multi-institutional hydrokinetic energy initiative — cavitation-free BEM optimization, CFD wake analysis, and diffuser-augmented design for 250 kW–1 MW current turbines downstream of Brazil's largest Amazon dam
 img: /assets/img/projects/tucunare-thumb.png
 importance: 2
 category: work
@@ -37,7 +37,6 @@ Projeto Tucunaré comprised four main axes: (1) development of hydrokinetic turb
 
 The long-term vision was establishing a 5 MW hydrokinetic park — multiple turbine units deployed downstream of the dam — demonstrating the viability of distributed hydrokinetic generation integrated into Brazil's electricity sector.
 
-
 <p align="center">
 <img width="480" src="/assets/img/projects/tucunare-g3.png">
 </p>
@@ -45,18 +44,20 @@ The long-term vision was establishing a 5 MW hydrokinetic park — multiple turb
     3rd generation hydrokinetic turbine with diffuser enhancement — the design concept underlying Projeto Tucunaré. Source: Brasil Junior et al. (2006).
 </div>
 
-
 <p align="center">
 <img width="480" src="/assets/img/projects/tucunare-thumb.png">
 </p>
 <div class="caption">
-    Tucunaré turbine assembly: 10 m diameter rotor with generator-transmission housed in the nacelle bulb. 
+    Tucunaré turbine assembly: 10 m diameter rotor with generator-transmission housed in the nacelle bulb.
 </div>
+
 ---
 
 ## My Role
 
 **Position:** Research Assistant at the University of Brasília (2012–2018)
+
+**Work Package:** Hydrokinetic Turbine Hydrodynamic Design and CFD Validation
 
 I contributed to the design, optimization, and CFD validation of the horizontal-axis hydrokinetic turbine. Key responsibilities included developing cavitation-aware blade optimization using BEM theory, performing URANS wake characterization in ANSYS CFX, extending BEM formulations for diffuser-augmented turbines, and co-authoring four peer-reviewed publications. This work formed part of my MSc research ("Numerical Study of Horizontal Axis Hydrokinetic Turbines").
 
@@ -74,14 +75,6 @@ Brazil's Amazon region contains vast untapped hydrokinetic energy potential from
 
 **Stakes:** Brazil's Northern region faces severe rural electrification challenges due to its biogeography — thousands of communities along river basins lack access to regular electricity services and depend on expensive diesel generators. Hydrokinetic turbines offer continuous, clean power from river currents, but the technology must overcome cavitation, wake interference, and power density limitations before it can be commercially deployed. The Tucuruí dam alone discharges enormous kinetic energy that goes unharvested — Projeto Tucunaré aimed to capture this remnant energy for local sustainable development, including fish farming cooperatives (Projeto Ipirá, 325 families) and agricultural processing for downstream communities.
 
-<p align="center">
-<img width="640" src="/assets/img/projects/tucunare-turbine-render.png">
-</p>
-<div class="caption">
-    250 kW horizontal-axis hydrokinetic turbine designed for 2.5 m/s Amazonian river currents.
-</div>
-
-
 ---
 
 ## Our Approach
@@ -91,70 +84,69 @@ Brazil's Amazon region contains vast untapped hydrokinetic energy potential from
 Developed an innovative BEM optimization methodology that prevents cavitation directly during blade design rather than as a post-hoc correction:
 
 - **Thoma Coefficient Criterion:** Accounts for radially-varying water column depth at each blade section — physically important because hydrostatic pressure differs between top and bottom of the rotor sweep in a submerged turbine
-- **Inline Cavitation Constraint:** When relative velocity  at a blade section exceeds the critical cavitation velocity, the methodology replaces W with the corrected value in the BEM equations
+- **Inline Cavitation Constraint:** When relative velocity at a blade section exceeds the critical cavitation velocity, the methodology replaces W with the corrected value in the BEM equations
 - **Chord Modification:** Blade chord is reduced near the tip where tangential velocity and cavitation risk are highest, with minimal impact on overall power coefficient
 - **CFD Validation:** RANS simulations coupled with the Rayleigh-Plesset cavitation model confirmed vapor volume reduction around the optimized rotor
-- **Benchmark Verification:** Validated against NREL VI 
-
+- **Benchmark Verification:** Validated against NREL Phase VI wind turbine experimental data
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        <img src="/assets/img/projects/tucunare_NREL_validation.png" class ="img-fluid rounded z-depth-1">
+        <img src="/assets/img/projects/tucunare_NREL_validation.png" class="img-fluid rounded z-depth-1">
     </div>
 </div>
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        <img src="/assets/img/projects/tucunare-nrelphasevi-powervalidation.png" class ="img-fluid rounded z-depth-1">
-    </div>
-</div>
-<div class="caption">
-Power as a function of the Inlet Velocity: Comparison with results available in the literature.
-</div>
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img src="/assets/img/projects/tucunare_NREL_surface_streamlines.png" class ="img-fluid rounded z-depth-1">
+        <img src="/assets/img/projects/tucunare-nrelphasevi-powervalidation.png" class="img-fluid rounded z-depth-1">
     </div>
 </div>
 <div class="caption">
-Surface streamlines and radial section planes. 
+    Power as a function of inlet velocity: comparison with results available in the literature.
 </div>
+
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        <img src="/assets/img/projects/tucunare-NRELPHASEVI-anemometers_rev1.png" class ="img-fluid rounded z-depth-1">
+        <img src="/assets/img/projects/tucunare_NREL_surface_streamlines.png" class="img-fluid rounded z-depth-1">
     </div>
 </div>
 <div class="caption">
-Comparison of axial velocity  between experimental \cite{larwood} (blue line) and numerical (red line) on: (a) Anemometer \#1 (b) Anemometer \#2. 
+    Surface streamlines and radial section planes.
 </div>
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        <img src="/assets/img/projects/Tucunare-NRELPHASEVI-Turbulence.png" class ="img-fluid rounded z-depth-1">
-    </div>
-</div>
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img src="/assets/img/projects/Tucunare-Power-literature.png" class ="img-fluid rounded z-depth-1">
+        <img src="/assets/img/projects/tucunare-NRELPHASEVI-anemometers_rev1.png" class="img-fluid rounded z-depth-1">
     </div>
 </div>
 <div class="caption">
-Comparison of Turbulence model effect on Wind turbines. 
+    Comparison of axial velocity between experimental (blue) and numerical (red) on: (a) Anemometer #1 (b) Anemometer #2.
 </div>
-
-
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        <img src="/assets/img/projects/Tucunare-cavitation-comparison.png" class ="img-fluid rounded z-depth-1">
+        <img src="/assets/img/projects/Tucunare-NRELPHASEVI-Turbulence.png" class="img-fluid rounded z-depth-1">
+    </div>
+</div>
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        <img src="/assets/img/projects/Tucunare-Power-literature.png" class="img-fluid rounded z-depth-1">
     </div>
 </div>
 <div class="caption">
-Cavitation in the rotors at 35 rpm. (a) corrected (b) uncorrected (c) geometrical comparison
+    Comparison of turbulence model effect on wind turbines.
 </div>
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        <img src="/assets/img/projects/Tucunare-cavitation-comparison_BEM.png" class ="img-fluid rounded z-depth-1">
+        <img src="/assets/img/projects/Tucunare-cavitation-comparison.png" class="img-fluid rounded z-depth-1">
+    </div>
+</div>
+<div class="caption">
+    Cavitation in the rotors at 35 rpm. (a) corrected (b) uncorrected (c) geometrical comparison.
+</div>
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        <img src="/assets/img/projects/Tucunare-cavitation-comparison_BEM.png" class="img-fluid rounded z-depth-1">
     </div>
 </div>
 <div class="caption">
@@ -163,7 +155,7 @@ Cavitation in the rotors at 35 rpm. (a) corrected (b) uncorrected (c) geometrica
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        <img src="/assets/img/projects/Tucunare-cavitation-BEM.png" class ="img-fluid rounded z-depth-1">
+        <img src="/assets/img/projects/Tucunare-cavitation-BEM.png" class="img-fluid rounded z-depth-1">
     </div>
 </div>
 <div class="caption">
@@ -181,15 +173,11 @@ Performed the first detailed CFD wake study for a hydrokinetic turbine in a rive
 - **Rotating Sub-Domain:** Cylindrical (6 m radius, 3 m length) with sliding mesh interface
 - **Boundary Conditions:** 5% turbulence intensity inlet, free-slip top surface (river surface), atmospheric pressure outlet
 - **Post-Processing:** Velocity profiles and TKE distributions across 11 downstream monitoring planes
-- **Validation:** Benchmarked Turbine against NREL Phase VI wind turbine experimental data from NASA Ames 24 × 36 m wind tunnel
+- **Validation:** Benchmarked turbine against NREL Phase VI wind turbine experimental data from NASA Ames 24 × 36 m wind tunnel
 
+<video src="/assets/img/projects/Tucunare-video-volumefraction.avi" controls width="100%"></video>
 
-<video src="/assets/img/projects/Tucunare-video-volumefraction.avi" controls width="100%">
-</video>
-
-<video src="/assets/img/projects/Tucunare-video-velocity.avi" controls width="100%">
-</video>
-
+<video src="/assets/img/projects/Tucunare-video-velocity.avi" controls width="100%"></video>
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
@@ -197,7 +185,7 @@ Performed the first detailed CFD wake study for a hydrokinetic turbine in a rive
     </div>
 </div>
 <div class="caption">
-(a) Mean axial velocity, (b) turbulence kinetic energy (TKE) and (c) relative pressure downstream
+    (a) Mean axial velocity, (b) turbulence kinetic energy (TKE) and (c) relative pressure downstream.
 </div>
 
 <div class="row justify-content-sm-center">
@@ -208,9 +196,6 @@ Performed the first detailed CFD wake study for a hydrokinetic turbine in a rive
 <div class="caption">
     Wake velocity profiles at 11 downstream planes showing near-wake helical vortex structures and far-wake recovery.
 </div>
-
-
-
 
 ---
 
@@ -228,8 +213,6 @@ Extended BEM theory with a novel formulation that directly incorporates diffuser
   - Flange height: D/2
 - **CFD Validation:** Finite volume method with SST k-ω turbulence model; BEM-CFD discrepancy of only 0.28% for diffuser-augmented configuration
 
-
-
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
         <img src="/assets/img/projects/tucunare-Diffuser-BEM.png" class="img-fluid rounded z-depth-1">
@@ -245,10 +228,8 @@ Extended BEM theory with a novel formulation that directly incorporates diffuser
     </div>
 </div>
 <div class="caption">
-    Geometrical illustration of  Conical  and  Lens Diffusers.
+    Geometrical illustration of conical and lens diffusers.
 </div>
-
-
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
@@ -256,9 +237,8 @@ Extended BEM theory with a novel formulation that directly incorporates diffuser
     </div>
 </div>
 <div class="caption">
-Mesh details: (a) wake refinement (b) blade and diffuser topology (c) near wall treatment on the blade (d) tip gap between the blade and diffuser.
-</div> 
-
+    Mesh details: (a) wake refinement (b) blade and diffuser topology (c) near wall treatment on the blade (d) tip gap between the blade and diffuser.
+</div>
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
@@ -266,19 +246,18 @@ Mesh details: (a) wake refinement (b) blade and diffuser topology (c) near wall 
     </div>
 </div>
 <div class="caption">
- Axial normalized velocity at 0.1D from the rotor plane on three configurations: diffuser augmented turbines, open turbine and only the diffusers.
- </div>
+    Axial normalized velocity at 0.1D from the rotor plane on three configurations: diffuser-augmented turbines, open turbine, and only the diffusers.
+</div>
 
- 
- <div class="row justify-content-sm-center">
+<div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
         <img src="/assets/img/projects/tucunare-wake.png" class="img-fluid rounded z-depth-1">
     </div>
 </div>
 <div class="caption">
-Comparison of wake on Shorouded and bare turbine: (a) Mean axial velocity, (b) turbulence kinetic energy (TKE) and (c) relative pressure downstream
+    Comparison of wake on shrouded and bare turbine: (a) mean axial velocity, (b) turbulence kinetic energy (TKE) and (c) relative pressure downstream.
 </div>
- 
+
 ---
 
 ## Technical Specifications
@@ -330,18 +309,6 @@ Comparison of wake on Shorouded and bare turbine: (a) Mean axial velocity, (b) t
 | Transition | 3D–8D (30–80 m) | Vortex breakdown, mixing intensification |
 | Far-wake | 8D–12D (80–120 m) | Velocity recovery to free-stream |
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img src="/assets/img/projects/tucunare-wake.png" class="img-fluid rounded z-depth-1">
-    </div>
-</div>
-<div class="caption">
- Axial normalized velocity at 0.1D from the rotor plane on three configurations: diffuser augmented turbines, open turbine and only the diffusers.
- </div>
-
-
-
-
 ### Diffuser-Augmented Performance
 
 **Key Metrics:**
@@ -365,12 +332,12 @@ Comparison of wake on Shorouded and bare turbine: (a) Mean axial velocity, (b) t
     </div>
 </div>
 <div class="caption">
-   (a) Power coefficient vs. TSR for open and shrouded turbines. (b) Power output as functions of the freestream velocity.
+    (a) Power coefficient vs. TSR for open and shrouded turbines. (b) Power output as functions of the freestream velocity.
 </div>
 
 ---
 
-## Project Benefits
+## Client Benefits
 
 **Renewable Energy Access:**
 - Validated turbine design for remote Amazonian communities currently dependent on diesel generators
@@ -395,7 +362,7 @@ Comparison of wake on Shorouded and bare turbine: (a) Mean axial velocity, (b) t
 - Diffuser augmentation increases power per turbine, reducing the number of units needed for target capacity
 - 3rd generation turbine design optimized for standardized manufacturing and production scale-up
 
-**Academic Contribution:**
+**Technical Innovation:**
 - First river-environment wake characterization for hydrokinetic turbines
 - Novel BEM extension incorporating diffuser efficiency — previously omitted in published methods
 - 4 peer-reviewed publications with 428+ combined citations across author's profile
@@ -482,11 +449,18 @@ This case study demonstrates expertise applicable to:
 
 **Industries served:** Renewable Energy, Hydropower, Tidal Energy, Marine Engineering, Aerospace (rotating machinery), Sustainable Development
 
+## Future Work
+
+The project was later extended for the Hydro-K Project (2015-2017). A  R&D project sponsoredANEEL P&D Grant, with the partnership of AES-Brasil Company to develop applied research on a propeller horizontal axis hydrokinetic turbines. Numerical simulations and modeling, complemented by experiments in wind tunnel and field are conducted.
+
+
+The Hydro-K project  aims to created and deploy a floating, modular hydrokinetic turbine that harnesses the kinetic energy of Amazonian rivers to generate clean, renewable electricity. The technology targets isolated riverside communities in the Amazon that currently lack access to the electrical grid and rely on polluting, inefficient energy sources such as diesel generators or wood burning.
+The proposed solution involves a pilot implementation in selected communities to validate the turbine's technical, economic, and social viability. The project emphasizes participatory community management, environmental sustainability, and reduced fossil fuel dependence, while also exploring two revenue models — technology licensing and direct equipment sales — targeting rural communities, sanitation companies, and agribusiness operations near waterways.
 ---
 
 *This work was conducted at the University of Brasília as part of Projeto Tucunaré, a multi-institutional initiative funded by Eletronorte/Eletrobrás for hydrokinetic energy development downstream of the Tucuruí Hydroelectric Power Plant in the Brazilian Amazon. The consortium included seven universities (UnB, UFPA, UNIFEI, UFRJ-COPPE, UFMG, UNICAMP, UFF) and was recognized as "Project of the Year" at HydroVision Brasil.*
 
-**Interested in applying CFD expertise to your renewable energy or turbomachinery challenges?** [Contact me](/contact/) to discuss how simulation-driven design can optimize your systems.
+**Interested in applying advanced CFD and renewable energy expertise to your engineering challenges?** [Contact me](/contact/) to discuss how simulation-driven design can optimize your turbomachinery systems.
 
 ---
 
