@@ -37,16 +37,16 @@ Projeto Tucunaré comprised four main axes: (1) development of hydrokinetic turb
 
 The long-term vision was establishing a 5 MW hydrokinetic park — multiple turbine units deployed downstream of the dam — demonstrating the viability of distributed hydrokinetic generation integrated into Brazil's electricity sector.
 
-<p align="center">
-<img width="480" src="/assets/img/projects/tucunare-g3.png">
-</p>
+<div class="mt-3">
+    {% include figure.liquid loading="eager" path="assets/img/projects/tucunare-g3.png" title="3rd generation hydrokinetic turbine" class="img-fluid rounded z-depth-1" %}
+</div>
 <div class="caption">
     3rd generation hydrokinetic turbine with diffuser enhancement — the design concept underlying Projeto Tucunaré. Source: Brasil Junior et al. (2006).
 </div>
 
-<p align="center">
-<img width="480" src="/assets/img/projects/tucunare-thumb.png">
-</p>
+<div class="mt-3">
+    {% include figure.liquid loading="eager" path="assets/img/projects/tucunare-thumb.png" title="Tucunaré turbine assembly" class="img-fluid rounded z-depth-1" %}
+</div>
 <div class="caption">
     Tucunaré turbine assembly: 10 m diameter rotor with generator-transmission housed in the nacelle bulb.
 </div>
@@ -89,33 +89,25 @@ Developed an innovative BEM optimization methodology that prevents cavitation di
 - **CFD Validation:** RANS simulations coupled with the Rayleigh-Plesset cavitation model confirmed vapor volume reduction around the optimized rotor
 - **Benchmark Verification:** Validated against NREL Phase VI wind turbine experimental data
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img src="/assets/img/projects/tucunare_NREL_validation.png" class="img-fluid rounded z-depth-1">
-    </div>
+<div class="mt-3">
+    {% include figure.liquid loading="eager" path="assets/img/projects/tucunare_NREL_validation.png" title="NREL validation" class="img-fluid rounded z-depth-1" %}
 </div>
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img src="/assets/img/projects/tucunare-nrelphasevi-powervalidation.png" class="img-fluid rounded z-depth-1">
-    </div>
+<div class="mt-3">
+    {% include figure.liquid loading="eager" path="assets/img/projects/tucunare-nrelphasevi-powervalidation.png" title="Power validation" class="img-fluid rounded z-depth-1" %}
 </div>
 <div class="caption">
     Power as a function of inlet velocity: comparison with results available in the literature.
 </div>
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img src="/assets/img/projects/tucunare_NREL_surface_streamlines.png" class="img-fluid rounded z-depth-1">
-    </div>
+<div class="mt-3">
+    {% include figure.liquid loading="eager" path="assets/img/projects/tucunare_NREL_surface_streamlines.png" title="Surface streamlines" class="img-fluid rounded z-depth-1" %}
 </div>
 <div class="caption">
     Surface streamlines and radial section planes.
 </div>
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img src="/assets/img/projects/tucunare-NRELPHASEVI-anemometers_rev1.png" class="img-fluid rounded z-depth-1">
-    </div>
+<div class="mt-3">
+    {% include figure.liquid loading="eager" path="assets/img/projects/tucunare-NRELPHASEVI-anemometers_rev1.png" title="Anemometer comparison" class="img-fluid rounded z-depth-1" %}
 </div>
 <div class="caption">
     Comparison of axial velocity between experimental (blue) and numerical (red) on: (a) Anemometer #1 (b) Anemometer #2.
@@ -126,37 +118,29 @@ Developed an innovative BEM optimization methodology that prevents cavitation di
         <img src="/assets/img/projects/Tucunare-NRELPHASEVI-Turbulence.png" class="img-fluid rounded z-depth-1">
     </div>
 </div>
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img src="/assets/img/projects/Tucunare-Power-literature.png" class="img-fluid rounded z-depth-1">
-    </div>
+<div class="mt-3">
+    {% include figure.liquid loading="eager" path="assets/img/projects/Tucunare-Power-literature.png" title="Turbulence model effect" class="img-fluid rounded z-depth-1" %}
 </div>
 <div class="caption">
     Comparison of turbulence model effect on wind turbines.
 </div>
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img src="/assets/img/projects/Tucunare-cavitation-comparison.png" class="img-fluid rounded z-depth-1">
-    </div>
+<div class="mt-3">
+    {% include figure.liquid loading="eager" path="assets/img/projects/Tucunare-cavitation-comparison.png" title="Cavitation comparison" class="img-fluid rounded z-depth-1" %}
 </div>
 <div class="caption">
     Cavitation in the rotors at 35 rpm. (a) corrected (b) uncorrected (c) geometrical comparison.
 </div>
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img src="/assets/img/projects/Tucunare-cavitation-comparison_BEM.png" class="img-fluid rounded z-depth-1">
-    </div>
+<div class="mt-3">
+    {% include figure.liquid loading="eager" path="assets/img/projects/Tucunare-cavitation-comparison_BEM.png" title="Chord distribution" class="img-fluid rounded z-depth-1" %}
 </div>
 <div class="caption">
     Corrected chord distribution, showing chord reduction near the blade tip to prevent cavitation.
 </div>
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img src="/assets/img/projects/Tucunare-cavitation-BEM.png" class="img-fluid rounded z-depth-1">
-    </div>
+<div class="mt-3">
+    {% include figure.liquid loading="eager" path="assets/img/projects/Tucunare-cavitation-BEM.png" title="Cavitation comparison" class="img-fluid rounded z-depth-1" %}
 </div>
 <div class="caption">
     Local comparison of cavitation occurrence obtained by CFD, XFoil and BEM.
@@ -175,23 +159,19 @@ Performed the first detailed CFD wake study for a hydrokinetic turbine in a rive
 - **Post-Processing:** Velocity profiles and TKE distributions across 11 downstream monitoring planes
 - **Validation:** Benchmarked turbine against NREL Phase VI wind turbine experimental data from NASA Ames 24 × 36 m wind tunnel
 
-<video src="/assets/img/projects/Tucunare-video-volumefraction.avi" controls width="100%"></video>
+<video src="/assets/img/projects/Tucunare-video-volumefraction.mp4" controls width="100%"></video>
 
-<video src="/assets/img/projects/Tucunare-video-velocity.avi" controls width="100%"></video>
+<video src="/assets/img/projects/Tucunare-video-velocity.mp4" controls width="100%"></video>
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img src="/assets/img/projects/tucunare-wake-tke.png" class="img-fluid rounded z-depth-1">
-    </div>
+<div class="mt-3">
+    {% include figure.liquid loading="eager" path="assets/img/projects/tucunare-wake-tke.png" title="Wake flow analysis" class="img-fluid rounded z-depth-1" %}
 </div>
 <div class="caption">
     (a) Mean axial velocity, (b) turbulence kinetic energy (TKE) and (c) relative pressure downstream.
 </div>
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img src="/assets/img/projects/tucunare-wake-revel-isometric.png" class="img-fluid rounded z-depth-1">
-    </div>
+<div class="mt-3">
+    {% include figure.liquid loading="eager" path="assets/img/projects/tucunare-wake-revel-isometric.png" title="Wake velocity profiles" class="img-fluid rounded z-depth-1" %}
 </div>
 <div class="caption">
     Wake velocity profiles at 11 downstream planes showing near-wake helical vortex structures and far-wake recovery.
@@ -213,46 +193,36 @@ Extended BEM theory with a novel formulation that directly incorporates diffuser
   - Flange height: D/2
 - **CFD Validation:** Finite volume method with SST k-ω turbulence model; BEM-CFD discrepancy of only 0.28% for diffuser-augmented configuration
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img src="/assets/img/projects/tucunare-Diffuser-BEM.png" class="img-fluid rounded z-depth-1">
-    </div>
+<div class="mt-3">
+    {% include figure.liquid loading="eager" path="assets/img/projects/tucunare-Diffuser-BEM.png" title="BEM-CFD framework" class="img-fluid rounded z-depth-1" %}
 </div>
 <div class="caption">
     Framework for BEM-CFD coupled approach.
 </div>
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img src="/assets/img/projects/tucunare-diffuser-schematic.png" class="img-fluid rounded z-depth-1">
-    </div>
+<div class="mt-3">
+    {% include figure.liquid loading="eager" path="assets/img/projects/tucunare-diffuser-schematic.png" title="Diffuser geometry" class="img-fluid rounded z-depth-1" %}
 </div>
 <div class="caption">
     Geometrical illustration of conical and lens diffusers.
 </div>
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img src="/assets/img/projects/tucunare-diffuser-mesh.png" class="img-fluid rounded z-depth-1">
-    </div>
+<div class="mt-3">
+    {% include figure.liquid loading="eager" path="assets/img/projects/tucunare-diffuser-mesh.png" title="Mesh details" class="img-fluid rounded z-depth-1" %}
 </div>
 <div class="caption">
     Mesh details: (a) wake refinement (b) blade and diffuser topology (c) near wall treatment on the blade (d) tip gap between the blade and diffuser.
 </div>
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img src="/assets/img/projects/tucunare-nearplane.png" class="img-fluid rounded z-depth-1">
-    </div>
+<div class="mt-3">
+    {% include figure.liquid loading="eager" path="assets/img/projects/tucunare-nearplane.png" title="Velocity comparison" class="img-fluid rounded z-depth-1" %}
 </div>
 <div class="caption">
     Axial normalized velocity at 0.1D from the rotor plane on three configurations: diffuser-augmented turbines, open turbine, and only the diffusers.
 </div>
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img src="/assets/img/projects/tucunare-wake.png" class="img-fluid rounded z-depth-1">
-    </div>
+<div class="mt-3">
+    {% include figure.liquid loading="eager" path="assets/img/projects/tucunare-wake.png" title="Wake comparison" class="img-fluid rounded z-depth-1" %}
 </div>
 <div class="caption">
     Comparison of wake on shrouded and bare turbine: (a) mean axial velocity, (b) turbulence kinetic energy (TKE) and (c) relative pressure downstream.
@@ -326,10 +296,8 @@ Extended BEM theory with a novel formulation that directly incorporates diffuser
 | Bare (Cavitation-Optimized) | 3.50–4.25 | ~0.45 | Baseline | Eliminated |
 | Diffuser-Augmented | 5.4 | ~0.70 (+55%) | 1.5× Baseline | Eliminated |
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img src="/assets/img/projects/tucunare-cp-tsr-comparison.png" class="img-fluid rounded z-depth-1">
-    </div>
+<div class="mt-3">
+    {% include figure.liquid loading="eager" path="assets/img/projects/tucunare-cp-tsr-comparison.png" title="Power coefficient comparison" class="img-fluid rounded z-depth-1" %}
 </div>
 <div class="caption">
     (a) Power coefficient vs. TSR for open and shrouded turbines. (b) Power output as functions of the freestream velocity.
