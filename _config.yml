@@ -333,7 +333,7 @@ enable_bing_verification: false
 enable_masonry: true
 enable_math: true
 enable_tooltips: true
-enable_darkmode: true
+enable_darkmode: false
 enable_navbar_social: false
 enable_project_categories: true
 enable_medium_zoom: true
