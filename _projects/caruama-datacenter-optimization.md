@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Data Center Thermal Excellence Through Plenum Design
-description: 2.4MW facility with innovative plenum-based air distribution
+title: Plenum-Driven Thermal Optimization for 2.4 MW Data Center
+description: Redesigned air distribution architecture using plenum-based flow control, achieving significant thermal compliance gains across a high-density facility.
 img: assets/img/projects/curauma-datacenter-thumb.png
 importance: 1
 category: work

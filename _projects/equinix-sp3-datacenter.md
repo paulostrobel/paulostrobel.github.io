@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Equinix SP3 Data Center
-description: CFD thermal analysis with perforated tile flow validation for 3.35 MW hyperscale facility
+title: Hyperscale Thermal Validation for Equinix — 3.35 MW Data Center
+description: CFD thermal analysis and perforated tile flow validation for a 3.35 MW hyperscale facility, ensuring cooling reliability and airflow uniformity across high-density server rows.
 img: assets/img/projects/equinix-streamlines.png
 importance: 2
 category: work

@@ -1,7 +1,8 @@
 ---
 layout: page
-title: 5MW Data Center Thermal Optimization
-description: 5MW facility pre-construction CFD analysis delivering 247% improvement in thermal compliance
+title: CFD-Driven Pre-Construction Thermal Design for 5 MW Data Center
+description: Full-scale pre-construction CFD analysis that delivered a 247% improvement in thermal compliance, preventing costly post-build corrections for a hyperscale facility.
+
 img: assets/img/projects/chile-datacenter-thumb.jpg
 importance: 1
 category: work

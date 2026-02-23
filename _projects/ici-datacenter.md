@@ -1,7 +1,8 @@
 ---
 layout: page
-title: ICI Data Center
-description: CFD thermal optimization for 3 MW mission-critical banking infrastructure with **disproportionate relationship between thermal density and cooling capacity in the processing zones** 
+title: Mission-Critical Thermal CFD for 3 MW Banking Infrastructure — Banco do Brasil
+description: Identified and resolved critical thermal imbalances between cooling capacity and rack density in a 3 MW banking data center, ensuring uptime reliability for mission-critical workloads.
+
 img: assets/img/projects/ici-terreo-tridimensional.png
 importance: 2
 client: Banco do Brasil/Fox Eng.

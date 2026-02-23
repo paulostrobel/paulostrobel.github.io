@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Embraer Data Center
-description: CFD thermal optimization with supply angle parametric study and containment comparison for aerospace manufacturing facility
+title: Thermal CFD Optimization for Embraer Aerospace Manufacturing Data Center
+description: Parametric CFD study of supply air angles and hot/cold aisle containment strategies, identifying the optimal cooling configuration for a mission-critical aerospace facility.
+
 img: assets/img/projects/embraer-layout.png
 importance: 2
 category: work

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hydrokinetic Turbine Design & Optimization – Projeto Tucunaré
+title: Hydrokinetic Turbine Design & Optimization – Tucunaré Project
 description: Multi-institutional hydrokinetic energy initiative — cavitation-free BEM optimization, CFD wake analysis, and diffuser-augmented design for 250 kW–1 MW current turbines downstream of Brazil's largest Amazon dam
 img: /assets/img/projects/tucunare-thumb.png
 importance: 2
@@ -8,7 +8,8 @@ category: work
 client: Eletronorte / University of Brasília
 ---
 
-## Client Profile
+## Project Overview
+
 
 **Industry:** Renewable Energy (Hydrokinetic Power Generation)
 **Location:** Downstream of UHE-Tucuruí, Rio Tocantins, Pará, Brazil (3°46'48.85"S, 49°38'42.81"W)
@@ -20,6 +21,17 @@ client: Eletronorte / University of Brasília
 **Funding:** Eletronorte/Eletrobrás (Centrais Elétricas do Norte do Brasil S/A) — via the Tucuruí Hydroelectric Power Plant, the largest in the Brazilian Amazon
 
 **Recognition:** "Project of the Year" – HydroVision Brasil
+
+---
+
+
+## My Role
+
+**Position:** Research Assistant at the University of Brasília (2012–2018)
+
+**My contribution:** Hydrokinetic Turbine Hydrodynamic Design and CFD Validation
+
+I contributed to the design, optimization, and CFD validation of the horizontal-axis hydrokinetic turbine. Key responsibilities included developing Cavitation-aware BEM blade optimization, URANS wake CFD characterization, and diffuser-augmented BEM formulation — resulting in 4 peer-reviewed publications over 6 years (2012–2018)
 
 ---
 
@@ -53,15 +65,6 @@ The long-term vision was establishing a 5 MW hydrokinetic park — multiple turb
 
 ---
 
-## My Role
-
-**Position:** Research Assistant at the University of Brasília (2012–2018)
-
-**Work Package:** Hydrokinetic Turbine Hydrodynamic Design and CFD Validation
-
-I contributed to the design, optimization, and CFD validation of the horizontal-axis hydrokinetic turbine. Key responsibilities included developing cavitation-aware blade optimization using BEM theory, performing URANS wake characterization in ANSYS CFX, extending BEM formulations for diffuser-augmented turbines, and co-authoring four peer-reviewed publications. This work formed part of my MSc research ("Numerical Study of Horizontal Axis Hydrokinetic Turbines").
-
----
 
 ## The Challenge
 
@@ -80,6 +83,8 @@ Brazil's Amazon region contains vast untapped hydrokinetic energy potential from
 ## Our Approach
 
 ### Phase 1: Cavitation-Aware Blade Optimization (2014–2017)
+
+Standard BEM methods design blades for maximum power, then check cavitation afterward — often requiring costly redesign iterations. This phase embedded the cavitation constraint directly into the optimization loop, eliminating that cycle. CFD confirmed vapor volume was eliminated around the optimized rotor with no loss in power coefficient.
 
 Developed an innovative BEM optimization methodology that prevents cavitation directly during blade design rather than as a post-hoc correction:
 
@@ -103,7 +108,7 @@ Developed an innovative BEM optimization methodology that prevents cavitation di
     {% include figure.liquid loading="eager" path="assets/img/projects/tucunare_NREL_surface_streamlines.png" title="Surface streamlines" class="img-fluid rounded z-depth-1" %}
 </div>
 <div class="caption">
-    Surface streamlines and radial section planes.
+Surface streamlines and radial section planes. Flow separation is visible near the tip (r/R > 0.8) in the uncorrected design and suppressed in the optimized blade.
 </div>
 
 <div class="mt-3">
@@ -129,7 +134,7 @@ Developed an innovative BEM optimization methodology that prevents cavitation di
     {% include figure.liquid loading="eager" path="assets/img/projects/Tucunare-cavitation-comparison.png" title="Cavitation comparison" class="img-fluid rounded z-depth-1" %}
 </div>
 <div class="caption">
-    Cavitation in the rotors at 35 rpm. (a) corrected (b) uncorrected (c) geometrical comparison.
+    Cavitation in the rotors at 35 rpm. (a) corrected (b) uncorrected (c) geometrical comparison. Note the near-complete elimination of the vapor region (orange) in the corrected blade
 </div>
 
 <div class="mt-3">
@@ -303,9 +308,28 @@ Extended BEM theory with a novel formulation that directly incorporates diffuser
     (a) Power coefficient vs. TSR for open and shrouded turbines. (b) Power output as functions of the freestream velocity.
 </div>
 
+
+
+**Cavitation-Aware Design:**
+- Only published BEM methodology that prevents cavitation inline during optimization rather than as post-hoc correction
+- Accounts for radially-varying hydrostatic pressure unique to shallow submersion
+
+**River-Specific CFD:**
+- First wake study addressing free-surface effects on hydrokinetic turbine performance
+- Quantified TKE asymmetry caused by river surface — absent in wind turbine or open-ocean literature
+
+**Diffuser BEM Innovation:**
+- First formulation to directly incorporate diffuser viscous efficiency into BEM equations
+- 0.28% BEM-CFD agreement for diffuser-augmented case — exceptional accuracy for a reduced-order model
+
+**Practical Impact:**
+- Design toolkit applicable to river, tidal, and marine current turbines globally
+- Array spacing guidelines directly usable for hydrokinetic farm planning
+
+
 ---
 
-## Client Benefits
+## Impact
 
 **Renewable Energy Access:**
 - Validated turbine design for remote Amazonian communities currently dependent on diesel generators
@@ -384,25 +408,7 @@ Extended BEM theory with a novel formulation that directly incorporates diffuser
 
 ---
 
-## Key Differentiators
 
-**Cavitation-Aware Design:**
-- Only published BEM methodology that prevents cavitation inline during optimization rather than as post-hoc correction
-- Accounts for radially-varying hydrostatic pressure unique to shallow submersion
-
-**River-Specific CFD:**
-- First wake study addressing free-surface effects on hydrokinetic turbine performance
-- Quantified TKE asymmetry caused by river surface — absent in wind turbine or open-ocean literature
-
-**Diffuser BEM Innovation:**
-- First formulation to directly incorporate diffuser viscous efficiency into BEM equations
-- 0.28% BEM-CFD agreement for diffuser-augmented case — exceptional accuracy for a reduced-order model
-
-**Practical Impact:**
-- Design toolkit applicable to river, tidal, and marine current turbines globally
-- Array spacing guidelines directly usable for hydrokinetic farm planning
-
----
 
 ## Related Expertise
 
@@ -420,10 +426,10 @@ This case study demonstrates expertise applicable to:
 ## Future Work
 I continued collaborating as external visiting researcher to the Laboratory of Energy and Environment at University of Brasilia.
 
-The project was later extended for the Hydro-K Project (2015-2017). A  R&D project sponsoredANEEL P&D Grant, with the partnership of AES-Brasil Company to develop applied research on a propeller horizontal axis hydrokinetic turbines. Numerical simulations and modeling, complemented by experiments in wind tunnel and field are conducted.
+The project was later extended for the Hydro-K Project (2015-2017). A  R&D project sponsored ANEEL P&D Grant, with the partnership of AES-Brasil Company to develop applied research on a propeller horizontal axis hydrokinetic turbines. Numerical simulations and modeling, complemented by experiments in wind tunnel and field are conducted.
 
 
-The Hydro-K project  aims to created and deploy a floating, modular hydrokinetic turbine that harnesses the kinetic energy of Amazonian rivers to generate clean, renewable electricity. The technology targets isolated riverside communities in the Amazon that currently lack access to the electrical grid and rely on polluting, inefficient energy sources such as diesel generators or wood burning.
+The Hydro-K project created and deploy a floating, modular hydrokinetic turbine that harnesses the kinetic energy of Amazonian rivers to generate clean, renewable electricity. The technology targets isolated riverside communities in the Amazon that currently lack access to the electrical grid and rely on polluting, inefficient energy sources such as diesel generators or wood burning.
 The proposed solution involves a pilot implementation in selected communities to validate the turbine's technical, economic, and social viability. The project emphasizes participatory community management, environmental sustainability, and reduced fossil fuel dependence, while also exploring two revenue models — technology licensing and direct equipment sales — targeting rural communities, sanitation companies, and agribusiness operations near waterways.
 
 Research was later extend to understand how fish and other aquatic organisms propel themselves offers valuable natural references for enhancing technology related to underwater devices like vehicles, propellers, and biomimetic robotics. Additionally, such research provides insights into fish evolution and ecological dynamics.
