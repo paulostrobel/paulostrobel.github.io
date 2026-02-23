@@ -418,12 +418,31 @@ This case study demonstrates expertise applicable to:
 **Industries served:** Renewable Energy, Hydropower, Tidal Energy, Marine Engineering, Aerospace (rotating machinery), Sustainable Development
 
 ## Future Work
+I continued collaborating as external visiting researcher to the Laboratory of Energy and Environment at University of Brasilia.
 
 The project was later extended for the Hydro-K Project (2015-2017). A  R&D project sponsoredANEEL P&D Grant, with the partnership of AES-Brasil Company to develop applied research on a propeller horizontal axis hydrokinetic turbines. Numerical simulations and modeling, complemented by experiments in wind tunnel and field are conducted.
 
 
 The Hydro-K project  aims to created and deploy a floating, modular hydrokinetic turbine that harnesses the kinetic energy of Amazonian rivers to generate clean, renewable electricity. The technology targets isolated riverside communities in the Amazon that currently lack access to the electrical grid and rely on polluting, inefficient energy sources such as diesel generators or wood burning.
 The proposed solution involves a pilot implementation in selected communities to validate the turbine's technical, economic, and social viability. The project emphasizes participatory community management, environmental sustainability, and reduced fossil fuel dependence, while also exploring two revenue models — technology licensing and direct equipment sales — targeting rural communities, sanitation companies, and agribusiness operations near waterways.
+
+Research was later extend to understand how fish and other aquatic organisms propel themselves offers valuable natural references for enhancing technology related to underwater devices like vehicles, propellers, and biomimetic robotics. Additionally, such research provides insights into fish evolution and ecological dynamics.
+
+
+<video src="/assets/img/projects/\Tucunare-Lambari-fish-interaction.mp4" controls width="100%"></video>
+
+<div class="mt-3">
+    {% include figure.liquid loading="eager" path="assets/img/projects/Tucunare-Lambari-fish-interaction_numesh.png" title="Fish turbine interaction" class="img-fluid rounded z-depth-1" %}
+</div>
+<div class="mt-3">
+    {% include figure.liquid loading="eager" path="assets/img/projects/Tucunare-Lambari-fish-interaction_iso.png" title="Fish turbine interaction" class="img-fluid rounded z-depth-1" %}
+</div>
+
+<div class="caption">
+    Fish and Turbine interaction, source: Macias et al. (2024)
+</div>
+
+
 ---
 
 *This work was conducted at the University of Brasília as part of Projeto Tucunaré, a multi-institutional initiative funded by Eletronorte/Eletrobrás for hydrokinetic energy development downstream of the Tucuruí Hydroelectric Power Plant in the Brazilian Amazon. The consortium included seven universities (UnB, UFPA, UNIFEI, UFRJ-COPPE, UFMG, UNICAMP, UFF) and was recognized as "Project of the Year" at HydroVision Brasil.*
@@ -449,3 +468,5 @@ The proposed solution involves a pilot implementation in selected communities to
 6. de Souza, J. S. A., Vélez Echeverry, S. M., van Els, R. H., Diniz, J. D. A. S., & Brasil Junior, A. C. P. "Uso sustentável da energia elétrica gerada por uma turbina hidrocinética no norte do Brasil." *Simpósio Brasileiro de Recursos Hídricos* (2015).
 
 7. Brasil Junior, A. C. P., Salomon, L. B. R., van Els, R. H., & Ferreira, W. O. "A New Conception of Hydrokinetic Turbine for Isolated Communities in Amazon." *IV Congresso Nacional de Engenharia Mecânica* (2006).
+
+8. Macías, Marianela Machuca, et al. "Numerical investigation of dimensionless parameters in carangiform fish swimming hydrodynamics." Biomimetics 9.1 (2024).
