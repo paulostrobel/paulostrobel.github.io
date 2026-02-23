@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /repositories/
-title: repositories
+title: Repositories
 description: A collection of my public GitHub repositories covering CFD, machine learning, OpenFOAM, and more.
 nav: true
 nav_order: 4

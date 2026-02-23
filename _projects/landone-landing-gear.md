@@ -4,7 +4,7 @@ title: Multi-Fidelity CFD & ML Optimization of Oleo-Pneumatic Landing Gear — L
 description: Developed a modular multi-fidelity simulation framework for next-generation landing gear, integrating machine learning to accelerate shock absorber design and reduce computational cost.
 
 img: /assets/img/projects/landone-thumb.png
-importance: 1
+importance: 0
 category: work
 client: Airbus/Cranfield University
 ---

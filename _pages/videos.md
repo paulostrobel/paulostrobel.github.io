@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /videos/
-title: videos
+title: Videos
 description: Collection of video presentations and tutorials
 nav: true
 nav_order: 4

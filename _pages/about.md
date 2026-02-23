@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: CFD Engineer | PhD in Aerospace Engineering
 
@@ -77,11 +77,43 @@ I am open to CFD consulting projects and research collaborations in thermal opti
       </iframe>
     </div>
   </div>
-</div>
 
-<p style="text-align: center; margin-top: 2rem;">
-  <a href="/videos/" class="btn btn-sm btn-primary">View All Videos →</a>
-</p>
+  <div class="video-container" style="margin-bottom: 2rem;">
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+      <iframe
+        src="https://www.youtube.com/embed/iveLvvddVOw"
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+
+  <div class="video-container" style="margin-bottom: 2rem;">
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+      <iframe
+        src="https://www.youtube.com/embed/nDr7F6_Cw-o"
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+
+  <div class="video-container" style="margin-bottom: 2rem;">
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+      <iframe
+        src="https://www.youtube.com/embed/q3In_bPAPbM"
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+</div>
 
 </section>
 

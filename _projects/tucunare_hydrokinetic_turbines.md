@@ -3,7 +3,7 @@ layout: page
 title: Hydrokinetic Turbine Design & Optimization – Tucunaré Project
 description: Multi-institutional hydrokinetic energy initiative — cavitation-free BEM optimization, CFD wake analysis, and diffuser-augmented design for 250 kW–1 MW current turbines downstream of Brazil's largest Amazon dam
 img: /assets/img/projects/tucunare-thumb.png
-importance: 2
+importance: 100
 category: work
 client: Eletronorte / University of Brasília
 ---
@@ -49,15 +49,19 @@ Projeto Tucunaré comprised four main axes: (1) development of hydrokinetic turb
 
 The long-term vision was establishing a 5 MW hydrokinetic park — multiple turbine units deployed downstream of the dam — demonstrating the viability of distributed hydrokinetic generation integrated into Brazil's electricity sector.
 
-<div class="mt-3">
-    {% include figure.liquid loading="eager" path="assets/img/projects/tucunare-g3.png" title="3rd generation hydrokinetic turbine" style="max-width: 166 px; height: auto;" class="img-fluid rounded z-depth-1" %}
+<div class="row justify-content-sm-center">
+    <div class="col-sm-5 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/tucunare-g3.png" title="3rd generation hydrokinetic turbine" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
 <div class="caption">
     3rd generation hydrokinetic turbine with diffuser enhancement — the design concept underlying Projeto Tucunaré. Source: Brasil Junior et al. (2006).
 </div>
 
-<div class="mt-3">
-    {% include figure.liquid loading="eager" path="assets/img/projects/tucunare-thumb.png" title="Tucunaré turbine assembly" style="max-width: 180 px; height: auto;" class="img-fluid rounded z-depth-1" %}
+<div class="row justify-content-sm-center">
+    <div class="col-sm-5 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/tucunare-thumb.png" title="Tucunaré turbine assembly" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
 <div class="caption">
     Tucunaré turbine assembly: 10 m diameter rotor with generator-transmission housed in the nacelle bulb.
