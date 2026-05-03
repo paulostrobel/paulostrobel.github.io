@@ -35,7 +35,10 @@
   font-weight: 500;
   letter-spacing: 0.01em;
   line-height: 1.5;
-  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease;
 
   &:hover {
     background-color: var(--global-theme-color);
@@ -71,7 +74,9 @@
 // ——————————————————————————————————————————————————————————————————————————————
 
 .projects .card {
-  transition: transform 0.22s ease, box-shadow 0.22s ease;
+  transition:
+    transform 0.22s ease,
+    box-shadow 0.22s ease;
 
   &:hover {
     transform: translateY(-4px);
@@ -89,7 +94,9 @@
   font-weight: 500;
   letter-spacing: 0.02em;
   box-shadow: 0 2px 8px rgba(0, 100, 200, 0.22);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 
   &:hover {
     transform: translateY(-2px);
@@ -121,7 +128,9 @@ article > hr {
 // ——————————————————————————————————————————————————————————————————————————————
 
 .navbar {
-  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    box-shadow 0.3s ease;
 
   &.scrolled {
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
