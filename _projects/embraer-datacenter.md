@@ -75,13 +75,13 @@ The cross-sectional analysis at 10 cm from rack inlets quantified the improvemen
 
 The parametric study demonstrated a clear relationship between supply angle and thermal compliance:
 
-| ASHRAE Class | 45° Supply | 15° Supply | 5° Supply |
-|-------------|-----------|-----------|----------|
-| A1 (T < 32°C) | 85.7% | 96.8% | 94.9% |
-| A2 (T < 35°C) | 87.7% | 97.1% | 96.3% |
-| A3 (T < 40°C) | 92.3% | 97.6% | 97.7% |
-| A4 (T < 45°C) | 94.5% | 98.3% | 99.3% |
-| T > 45°C | 5.5% | 1.7% | 0.7% |
+| ASHRAE Class  | 45° Supply | 15° Supply | 5° Supply |
+| ------------- | ---------- | ---------- | --------- |
+| A1 (T < 32°C) | 85.7%      | 96.8%      | 94.9%     |
+| A2 (T < 35°C) | 87.7%      | 97.1%      | 96.3%     |
+| A3 (T < 40°C) | 92.3%      | 97.6%      | 97.7%     |
+| A4 (T < 45°C) | 94.5%      | 98.3%      | 99.3%     |
+| T > 45°C      | 5.5%       | 1.7%       | 0.7%      |
 
 The **15° configuration emerged as the optimal balance** between thermal uniformity and ASHRAE compliance, achieving 96.8% A1 compliance compared to 85.7% at the baseline 45° angle — a meaningful reduction in thermal risk with minimal hardware modification.
 
@@ -94,7 +94,7 @@ The **15° configuration emerged as the optimal balance** between thermal unifor
     ASHRAE thermal classification at rack inlets in Corridor E. Green (A1) through red (>45°C) zones mapped for each supply angle configuration. The 5° case achieves the lowest proportion above 45°C (0.7%), while the 15° case delivers the best overall uniformity across all classes.
 </div>
 
-## Containment Impact Analysis 
+## Containment Impact Analysis
 
 With the supply angle optimized for Corridor E, the study turned to the main facility zone to evaluate the impact of cold aisle containment on thermal performance. Two scenarios were compared:
 
@@ -112,29 +112,29 @@ With the supply angle optimized for Corridor E, the study turned to the main fac
 
 ### Rack-by-Rack Temperature Comparison
 
-| Rack | Enclosed (°C) | Open (°C) | | Rack | Enclosed (°C) | Open (°C) |
-|------|:---:|:---:|-|------|:---:|:---:|
-| A0 | 20.1 | 21.8 | | C1 | 14.2 | 12.9 |
-| A1 | 23.8 | 27.7 | | C2 | 18.7 | 19.8 |
-| A2 | 13.7 | 17.9 | | C3 | 15.1 | 19.4 |
-| A3 | 18.7 | 23.8 | | C4 | 14.5 | 14.2 |
-| A4 | 26.1 | 26.0 | | C5 | 13.0 | 12.3 |
-| A5 | 16.0 | 27.8 | | C6 | 14.5 | 13.1 |
-| B0 | 16.7 | 13.7 | | D1 | 23.8 | 21.3 |
-| B1 | 20.8 | 26.8 | | D2 | 25.6 | 21.1 |
-| B2 | 24.1 | 29.6 | | D3 | 28.1 | 23.3 |
-| B3 | 17.1 | 17.5 | | D4 | 22.5 | 23.3 |
-| B4 | 17.9 | 21.9 | | D5 | 15.5 | 21.6 |
-| B5 | 16.5 | 30.7 | | D6 | 14.5 | 17.6 |
+| Rack | Enclosed (°C) | Open (°C) |     | Rack | Enclosed (°C) | Open (°C) |
+| ---- | :-----------: | :-------: | --- | ---- | :-----------: | :-------: |
+| A0   |     20.1      |   21.8    |     | C1   |     14.2      |   12.9    |
+| A1   |     23.8      |   27.7    |     | C2   |     18.7      |   19.8    |
+| A2   |     13.7      |   17.9    |     | C3   |     15.1      |   19.4    |
+| A3   |     18.7      |   23.8    |     | C4   |     14.5      |   14.2    |
+| A4   |     26.1      |   26.0    |     | C5   |     13.0      |   12.3    |
+| A5   |     16.0      |   27.8    |     | C6   |     14.5      |   13.1    |
+| B0   |     16.7      |   13.7    |     | D1   |     23.8      |   21.3    |
+| B1   |     20.8      |   26.8    |     | D2   |     25.6      |   21.1    |
+| B2   |     24.1      |   29.6    |     | D3   |     28.1      |   23.3    |
+| B3   |     17.1      |   17.5    |     | D4   |     22.5      |   23.3    |
+| B4   |     17.9      |   21.9    |     | D5   |     15.5      |   21.6    |
+| B5   |     16.5      |   30.7    |     | D6   |     14.5      |   17.6    |
 
 Containment reduced inlet temperatures by an average of **4–6°C** in the A–B corridors, with the most significant improvements at racks furthest from the cooling source (A5: 16°C vs 27.8°C; B5: 16.5°C vs 30.7°C).
 
 ### ASHRAE Compliance — Containment Effect
 
-| ASHRAE Class | Enclosed — Non-compliant area | Open — Non-compliant area |
-|-------------|:---:|:---:|
-| T > 45°C (all corridors) | **2.3%** | **7.0%** |
-| A1 compliance (A–B avg) | 91.2% | 88.5% |
+| ASHRAE Class             | Enclosed — Non-compliant area | Open — Non-compliant area |
+| ------------------------ | :---------------------------: | :-----------------------: |
+| T > 45°C (all corridors) |           **2.3%**            |         **7.0%**          |
+| A1 compliance (A–B avg)  |             91.2%             |           88.5%           |
 
 The containment reduced the proportion of rack inlet area exceeding ASHRAE limits from **7.0% to 2.3%** — a threefold improvement that justified the containment investment for this facility.
 
@@ -162,28 +162,28 @@ The CFD analysis also revealed a critical insight about the raised floor plenum 
 
 ## Facility Specifications
 
-| Parameter | Value |
-|-----------|-------|
-| Floor Area | 129.6 m² |
-| Raised Floor Height | 0.48 m |
-| Total Thermal Load | 214 kW |
-| Total Racks | 30 |
-| Cooling Zones | 3 (in-row + downflow + under-floor fans) |
-| Containment | Corridor E enclosed; A–B variable (study focus) |
-| Rack Density Range | 1–12 kW per rack |
+| Parameter           | Value                                           |
+| ------------------- | ----------------------------------------------- |
+| Floor Area          | 129.6 m²                                        |
+| Raised Floor Height | 0.48 m                                          |
+| Total Thermal Load  | 214 kW                                          |
+| Total Racks         | 30                                              |
+| Cooling Zones       | 3 (in-row + downflow + under-floor fans)        |
+| Containment         | Corridor E enclosed; A–B variable (study focus) |
+| Rack Density Range  | 1–12 kW per rack                                |
 
 ## Technical Approach
 
-| Aspect | Method |
-|--------|--------|
-| Software | ANSYS CFX |
-| Turbulence Model | k-ω SST (Menter) |
-| Tile Modeling | Porous media with pressure-driven flow |
-| Rack Modeling | Porous volume with prescribed heat generation and directional flow |
-| Mesh Resolution | 1.4M nodes (Corridor E), 4M nodes (full facility per scenario) |
-| Mesh Independence | Three-level refinement study |
-| Supply Air | 12°C (in-row), variable through perforated tiles |
-| Assessment | ASHRAE TC 9.9 thermal guidelines (Classes A1–A4) |
+| Aspect            | Method                                                             |
+| ----------------- | ------------------------------------------------------------------ |
+| Software          | ANSYS CFX                                                          |
+| Turbulence Model  | k-ω SST (Menter)                                                   |
+| Tile Modeling     | Porous media with pressure-driven flow                             |
+| Rack Modeling     | Porous volume with prescribed heat generation and directional flow |
+| Mesh Resolution   | 1.4M nodes (Corridor E), 4M nodes (full facility per scenario)     |
+| Mesh Independence | Three-level refinement study                                       |
+| Supply Air        | 12°C (in-row), variable through perforated tiles                   |
+| Assessment        | ASHRAE TC 9.9 thermal guidelines (Classes A1–A4)                   |
 
 ## Project Impact
 

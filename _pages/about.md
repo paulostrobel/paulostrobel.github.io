@@ -34,7 +34,7 @@ I work with industry-leading CFD tools to solve challenging fluid dynamics probl
 
 I am open to CFD consulting projects and research collaborations in thermal optimization, HVAC systems, and multiphysics simulations.<br><br>
 
-<strong>Areas of Expertise:</strong> Computational Fluid Dynamics | Software Development | Rotor Aerodynamics | Data Center Thermal Optimization | HVAC Systems Analysis | Multiphysics Simulations | Thermal Management | Aerodynamic Optimization 
+<strong>Areas of Expertise:</strong> Computational Fluid Dynamics | Software Development | Rotor Aerodynamics | Data Center Thermal Optimization | HVAC Systems Analysis | Multiphysics Simulations | Thermal Management | Aerodynamic Optimization
 
 </section>
 
