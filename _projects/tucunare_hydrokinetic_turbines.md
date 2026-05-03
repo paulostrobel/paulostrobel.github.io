@@ -122,10 +122,8 @@ Surface streamlines and radial section planes. Flow separation is visible near t
     Comparison of axial velocity between experimental (blue) and numerical (red) on: (a) Anemometer #1 (b) Anemometer #2.
 </div>
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img src="/assets/img/projects/Tucunare-NRELPHASEVI-Turbulence.png" class="img-fluid rounded z-depth-1">
-    </div>
+<div class="mt-3">
+    {% include figure.liquid loading="eager" path="assets/img/projects/Tucunare-NRELPHASEVI-Turbulence.png" title="Turbulence model comparison" class="img-fluid rounded z-depth-1" %}
 </div>
 <div class="mt-3">
     {% include figure.liquid loading="eager" path="assets/img/projects/Tucunare-Power-literature.png" title="Turbulence model effect" class="img-fluid rounded z-depth-1" %}
@@ -439,7 +437,7 @@ The proposed solution involves a pilot implementation in selected communities to
 Research was later extend to understand how fish and other aquatic organisms propel themselves offers valuable natural references for enhancing technology related to underwater devices like vehicles, propellers, and biomimetic robotics. Additionally, such research provides insights into fish evolution and ecological dynamics.
 
 
-<video src="/assets/img/projects/\Tucunare-Lambari-fish-interaction.mp4" controls width="100%"></video>
+<video src="/assets/img/projects/Tucunare-Lambari-fish-interaction.mp4" controls width="100%"></video>
 
 <div class="mt-3">
     {% include figure.liquid loading="eager" path="assets/img/projects/Tucunare-Lambari-fish-interaction_numesh.png" title="Fish turbine interaction" class="img-fluid rounded z-depth-1" %}
