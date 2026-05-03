@@ -57,4 +57,13 @@ $(document).ready(function () {
   $('[data-toggle="popover"]').popover({
     trigger: "hover",
   });
+
+  // Add scrolled class to navbar for shadow effect
+  $(window).on("scroll", function () {
+    if ($(this).scrollTop() > 10) {
+      $("#navbar").addClass("scrolled");
+    } else {
+      $("#navbar").removeClass("scrolled");
+    }
+  });
 });
