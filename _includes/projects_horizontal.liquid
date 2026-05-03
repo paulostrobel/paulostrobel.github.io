@@ -12,7 +12,9 @@
             <h3 class="card-title">{{ project.title }}</h3>
             <p class="card-text">{{ project.description }}</p>
             {% if project.client %}
-              <p class="card-text text-muted"><small><i class="fa-solid fa-building"></i> {{ project.client }}</small></p>
+              <p class="card-text text-muted">
+                <small><i class="fa-solid fa-building"></i> {{ project.client }}</small>
+              </p>
             {% endif %}
             <div class="row ml-1 mr-1 p-0">
               {% if project.github %}

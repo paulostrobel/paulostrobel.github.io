@@ -61,6 +61,7 @@ With the validated model, thermal performance was assessed against ASHRAE recomm
 </div>
 
 The analysis identified thermal risks primarily in:
+
 - **Shared Area**: Horizontally-oriented racks disrupting conventional hot/cold aisle separation
 - **High-density subzones**: Where thermal load concentration exceeds local cooling capacity
 - **Regions with restricted tile flow**: Confirmed by both CFD prediction and experimental measurement
@@ -82,25 +83,25 @@ Based on the CFD analysis and experimental validation, **tile-fan repositioning*
 
 ## Facility Specifications
 
-| Parameter | Zone A | Zone B|
-|-----------|----------|----------|
-| Floor Area | 1,542 m² | 1,549 m² |
-| Design Capacity | 1,721 kW | 1,633 kW |
-| As-Built Load | 441 kW | 410 kW |
-| Containment | Mixed | Mixed |
-| Supply Temperature | 21°C | 21°C |
-| Tile Porosity | 54% | 54% |
+| Parameter          | Zone A   | Zone B   |
+| ------------------ | -------- | -------- |
+| Floor Area         | 1,542 m² | 1,549 m² |
+| Design Capacity    | 1,721 kW | 1,633 kW |
+| As-Built Load      | 441 kW   | 410 kW   |
+| Containment        | Mixed    | Mixed    |
+| Supply Temperature | 21°C     | 21°C     |
+| Tile Porosity      | 54%      | 54%      |
 
 ## Technical Approach
 
-| Aspect | Method |
-|--------|--------|
-| Software | ANSYS CFX |
-| Turbulence Model | k-ε (RANS) |
-| Tile Modeling | Porous media with pressure boundary |
-| Rack Modeling | Prescribed heat flux with directional flow |
-| Validation | On-site tile flow measurements |
-| Assessment | ASHRAE TC 9.9 thermal guidelines |
+| Aspect           | Method                                     |
+| ---------------- | ------------------------------------------ |
+| Software         | ANSYS CFX                                  |
+| Turbulence Model | k-ε (RANS)                                 |
+| Tile Modeling    | Porous media with pressure boundary        |
+| Rack Modeling    | Prescribed heat flux with directional flow |
+| Validation       | On-site tile flow measurements             |
+| Assessment       | ASHRAE TC 9.9 thermal guidelines           |
 
 ## Project Impact
 

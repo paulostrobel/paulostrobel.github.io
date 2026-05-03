@@ -49,8 +49,6 @@ Landing gear shock absorbers are critical safety components that must perform re
     Shock absorber compression showing fluid dynamics during landing impact.
 </div>
 
-
-
 ---
 
 ## Our Approach
@@ -81,10 +79,9 @@ Led development of SALSA (Shock Absorber simuLation SoftwAre), an open-source Py
 - **Parametric Geometry Generation:** FreeCAD/Gmsh-based with support for circular, semi-circular, square, and cutback orifice designs
 - **Automated Workflow Management:** Preprocessing, mesh generation, multi-solver CFD (OpenFOAM, FLUENT, UCNS3D), and post-processing
 - **Advanced Simulation Capabilities:** Static inlet flow, multiphase VOF, dynamic piston, dynamic orifice, and combined motion
-- **Batch Processing:** CSV-based job list processing with HPC cluster integration (SLURM/PBS) 
+- **Batch Processing:** CSV-based job list processing with HPC cluster integration (SLURM/PBS)
 
 **Impact:** Reduces simulation setup time from days to hours, enabling systematic exploration of 44,236+ validated CFD cases.
-
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -108,12 +105,14 @@ Led development of SALSA (Shock Absorber simuLation SoftwAre), an open-source Py
 ### Phase 3: Validation & ML Acceleration
 
 **Validation Protocols:**
+
 - Benchmark against NASA Milwitzky drop test data (agreement within 5% for peak forces)
 - Dixon and Ding discharge coefficient correlations (agreement within 3%)
 - Cross-solver verification (OpenFOAM vs. Fluent)
 - Mesh independence and timestep convergence studies
 
 **Machine Learning Surrogate Models:**
+
 - Training dataset: 44,236+ high-fidelity CFD cases
 - Model performance: R² > 0.95 for force prediction, R² > 0.92 for discharge coefficient
 - Computational speedup: 20-50x vs. direct CFD simulation
@@ -133,17 +132,20 @@ Led development of SALSA (Shock Absorber simuLation SoftwAre), an open-source Py
 ## Technical Specifications
 
 **Computational Tools:**
+
 - **CFD Solvers:** OpenFOAM/Fluent (multiphase, dynamic mesh), UCNS3D (high-fidelity unsteady)
 - **Turbulence Modeling:** k-ω SST (baseline), k-ε, LES for validation
 - **Mesh Generation:** Gmsh 4.x with Python API
 - **ML Framework:** TensorFlow/PyTorch, DEAP genetic algorithms
 
 **Performance Metrics:**
+
 - Typical simulation time: 6-48 hours on 64 cores
 - Mesh sizes: 200K-2M cells for production runs
 - Parallel efficiency: >85% scaling up to 128 cores
 
 **HPC Infrastructure:**
+
 - Cranfield Delta2: 512 cores, InfiniBand interconnect
 - UK National Tier-1: ARCHER2
 - Cloud platforms: AWS EC2
@@ -155,21 +157,23 @@ Led development of SALSA (Shock Absorber simuLation SoftwAre), an open-source Py
 ### Orifice Geometry Optimization
 
 **Key Metrics:**
+
 - **Achieved 30.3% efficiency improvement** through optimized geometry selection
 - Characterized performance across circular, semi-circular, square, and cutback designs
 - Semi-circular geometry reduces cavitation occurrence by 40% vs. sharp-edged designs
 - Discharge coefficient validation: Cd = 0.74-0.77 (within 3% of Dixon theory)
 
-| Geometry | Damping Performance | Cavitation Risk | Recommendation |
-|----------|---------------------|-----------------|----------------|
-| Rectangular | Highest pressure | High | Specific fluids applications |
-| Semi-circular | Optimal balance | Low | Standard applications |
-| Circular | Baseline | Medium | Standard applications |
-| Cutback | Enhanced flow | High | Specific fluids and applications |
+| Geometry      | Damping Performance | Cavitation Risk | Recommendation                   |
+| ------------- | ------------------- | --------------- | -------------------------------- |
+| Rectangular   | Highest pressure    | High            | Specific fluids applications     |
+| Semi-circular | Optimal balance     | Low             | Standard applications            |
+| Circular      | Baseline            | Medium          | Standard applications            |
+| Cutback       | Enhanced flow       | High            | Specific fluids and applications |
 
 ### Dynamic Mesh Capabilities
 
 Successfully simulated coupled piston-orifice motion for adaptive damping systems:
+
 - Reynolds number range: 6.4×10⁸ (highly turbulent flow)
 - Peak pressure differential: 5.45 MPa
 - Maximum domain velocity: 122 m/s through orifice contraction
@@ -218,24 +222,28 @@ Successfully simulated coupled piston-orifice motion for adaptive damping system
 ## Client Benefits
 
 **Accelerated Development:**
+
 - Reduce simulation setup time from days to hours (90% time savings)
 - Enable rapid design space exploration with multifidelity apporah
 - Systematic optimization delivering 30.3% efficiency improvements on damping performance withing orifice selection
 - Parallel parameter studies: 100+ cases executed simultaneously
 
 **Certification Support:**
-- Validated methodologies 
+
+- Validated methodologies
 - Comprehensive documentation supporting airworthiness approval
 - Benchmark results against NASA experimental data (<5% error)
 - Risk mitigation through validated virtual testing
 
 **Cost Reduction:**
+
 - Minimize expensive physical prototyping
 - Identify optimal designs before manufacturing
 - Design guidelines preventing cavitation-induced failures
 - Enable "right first time" design philosophy
 
 **Technical Innovation:**
+
 - Open-source platform supporting future programs
 - ML-accelerated optimization framework applicable to other components
 - Multi-fidelity approach balancing accuracy and computational cost
@@ -245,17 +253,20 @@ Successfully simulated coupled piston-orifice motion for adaptive damping system
 ## Technologies & Methods
 
 **CFD Software:**
+
 - OpenFOAM/Fluent: multiphase VOF, turbulence, dynamic mesh
 - UCNS3D: high-fidelity open-source unsteady simulations
 - Dual-solver approach ensures result reliability
 
 **Automation & Efficiency:**
+
 - Python 3.8+ (NumPy, Pandas, PyVista, Matplotlib)
 - Gmsh parametric mesh generation
 - HPC job management (SLURM, PBS)
 - Git/GitHub with CI/CD pipelines
 
 **Visualization:**
+
 - ParaView 5.x (3D interactive visualization)
 - PyVista (automated plot generation)
 - Custom dashboards for design exploration
@@ -267,6 +278,7 @@ Successfully simulated coupled piston-orifice motion for adaptive damping system
 **Timeline:** Ongoing (2022-present)
 
 **Outputs:**
+
 - Shock Absorber Software Suite: 15,000+ lines documented Python code
 - Multi-fidelity CFD framework with OpenFOAM/UCNS3D integration
 - ML surrogate models trained on 44,236+ LowFidelity cases
@@ -280,15 +292,18 @@ Successfully simulated coupled piston-orifice motion for adaptive damping system
 ## Key Differentiators
 
 **Multi-Fidelity Integration:**
+
 - Seamless transition between low, medium, and high-fidelity simulations
 - Automated fidelity selection based on design stage requirements
 - ML-driven computational resource optimization
 
 **Aerospace-Grade Validation:**
+
 - Rigorous V&V against NASA experimental data
 - Cross-validated against multiple theoretical correlations
 
 **Open-Source Innovation:**
+
 - SALSA platform available for future landing gear programs
 - Extensible to hydraulic actuators, fuel systems, dampers
 - Technology transfer to automotive, defense, and industrial applications
@@ -298,6 +313,7 @@ Successfully simulated coupled piston-orifice motion for adaptive damping system
 ## Related Expertise
 
 This case study demonstrates expertise applicable to:
+
 - Aerospace component design and optimization
 - Multi-fidelity simulation frameworks
 - Machine learning for engineering applications
@@ -309,7 +325,7 @@ This case study demonstrates expertise applicable to:
 
 ---
 
-*This work was conducted at Cranfield University as part of the LANDOne consortium (Innovate UK grant 10002411), a UK aerospace initiative advancing landing gear technology for next-generation aircraft.*
+_This work was conducted at Cranfield University as part of the LANDOne consortium (Innovate UK grant 10002411), a UK aerospace initiative advancing landing gear technology for next-generation aircraft._
 
 **Interested in applying advanced CFD and machine learning to your engineering challenges?** [Contact me](/contact/) to discuss how multi-fidelity modeling can accelerate your development programs.
 
@@ -317,7 +333,7 @@ This case study demonstrates expertise applicable to:
 
 ## Publications
 
-1. Silva, Paulo ASF, Ahmed A. Sheikh Al-Shabab, Panagiotis Tsoutsanis, and Martin Skote. "[Study of orifice design on oleo-pneumatic shock absorber](https://doi.org/10.3390/fluids9050108)." *Fluids* 9.5 (2024): 108.
-2.  Sheikh Al-Shabab, Ahmed A., Bojan Grenko, **Paulo ASF Silva**, Antonis F. Antoniadis, Panagiotis Tsoutsanis, and Martin Skote. "[Unsteady multiphase simulation of oleo-pneumatic shock absorber flow](https://doi.org/10.3390/fluids9030068)." *Fluids* 9, no. 3 (2024): 68.
-  
- 3. Sheikh Al-Shabab, Ahmed A., **Paulo ASF Silva**, Bojan Grenko, Panagiotis Tsoutsanis, and Martin Skote. "[A Modular Multifidelity Approach for Multiphysics Oleo-Pneumatic Shock Absorber Simulations](https://dspace.lib.cranfield.ac.uk/server/api/core/bitstreams/278d9949-5469-4068-88f8-c935c6532eb3/content)." In *Cambridge Unsteady Flow Symposium*, pp. 137-151. Cham: Springer Nature Switzerland, 2024.
+1. Silva, Paulo ASF, Ahmed A. Sheikh Al-Shabab, Panagiotis Tsoutsanis, and Martin Skote. "[Study of orifice design on oleo-pneumatic shock absorber](https://doi.org/10.3390/fluids9050108)." _Fluids_ 9.5 (2024): 108.
+2. Sheikh Al-Shabab, Ahmed A., Bojan Grenko, **Paulo ASF Silva**, Antonis F. Antoniadis, Panagiotis Tsoutsanis, and Martin Skote. "[Unsteady multiphase simulation of oleo-pneumatic shock absorber flow](https://doi.org/10.3390/fluids9030068)." _Fluids_ 9, no. 3 (2024): 68.
+
+3. Sheikh Al-Shabab, Ahmed A., **Paulo ASF Silva**, Bojan Grenko, Panagiotis Tsoutsanis, and Martin Skote. "[A Modular Multifidelity Approach for Multiphysics Oleo-Pneumatic Shock Absorber Simulations](https://dspace.lib.cranfield.ac.uk/server/api/core/bitstreams/278d9949-5469-4068-88f8-c935c6532eb3/content)." In _Cambridge Unsteady Flow Symposium_, pp. 137-151. Cham: Springer Nature Switzerland, 2024.
