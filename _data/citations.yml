@@ -1,3 +1,147 @@
 metadata:
-  last_updated: '2000-01-01'
-papers: {}
+  last_updated: '2026-05-08'
+papers:
+  gsb7TrUAAAAJ:-_dYPAW6P2MC:
+    citations: 6
+    title: Study of orifice design on oleo-pneumatic shock absorber
+    year: '2024'
+  gsb7TrUAAAAJ:0EnyYjriUFMC:
+    citations: 0
+    title: "Simula\xE7\xE3o num\xE9rica e de campo para avalia\xE7\xE3o de um sistema por resfriamento evaporativo em uma pra\xE7a de alimenta\xE7\xE3o"
+    year: '2011'
+  gsb7TrUAAAAJ:35r97b3x0nAC:
+    citations: 5
+    title: Unsteady multiphase simulation of oleo-pneumatic shock absorber flow
+    year: '2024'
+  gsb7TrUAAAAJ:4fKUyHm3Qg0C:
+    citations: 54
+    title: Numerical study of wake characteristics in a horizontal-axis hydrokinetic turbine
+    year: '2016'
+  gsb7TrUAAAAJ:9Nmd_mFXekcC:
+    citations: 0
+    title: PSP full helicopter Out ground effect
+    year: '2023'
+  gsb7TrUAAAAJ:D_sINldO8mEC:
+    citations: 35
+    title: An approach for the optimization of diffuser-augmented hydrokinetic blades free of cavitation
+    year: '2018'
+  gsb7TrUAAAAJ:Fu2w8maKXqMC:
+    citations: 57
+    title: 'UCNS3D: An open-source high-order finite-volume unstructured CFD solver'
+    year: '2022'
+  gsb7TrUAAAAJ:LPZeul_q3PIC:
+    citations: 2
+    title: Fluid Structure Interaction on AGARD 445.6 wing at Mach 0.9
+    year: '2016'
+  gsb7TrUAAAAJ:NJ774b8OgUMC:
+    citations: 3
+    title: Unstructured high-order solutions of hovering rotors with and without ground effect
+    year: '2022'
+  gsb7TrUAAAAJ:Tyk-4Ss8FVUC:
+    citations: 31
+    title: Design of hydrokinetic turbine blades considering cavitation
+    year: '2015'
+  gsb7TrUAAAAJ:UHK10RUVsp4C:
+    citations: 41
+    title: Hovering rotor solutions by high-order methods on unstructured grids
+    year: '2020'
+  gsb7TrUAAAAJ:URolC5Kub84C:
+    citations: 0
+    title: Caradonna_Tung_ZR_05
+    year: '2023'
+  gsb7TrUAAAAJ:VLnqNzywnoUC:
+    citations: 0
+    title: Data supporting'Numerical Investigation of full helicopter with and without the ground effect'
+    year: '2022'
+  gsb7TrUAAAAJ:VOx2b1Wkg3QC:
+    citations: 51
+    title: A new approach for the design of diffuser-augmented hydro turbines using the blade element momentum
+    year: '2018'
+  gsb7TrUAAAAJ:W5xh706n7nkC:
+    citations: 22
+    title: Numerical investigation of full helicopter with and without the ground effect
+    year: '2022'
+  gsb7TrUAAAAJ:XD-gHx7UXLsC:
+    citations: 0
+    title: CODE_MRF. zip
+    year: '2023'
+  gsb7TrUAAAAJ:dQ2og3OwTAUC:
+    citations: 0
+    title: PERFORMANCE EVALUATION OF A SMALL WIND TURBINE INSTALLED ON THE TOP OF A BUILDING BY MEANS OF NUMERICAL SIMULATION.
+    year: Unknown Year
+  gsb7TrUAAAAJ:eJXPG6dFmWUC:
+    citations: 0
+    title: COMPARAC AO DE METODOLOGIAS CFD DE SIMULAC AO DE TURBINAS HIDROCIN ETICAS
+    year: Unknown Year
+  gsb7TrUAAAAJ:eMMeJKvmdy0C:
+    citations: 11
+    title: An approach for the optimum hydrodynamic design of hydrokinetic turbine blades
+    year: '2015'
+  gsb7TrUAAAAJ:epqYDVWIO7EC:
+    citations: 0
+    title: S76_OGE
+    year: '2023'
+  gsb7TrUAAAAJ:evX43VCCuoAC:
+    citations: 19
+    title: A comprehensive CFD investigation of tip vortex trajectory in shrouded wind turbines using compressible RANS solver
+    year: '2024'
+  gsb7TrUAAAAJ:fEOibwPWpKIC:
+    citations: 0
+    title: Data Supporting" Study of Orifice Design on Oleo-Pneumatic Shock Absorber"
+    year: '2024'
+  gsb7TrUAAAAJ:hkOj_22Ku90C:
+    citations: 0
+    title: STUDY OF CAVITATION EFFECT ON THE HORIZONTAL AXIS HYDROKINETIC TURBINE
+    year: Unknown Year
+  gsb7TrUAAAAJ:ipzZ9siozwsC:
+    citations: 0
+    title: 'COMPARATIVE STUDY OF ORIFICE SHAPES ON SHOCK ABSORBER: IMPACT ON ENERGY DISSIPATION AND CAVITATION'
+    year: Unknown Year
+  gsb7TrUAAAAJ:j8SEvjWlNXcC:
+    citations: 0
+    title: Data Supporting" A comprehensive CFD investigation of tip vortex trajectory in shrouded wind turbines using compressible RANS solver"
+    year: '2024'
+  gsb7TrUAAAAJ:l7t_Zn2s7bgC:
+    citations: 65
+    title: Analysis of cavitation for the optimized design of hydrokinetic turbines using BEM
+    year: '2017'
+  gsb7TrUAAAAJ:nrtMV_XWKgEC:
+    citations: 0
+    title: A Modular Multifidelity Approach for Multiphysics Oleo-Pneumatic Shock Absorber Simulations
+    year: '2024'
+  gsb7TrUAAAAJ:t7zJ5fGR-2UC:
+    citations: 0
+    title: Data for the paper A modular multifidelity approach for multiphysics oleo-pneumatic shock absorber simulations
+    year: '2024'
+  gsb7TrUAAAAJ:u-x6o8ySG0sC:
+    citations: 1
+    title: "CLIMATIZA\xC7\xC2O DA PRA\xC7A DE ALIMENTA\xC7\xC2O DE UM GRANDE SHOPPING CENTER ORIENTADA POR SIMULA\xC7\xC3O COMPUTACIONAL."
+    year: '2011'
+  gsb7TrUAAAAJ:uJ-U7cs_P_0C:
+    citations: 0
+    title: Mesh PSP robin mod7-pitch 7deg-OGE
+    year: '2023'
+  gsb7TrUAAAAJ:uLbwQdceFCQC:
+    citations: 64
+    title: Simple multiple reference frame for high-order solution of hovering rotors with and without ground effect
+    year: '2021'
+  gsb7TrUAAAAJ:uc_IGeMz5qoC:
+    citations: 0
+    title: AUTOMATED FLOW PHYSICS IDENTIFICATION AND CLASSIFICATION IN MULTIPHYSICS MULTIFIDELITY SIMULATIONS
+    year: Unknown Year
+  gsb7TrUAAAAJ:vDijr-p_gm4C:
+    citations: 0
+    title: Caradonna_IGE_ZR10_
+    year: '2023'
+  gsb7TrUAAAAJ:zLWjf1WUPmwC:
+    citations: 0
+    title: UCNS3d MRF testcases
+    year: '2023'
+  gsb7TrUAAAAJ:zYLM7Y9cAGgC:
+    citations: 8
+    title: "Estudo num\xE9rico de turbinas hidrocin\xE9ticas de eixo horizontal"
+    year: '2014'
+  gsb7TrUAAAAJ:z_wVstp3MssC:
+    citations: 0
+    title: Data for Paper" Unsteady Multiphase Simulation of Oleo-Pneumatic Shock Absorber Flow"
+    year: '2024'
