@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-05-08'
+  last_updated: '2026-05-15'
 papers:
   gsb7TrUAAAAJ:-_dYPAW6P2MC:
-    citations: 6
+    citations: 7
     title: Study of orifice design on oleo-pneumatic shock absorber
     year: '2024'
   gsb7TrUAAAAJ:0EnyYjriUFMC:
@@ -26,7 +26,7 @@ papers:
     title: An approach for the optimization of diffuser-augmented hydrokinetic blades free of cavitation
     year: '2018'
   gsb7TrUAAAAJ:Fu2w8maKXqMC:
-    citations: 57
+    citations: 58
     title: 'UCNS3D: An open-source high-order finite-volume unstructured CFD solver'
     year: '2022'
   gsb7TrUAAAAJ:LPZeul_q3PIC:
@@ -38,7 +38,7 @@ papers:
     title: Unstructured high-order solutions of hovering rotors with and without ground effect
     year: '2022'
   gsb7TrUAAAAJ:Tyk-4Ss8FVUC:
-    citations: 31
+    citations: 32
     title: Design of hydrokinetic turbine blades considering cavitation
     year: '2015'
   gsb7TrUAAAAJ:UHK10RUVsp4C:
