@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-15'
+  last_updated: '2026-06-08'
 papers:
   gsb7TrUAAAAJ:-_dYPAW6P2MC:
     citations: 7
@@ -10,11 +10,11 @@ papers:
     title: "Simula\xE7\xE3o num\xE9rica e de campo para avalia\xE7\xE3o de um sistema por resfriamento evaporativo em uma pra\xE7a de alimenta\xE7\xE3o"
     year: '2011'
   gsb7TrUAAAAJ:35r97b3x0nAC:
-    citations: 5
+    citations: 6
     title: Unsteady multiphase simulation of oleo-pneumatic shock absorber flow
     year: '2024'
   gsb7TrUAAAAJ:4fKUyHm3Qg0C:
-    citations: 54
+    citations: 55
     title: Numerical study of wake characteristics in a horizontal-axis hydrokinetic turbine
     year: '2016'
   gsb7TrUAAAAJ:9Nmd_mFXekcC:
@@ -22,15 +22,15 @@ papers:
     title: PSP full helicopter Out ground effect
     year: '2023'
   gsb7TrUAAAAJ:D_sINldO8mEC:
-    citations: 35
+    citations: 36
     title: An approach for the optimization of diffuser-augmented hydrokinetic blades free of cavitation
     year: '2018'
   gsb7TrUAAAAJ:Fu2w8maKXqMC:
-    citations: 58
+    citations: 59
     title: 'UCNS3D: An open-source high-order finite-volume unstructured CFD solver'
     year: '2022'
   gsb7TrUAAAAJ:LPZeul_q3PIC:
-    citations: 2
+    citations: 3
     title: Fluid Structure Interaction on AGARD 445.6 wing at Mach 0.9
     year: '2016'
   gsb7TrUAAAAJ:NJ774b8OgUMC:
@@ -74,7 +74,7 @@ papers:
     title: COMPARAC AO DE METODOLOGIAS CFD DE SIMULAC AO DE TURBINAS HIDROCIN ETICAS
     year: Unknown Year
   gsb7TrUAAAAJ:eMMeJKvmdy0C:
-    citations: 11
+    citations: 12
     title: An approach for the optimum hydrodynamic design of hydrokinetic turbine blades
     year: '2015'
   gsb7TrUAAAAJ:epqYDVWIO7EC:
@@ -122,7 +122,7 @@ papers:
     title: Mesh PSP robin mod7-pitch 7deg-OGE
     year: '2023'
   gsb7TrUAAAAJ:uLbwQdceFCQC:
-    citations: 64
+    citations: 65
     title: Simple multiple reference frame for high-order solution of hovering rotors with and without ground effect
     year: '2021'
   gsb7TrUAAAAJ:uc_IGeMz5qoC:
@@ -138,7 +138,7 @@ papers:
     title: UCNS3d MRF testcases
     year: '2023'
   gsb7TrUAAAAJ:zYLM7Y9cAGgC:
-    citations: 8
+    citations: 9
     title: "Estudo num\xE9rico de turbinas hidrocin\xE9ticas de eixo horizontal"
     year: '2014'
   gsb7TrUAAAAJ:z_wVstp3MssC:
