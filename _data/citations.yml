@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-08'
+  last_updated: '2026-06-24'
 papers:
   gsb7TrUAAAAJ:-_dYPAW6P2MC:
     citations: 7
@@ -14,7 +14,7 @@ papers:
     title: Unsteady multiphase simulation of oleo-pneumatic shock absorber flow
     year: '2024'
   gsb7TrUAAAAJ:4fKUyHm3Qg0C:
-    citations: 55
+    citations: 56
     title: Numerical study of wake characteristics in a horizontal-axis hydrokinetic turbine
     year: '2016'
   gsb7TrUAAAAJ:9Nmd_mFXekcC:
@@ -82,7 +82,7 @@ papers:
     title: S76_OGE
     year: '2023'
   gsb7TrUAAAAJ:evX43VCCuoAC:
-    citations: 19
+    citations: 20
     title: A comprehensive CFD investigation of tip vortex trajectory in shrouded wind turbines using compressible RANS solver
     year: '2024'
   gsb7TrUAAAAJ:fEOibwPWpKIC:
@@ -138,7 +138,7 @@ papers:
     title: UCNS3d MRF testcases
     year: '2023'
   gsb7TrUAAAAJ:zYLM7Y9cAGgC:
-    citations: 9
+    citations: 8
     title: "Estudo num\xE9rico de turbinas hidrocin\xE9ticas de eixo horizontal"
     year: '2014'
   gsb7TrUAAAAJ:z_wVstp3MssC:
