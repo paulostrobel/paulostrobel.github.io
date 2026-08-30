@@ -1,0 +1,153 @@
+/*******************************************************************************
+ * Design enhancements for Paulo Strobel's portfolio.
+ ******************************************************************************/
+
+// ——————————————————————————————————————————————————————————————————————————————
+// Profile image — deeper shadow for visual polish
+// ——————————————————————————————————————————————————————————————————————————————
+
+.profile img {
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.18) !important;
+  border: 3px solid var(--global-bg-color);
+  outline: 1px solid var(--global-divider-color);
+}
+
+// ——————————————————————————————————————————————————————————————————————————————
+// Expertise tags
+// ——————————————————————————————————————————————————————————————————————————————
+
+.expertise-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0.25rem;
+}
+
+.expertise-tag {
+  display: inline-block;
+  background-color: #e8f2fd;
+  color: var(--global-theme-color) !important;
+  border: 1px solid rgba(0, 118, 223, 0.3);
+  border-radius: 20px;
+  padding: 0.28rem 0.85rem;
+  font-size: 0.82rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  line-height: 1.5;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease;
+
+  &:hover {
+    background-color: var(--global-theme-color);
+    color: #fff !important;
+    border-color: var(--global-theme-color);
+  }
+}
+
+// ——————————————————————————————————————————————————————————————————————————————
+// Page section — accent underline on h2 headings
+// ——————————————————————————————————————————————————————————————————————————————
+
+.page-section {
+  h2 {
+    position: relative;
+    padding-bottom: 0.55rem;
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 36px;
+      height: 3px;
+      background-color: var(--global-theme-color);
+      border-radius: 3px;
+    }
+  }
+}
+
+// ——————————————————————————————————————————————————————————————————————————————
+// Project cards — lift on hover
+// ——————————————————————————————————————————————————————————————————————————————
+
+.projects .card {
+  transition:
+    transform 0.22s ease,
+    box-shadow 0.22s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 32px rgba(0, 0, 0, 0.12) !important;
+  }
+}
+
+// ——————————————————————————————————————————————————————————————————————————————
+// "View All" / primary buttons — pill shape with shadow
+// ——————————————————————————————————————————————————————————————————————————————
+
+.btn-sm.btn-primary {
+  border-radius: 20px;
+  padding: 0.35rem 1.15rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  box-shadow: 0 2px 8px rgba(0, 100, 200, 0.22);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 14px rgba(0, 100, 200, 0.32) !important;
+  }
+}
+
+// ——————————————————————————————————————————————————————————————————————————————
+// Section dividers — soft gradient fade
+// ——————————————————————————————————————————————————————————————————————————————
+
+article > hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--global-divider-color), transparent);
+  margin: 0.25rem 0;
+}
+
+// ——————————————————————————————————————————————————————————————————————————————
+// Intro text — comfortable reading line-height
+// ——————————————————————————————————————————————————————————————————————————————
+
+#about p {
+  line-height: 1.85;
+}
+
+// ——————————————————————————————————————————————————————————————————————————————
+// Navbar — smooth background / shadow transition on scroll
+// ——————————————————————————————————————————————————————————————————————————————
+
+.navbar {
+  transition:
+    background-color 0.3s ease,
+    box-shadow 0.3s ease;
+
+  &.scrolled {
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  }
+}
+
+// ——————————————————————————————————————————————————————————————————————————————
+// Post title — better typographic weight
+// ——————————————————————————————————————————————————————————————————————————————
+
+.post-header h1.post-title {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.post-header p.desc {
+  color: var(--global-text-color-light);
+  font-size: 1.05rem;
+  letter-spacing: 0.01em;
+}
