@@ -127,15 +127,85 @@ through by gas at the highest pressure and temperature of the whole brew.
 This is consistent with the usual advice to take the pot off the heat when it starts to
 gurgle: the last part of the brew goes through the coffee hotter and faster than the rest.
 
+## Round two: a hexagonal pot, boiling, and a lid
+
+The first run left three things I didn't like: it was slow, the hot floor didn't boil, and the
+upper chamber had no lid. That last one matters more than it sounds. With the top of the model
+open to the room, about 20 ml of water sprayed straight out during the gurgle, water a real
+pot would have caught.
+
+So I changed three things.
+
+**A hexagonal pot, simulated as one sixth.** Most moka pots are octagonal or hexagonal on the
+outside. I made the boiler and the upper chamber hexagonal, with the same cross-section area
+as the round version, and kept the stem, basket and column round. A hexagon repeats every 60°,
+so only one 60° slice needs to be meshed. Its two cut faces are joined by a periodic (rotational
+`cyclic`) boundary: whatever leaves one face comes back in through the other. That's 20,391
+cells instead of 110,912, and about 14× faster per simulated second. The full pot in the plots
+and animation is the slice copied six times.
+
+{% include figure.liquid loading="eager" path="assets/img/posts/moka-pot/hex-mesh.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+
+<div class="caption">
+    The hexagonal pot, rebuilt from the 60° slice. The red lines in the cross-sections are the
+    slice's periodic faces.
+</div>
+
+**Boiling at the floor.** The `fvModel` now also turns any tank water hotter than the boiling
+point at the current pressure into vapour, over a relaxation time of 0.02 s. In the first run
+the water at the floor got about 10 °C hotter than it should have. With boiling, it stays at
+the boiling point: 121 °C at 149 s instead of 131 °C.
+
+**A lid with a small vent.** The top of the upper chamber is now a wall, except a thin ring
+2 mm wide next to the chamber wall. That's 352 mm² for the whole pot, enough for air and steam
+to leave without any back-pressure.
+
+I also had to add a temperature limiter. During the gurgle, one cell in the froth sent its
+temperature to −900 K and crashed the first boiling run. Clipping temperatures to 280–450 K
+fixed that. A side effect I didn't expect: the slow loss of water mass every run had shown,
+about 5% over the brew, dropped to about 2%. A few bad cells seem to have been behind that too.
+
+{% include video.liquid path="assets/video/moka-pot-hex-lid.mp4" class="img-fluid rounded z-depth-1" controls=true loop=true %}
+
+<div class="caption">
+    The hexagonal pot with boiling and a lid, 0 to 168.5 s.
+</div>
+
+The brew itself looks very similar. First water reaches the chamber at 117 s, the gurgle starts
+at 153.5 s, and the pressure peaks at 1.33 bar gauge, a little lower than the round pot's 1.36 bar.
+The difference is at the end:
+
+|                            | round, open top | hexagon, open top | hexagon, boiling, lid |
+| -------------------------- | --------------: | ----------------: | --------------------: |
+| water in the upper chamber |          122 ml |            111 ml |            **140 ml** |
+| lost out of the top        |           21 ml |             28 ml |              **4 ml** |
+
+Out of 150 ml filled, 140 ml ends up in the cup and about 5 ml stays in the puck.
+
+{% include figure.liquid loading="eager" path="assets/img/posts/moka-pot/hex-lid-157s.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+
+<div class="caption">
+    t = 157.5 s, during the gurgle. The jet from the spout reaches the lid, which keeps the spray in the
+    chamber.
+</div>
+
+{% include figure.liquid loading="eager" path="assets/img/posts/moka-pot/hex-comparison.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+
+<div class="caption">
+    The three hexagonal runs: no boiling, boiling with an open top (it crashed at 154 s), and
+    boiling with the lid.
+</div>
+
 ## What the model leaves out
 
-This is a first baseline, and it has clear limits:
+It still has clear limits:
 
 - **No validation yet.** I haven't compared these numbers with measured pressure or flow from
   a real pot.
-- **Evaporation only at the surface.** The model keeps the gas at saturation for the water
-  surface, but it doesn't resolve boiling at the hot floor. The floor water gets hotter than
-  it would in reality (about 125 °C at the floor against 101 °C at the surface at 140 s).
+- **Simple boiling.** Boiling at the floor is a relaxation to the boiling point, not resolved
+  bubbles. It caps the floor temperature but doesn't model how bubbles stir the water.
+- **A symmetric pot.** The 60° slice forces the flow to repeat six times around the pot, so it
+  can't show a gurgle that sloshes to one side.
 - **A simple puck.** The porous zone adds flow resistance but takes up no volume, so it holds
   more water than a real puck would. Real pucks also swell as they wet and their permeability
   changes during the brew; here it stays constant.
@@ -147,5 +217,5 @@ The case runs with OpenFOAM-14, built from source, on a Raspberry Pi 5, in seria
 parallel didn't help on this machine). The baseline took about 93 hours of wall-clock time for
 164 s of brewing.
 
-Next steps are a boiling model at the heated floor and a parametric sweep of grind size,
-tamping and stove power.
+The hexagonal slice takes about 6 hours for a full brew on the same Pi. Next is a parametric
+sweep on it: grind size, tamping and stove power, one at a time. It's running now.
