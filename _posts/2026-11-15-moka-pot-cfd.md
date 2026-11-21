@@ -196,6 +196,53 @@ Out of 150 ml filled, 140 ml ends up in the cup and about 5 ml stays in the puck
     boiling with the lid.
 </div>
 
+## Grind, tamping and stove power
+
+With a case that runs in about 6 hours, a small parametric sweep became possible. Starting from
+the lidded hexagonal pot (9.2 µm grind, porosity 0.40, 400 W), I changed one setting at a time.
+The "brew window" is the time from the first water in the upper chamber to the gurgle.
+
+| change               | puck permeability [m²] | first water |  gurgle | brew window | peak pressure | in the cup |
+| -------------------- | ---------------------: | ----------: | ------: | ----------: | ------------: | ---------: |
+| none (baseline)      |                1.0e-13 |       117 s | 153.5 s |        36 s |      1.33 bar |     140 ml |
+| finer grind, 7 µm    |                5.8e-14 |       123 s |   162 s |        39 s |      1.92 bar |     137 ml |
+| coarser grind, 12 µm |                1.7e-13 |       111 s | 140.5 s |        29 s |      1.03 bar |     136 ml |
+| harder tamp, ε 0.35  |                5.7e-14 |       124 s |   164 s |        40 s |      1.99 bar |     137 ml |
+| lighter tamp, ε 0.45 |                1.7e-13 |       110 s | 140.6 s |        31 s |      1.01 bar |     137 ml |
+| 300 W stove          |                1.0e-13 |       148 s |   193 s |        45 s |      1.16 bar |     135 ml |
+| 600 W stove          |                1.0e-13 |        83 s |   106 s |        22 s |      1.78 bar |     139 ml |
+
+**Grind and tamping are the same knob.** In this model both act only through the puck's
+permeability. A 7 µm grind and a firm tamp to porosity 0.35 give almost the same permeability,
+and the brews are nearly identical. The same goes for a 12 µm grind and a light tamp. A real
+puck isn't that simple: grind changes how fast coffee dissolves, and tamping changes how the
+puck swells. But for the flow, one number does most of the work.
+
+**A tighter puck brews later and under more pressure.** Halving the permeability raises the
+peak pressure from 1.33 to about 1.95 bar and delays the gurgle by about 9 s. The boiler has
+to get hotter before it can push water through, so the water reaching the coffee is hotter
+too.
+
+{% include figure.liquid loading="eager" path="assets/img/posts/moka-pot/sweep-grind.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+
+<div class="caption">
+    Grind size: 7 µm, 9.2 µm (baseline) and 12 µm.
+</div>
+
+**Stove power sets the clock.** At 600 W the first water arrives at 83 s and the whole brew
+is over in 22 s, with the peak pressure at 1.78 bar. At 300 W it takes 148 s to start and
+45 s to brew. Low heat stretches the brew out, which is the usual advice for a moka pot.
+
+{% include figure.liquid loading="eager" path="assets/img/posts/moka-pot/sweep-stove.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+
+<div class="caption">
+    Stove power: 300 W, 400 W (baseline) and 600 W.
+</div>
+
+**The cup hardly changes.** Every run ends with 135–140 ml in the upper chamber. With the
+lid on, the settings change how fast and how hot the water goes through the coffee, not how
+much of it ends up in the cup.
+
 ## What the model leaves out
 
 It still has clear limits:
@@ -217,5 +264,6 @@ The case runs with OpenFOAM-14, built from source, on a Raspberry Pi 5, in seria
 parallel didn't help on this machine). The baseline took about 93 hours of wall-clock time for
 164 s of brewing.
 
-The hexagonal slice takes about 6 hours for a full brew on the same Pi. Next is a parametric
-sweep on it: grind size, tamping and stove power, one at a time. It's running now.
+The hexagonal slice takes about 6 hours for a full brew on the same Pi; the six sweep runs
+took about two days. Next would be validation against a real pot with a pressure sensor, and
+extraction: solving for dissolved coffee instead of plain water.
