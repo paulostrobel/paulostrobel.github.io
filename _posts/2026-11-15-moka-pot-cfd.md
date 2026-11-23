@@ -212,6 +212,13 @@ The "brew window" is the time from the first water in the upper chamber to the g
 | 300 W stove          |                1.0e-13 |       148 s |   193 s |        45 s |      1.16 bar |     135 ml |
 | 600 W stove          |                1.0e-13 |        83 s |   106 s |        22 s |      1.78 bar |     139 ml |
 
+{% include video.liquid path="assets/video/moka-pot-sweep.mp4" class="img-fluid rounded z-depth-1" controls=true loop=true %}
+
+<div class="caption">
+    All seven cases on the same clock. Top: water on a vertical slice through each pot. Bottom:
+    boiler pressure and water in the upper chamber. A finished pot holds its last state.
+</div>
+
 **Grind and tamping are the same knob.** In this model both act only through the puck's
 permeability. A 7 µm grind and a firm tamp to porosity 0.35 give almost the same permeability,
 and the brews are nearly identical. The same goes for a 12 µm grind and a light tamp. A real
